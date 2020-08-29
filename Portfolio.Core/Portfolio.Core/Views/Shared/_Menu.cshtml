@@ -1,0 +1,56 @@
+﻿@inject Microsoft.Extensions.Options.IOptions<AppSettings> appSettings
+
+
+<nav class="navbar navbar-expand-sm pt-2 mr-auto">
+    <div class="container pt-1">
+
+
+        <a class="navbar-brand " asp-area="" asp-controller="Home" asp-action="Index"><img class="pt-2 mr-2" src="~/image/barry-halper-profile.jpg" alt="@appSettings.Value.Author"> @appSettings.Value.Author</a>
+
+
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+            <i class="fas fa-bars"></i>
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse flex-row ml-md-auto d-none d-md-flex" id="collapse_target">
+            <ul class="nav navbar-nav ml-auto">
+
+                <li class="nav-item">
+                    <a class="nav-link " href="/About"> <span>About</span> <i class="fad fa-chart-line"></i></a>
+                </li>
+
+
+                <li class="nav-item">
+                    <a class="nav-link " href="/Skills"> <span>Skills</span> <i class="fad fa-chart-line"></i></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/Skills"><span>Projects </span><i class="fad fa-project-diagram"></i> </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#"> <span>Testimonials</span> <i class="fad fa-newspaper"></i> </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/Education"> <span>Education </span><i class="fad fa-university"></i></a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="/CV"> <span>CV</span> <i class="fad fa-file-pdf"></i> </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link " asp-area="" asp-controller="Home" asp-action="Privacy"> <span>Blogs</span> <i class="fad fa-blog"></i> </a>
+                </li>
+
+
+
+                <li class="nav-item">
+                    <a class="nav-link" asp-area="" asp-controller="Contact" asp-action=""> <span>Contact</span> <i class="fad fa-envelope"></i></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>

@@ -1,0 +1,33 @@
+﻿@import '_vars.css';
+
+body {
+    color: #40464b;
+    background-color: #fcfcfe;
+    font-family: 'Futura LT Regular';
+  
+    font-weight: 300;
+    font-size: 16px;
+}
+
+a, a.visited {
+    color: black;
+}
+
+
+
+nav {
+    background-color: var(--navigation-background-color);
+    font-family: 'Futura LT Regular';
+}
+
+.nav-link, .nav-link:visited {
+    color: var(--second-brand-color);
+}
+
+.nav-link:hover  {
+    color:#fcfcfe
+}
+
+h1.jumbotron {
+    font-size:45px;
+}

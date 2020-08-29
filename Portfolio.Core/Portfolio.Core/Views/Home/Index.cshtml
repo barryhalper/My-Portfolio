@@ -1,0 +1,54 @@
+﻿@inject Microsoft.Extensions.Options.IOptions<AppSettings> appSettings
+@model IEnumerable<Portfolio.Core.Models.SkillsViewModel>
+
+
+<div id="home" class="jumbotron ">
+    <img  srcset="
+             /image/background/abstract-landscape.jpg  1024w,
+            /image/background/abstract-landscape-medium.jpg 640w,
+             /image/background/abstract-landscape-small.jpg 320w,"
+            sizes="100vw"
+         src="~/image/background/abstract-landscape-small.jpg"
+         class="img-fluid"  />
+
+    <div class="container">
+        <section class="page d-none d-sm-block" >
+
+            <h1> @appSettings.Value.Title</h1>
+            <p class="mt-5">
+                <a class="btn btn-primary btn-lg" asp-controller="Contact" asp-action="" asp-area=""><i class="fad fa-envelope-open"></i> Contact Me</a>
+
+            </p>
+        </section>
+
+       
+            <div class="skills d-flex justify-content-center d-none d-mb-block">
+                <div id="skills-dock">
+                    <ul>
+
+                        @foreach (var skill in Model)
+                        {
+                            <li><img class="img-fluid" src="/image/skills/@skill.Image" alt="@skill.Name" title="@skill.Name"></li>
+                        }
+                    </ul>
+
+                </div>
+            </div>
+
+       
+
+    </div>
+</div>
+
+
+@*<section>
+    <div class="panel d-none d-md-block">
+
+        <div class="panel-body  d-flex justify-content-center">
+         
+            
+            
+        </div>
+    </div>
+
+</section>*@

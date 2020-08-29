@@ -1,0 +1,25 @@
+﻿.cms-modal .modal-content {
+    -moz-border-radius: 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    border: none;
+    -moz-box-shadow: 0 8px 10px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 0 8px 10px rgba(0,0,0,0.4);
+    box-shadow: 0 8px 10px rgba(0,0,0,0.4);
+}
+
+.cms-modal .modal-header {
+    border: none;
+    background: #4c6a79;
+    color: #FFF;
+    text-transform: uppercase;
+}
+.cms-modal .modal-title {
+    font-weight: 300;
+    font-family: var(--font-default);
+}
+
+.modal-wide {
+    width:950px
+}
+

@@ -1,0 +1,14 @@
+﻿:root {
+    --first-brand-color: #4c6a79;
+    --second-brand-color: rgb(245, 155, 0);
+    --third-brand-color: rgb(182, 196, 211);
+    --all-transitions-default: all 0.25s;
+    --font-default: sans-serif;
+    --font-secondary: 'Oswald', sans-serif;
+    --font-dark-background-color: #f7f7f7;
+    --table-border-color: rgba(101, 130, 143, 0.44);
+    --form-control-focus-border-color: rgba(245, 155, 0, 0.7);
+    --form-control-focus-shadow: rgba(245, 155, 0, 0.42);
+    --dashboard-background-color: #f6f6f8;
+    --navigation-background-color: #30353a
+}

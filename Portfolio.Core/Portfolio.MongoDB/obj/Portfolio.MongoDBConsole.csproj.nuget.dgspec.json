@@ -1,0 +1,215 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\barry\\Documents\\My Portfolio\\Portfolio.Core\\Portfolio.MongoDB\\Portfolio.MongoDBConsole.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\barry\\Documents\\My Portfolio\\Portfolio.Core\\Portfolio.Business\\Portfolio.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\barry\\Documents\\My Portfolio\\Portfolio.Core\\Portfolio.Business\\Portfolio.Business.csproj",
+        "projectName": "Portfolio.Business",
+        "projectPath": "C:\\Users\\barry\\Documents\\My Portfolio\\Portfolio.Core\\Portfolio.Business\\Portfolio.Business.csproj",
+        "packagesPath": "C:\\Users\\barry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\barry\\Documents\\My Portfolio\\Portfolio.Core\\Portfolio.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\barry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {
+              "C:\\Users\\barry\\Documents\\Visual Studio 2019\\MongoCrud\\MongoCrud.csproj": {
+                "projectPath": "C:\\Users\\barry\\Documents\\Visual Studio 2019\\MongoCrud\\MongoCrud.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.11.1, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            },
+            "Sitecore.FakeDb": {
+              "target": "Package",
+              "version": "[2.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\barry\\Documents\\My Portfolio\\Portfolio.Core\\Portfolio.MongoDB\\Portfolio.MongoDBConsole.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\barry\\Documents\\My Portfolio\\Portfolio.Core\\Portfolio.MongoDB\\Portfolio.MongoDBConsole.csproj",
+        "projectName": "Portfolio.MongoDBConsole",
+        "projectPath": "C:\\Users\\barry\\Documents\\My Portfolio\\Portfolio.Core\\Portfolio.MongoDB\\Portfolio.MongoDBConsole.csproj",
+        "packagesPath": "C:\\Users\\barry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\barry\\Documents\\My Portfolio\\Portfolio.Core\\Portfolio.MongoDB\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\barry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\barry\\Documents\\My Portfolio\\Portfolio.Core\\Portfolio.Business\\Portfolio.Business.csproj": {
+                "projectPath": "C:\\Users\\barry\\Documents\\My Portfolio\\Portfolio.Core\\Portfolio.Business\\Portfolio.Business.csproj"
+              },
+              "C:\\Users\\barry\\Documents\\Visual Studio 2019\\MongoCrud\\MongoCrud.csproj": {
+                "projectPath": "C:\\Users\\barry\\Documents\\Visual Studio 2019\\MongoCrud\\MongoCrud.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.Extensions.Configuration.CommandLine": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "Microsoft.Extensions.Configuration.Json": {
+              "target": "Package",
+              "version": "[3.1.7, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\barry\\Documents\\Visual Studio 2019\\MongoCrud\\MongoCrud.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\barry\\Documents\\Visual Studio 2019\\MongoCrud\\MongoCrud.csproj",
+        "projectName": "MongoCrud",
+        "projectPath": "C:\\Users\\barry\\Documents\\Visual Studio 2019\\MongoCrud\\MongoCrud.csproj",
+        "packagesPath": "C:\\Users\\barry\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\barry\\Documents\\Visual Studio 2019\\MongoCrud\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\barry\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.11.1, )"
+            },
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

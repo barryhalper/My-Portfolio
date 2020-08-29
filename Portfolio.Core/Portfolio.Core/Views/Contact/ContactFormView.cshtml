@@ -1,0 +1,100 @@
+﻿@model Portfolio.Core.Models.ContactViewModel
+@inject Microsoft.Extensions.Options.IOptions<AppSettings> appSettings
+
+
+@{
+    ViewBag.Title = "Contact Me";
+}
+
+
+<div id="contact-me" class="jumbotron">
+
+    <img src="~/image/background/keyboard-contact.jpg" />
+    <div class="container">
+        <section class="page mb-3">
+
+            <h1>@ViewBag.Title</h1>
+        </section>
+    </div>
+</div>
+
+<section>
+
+
+    <div class="row  mt-3 d-flex justify-content-center">
+
+        <div class="col-md-6">
+
+            <div class="panel">
+
+                <div class="panel-heading">
+                    Please get in touch..
+                </div>
+                <div class="panel-body">
+                    <ul class="social-media">
+                        <li> <i class="fas fa-envelope fa-lg"></i> <a href="mailto:@appSettings.Value.ContactSettings.Email">@appSettings.Value.ContactSettings.Email</a></li>
+
+                        <li><i class="fab fa-linkedin fa-lg"></i> <a href="@appSettings.Value.ContactSettings.LinkedIn"> @appSettings.Value.ContactSettings.LinkedIn.Replace("https://", "") </a></li>
+
+                        <li>
+                            <i class="fab fa-twitter-square fa-lg"></i>
+                            <a href="@appSettings.Value.ContactSettings.Twitter">@appSettings.Value.ContactSettings.Twitter.Replace("https://", "")</a>
+                        </li>
+                        <li> <i class="fab fa-github-square fa-lg"></i> <a href="@appSettings.Value.ContactSettings.Github">@appSettings.Value.ContactSettings.Github.Replace("https://", "")</a> </li>
+
+
+                    </ul>
+                </div>
+            </div>
+
+
+        </div>
+
+
+        <div class="col-md-5">
+            <div class="panel">
+                <div class="panel-heading">
+                    ..Or complete this and I'll get back to you asap
+                </div>
+                <div class="panel-body">
+                    <form asp-action="Index" asp-antiforgery="true">
+                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                        <div class="form-group">
+
+                            <input asp-for="Name" class="form-control" placeholder="Your name" />
+                            <span asp-validation-for="Name" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+
+                            <input asp-for="Email" class="form-control" placeholder="Your email address" />
+                            <span asp-validation-for="Email" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+
+                            <input asp-for="ConfirmEmail" class="form-control" placeholder="Your email address again to confirm" />
+                            <span asp-validation-for="ConfirmEmail" class="text-danger"></span>
+                        </div>
+
+                        <div class="form-group">
+
+
+                            <textarea asp-for="Message" class="form-control" placeholder="What would you like to ask?">
+
+                    </textarea>
+
+                            <span asp-validation-for="Message" class="text-danger"></span>
+                        </div>
+                        <div class="form-group">
+                            <button type="button" class="btn btn-primary">Complete </button>
+                        </div>
+                    </form>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>

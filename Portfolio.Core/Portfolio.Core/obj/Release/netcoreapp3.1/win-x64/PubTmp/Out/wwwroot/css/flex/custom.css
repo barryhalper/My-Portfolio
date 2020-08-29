@@ -1,0 +1,24 @@
+﻿.long
+    {
+        width:75%;
+    }
+
+/** home page panels **/
+
+.panel { 
+    position: relative; 
+    width: 100%; /* for IE 6 */
+}
+
+.panel h2, h3 { 
+   z-index: 100;
+   position: absolute; 
+  
+   left: 15px; 
+   width: 100%; 
+   color:white;
+   
+}
+
+
+

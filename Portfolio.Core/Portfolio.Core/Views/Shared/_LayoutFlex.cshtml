@@ -1,0 +1,18 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="wrapper"> 
+
+    <partial name="_SideNavPartial" />
+
+    <div id="page-wrapper" class="flex-wrapper">
+        <div class="flex-content">
+          
+            <partial name="_TopNavPartial" />
+            @RenderBody()
+        </div>
+    </div>
+</div>
+
+

@@ -1,0 +1,23 @@
+﻿@model IEnumerable<Portfolio.Core.Models.SkillsViewModel>
+
+
+<div id="skills-dock">
+    <ul>
+        @*<li><img class="img-fluid" src="~/image/skills/c-sharp.png" alt="c#" tiltle="c#" /></li>
+        <li><img class="img-fluid" src="~/image/skills/visual-studio.png" alt="visual studio" tiltle="visual studi"></li>
+        <li><img class="img-fluid" src="~/image/skills/ms-sql-server.png" alt="MS SQL Server" title="MS SQL Server" /></li>
+        <li><img class="img-fluid" src="~/image/skills/Adobe_ColdFusion.png" alt="Abode coldfusion" title="Abode coldfusion" /></li>
+        <li><img class="img-fluid" src="~/image/skills/ms-iis.png" alt="MS IIS" title="MS IIS" /></li>
+        <li><img class="img-fluid" src="~/image/skills/html-5.png" alt="HTML 5" title="HTML 5" /></li>
+        <li><img class="img-fluid" src="~/image/skills/javascript.png" alt="Javascript" title="Javascript" /></li>
+        <li><img class="img-fluid" src="~/image/skills/jquery.png" alt="JQuery" title="JQuery" /></li>
+        <li><img class="img-fluid" src="~/image/skills/css3.png" alt="CSS3" title="CSS3" /></li>
+        <li><img class="img-fluid" src="~/image/skills/bootstrap.png" alt="Bootstrap" title="Bootstrap" /></li>
+        <li><img class="img-fluid" src="~/image/skills/dreamweaver.png" alt="Dreamweaver" title="Adobe Dreamweaver" /></li>
+        <li><img class="img-fluid" src="~/image/skills/photoshop.png" alt="Adobe Photoshop" title="Adobe Photoshop" /></li>*@
+        @foreach (var skill in Model) { 
+            <li class="img-fluid" src="~/image/@skill.Image" alt="@skill.Name" title="@skill.Name"></li>
+        }
+    </ul>
+
+</div>

@@ -1,0 +1,142 @@
+﻿/*Notifications.***********************************/
+/*This should be global not just for dashboard*/
+.notification-wrapper {
+    position: fixed;
+    top: 100px;
+    z-index: 10000;
+    right: 0;
+    transition: left 0.4s;
+    left: 0;
+    padding: 0 5px;
+    color:#FFFFFF
+}
+
+    .notification-wrapper.error {
+        z-index: 20000; /*Over everything*/
+    }
+
+#wrapper.active .notification-wrapper {
+    left: 0;
+}
+
+.notification-wrapper .alert {
+    border-radius: 0;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    font-family: 'Roboto';
+    font-weight: 300;
+    padding: 22px 15px;
+    font-size: 16px;
+    max-width: 600px;
+    color: #FFFFFF!important;
+}
+
+    .notification-wrapper .alert a.close-notification {
+        position: absolute;
+        right: 20px;
+        color: #FFFFFF;
+        font-size: 20px;
+        top: 19px;
+        transition: all 0.2s;
+    }
+
+    .notification-wrapper .alert p {
+        text-align: left;
+        color: #FFF;
+        padding-left: 70px;
+        padding-right: 40px;
+        margin-bottom: 5px;
+    }
+
+    .notification-wrapper .alert ul {
+        padding-left: 90px;
+        padding-top: 10px;
+    }
+
+        .notification-wrapper .alert ul.alone {
+            padding-top: 0;
+        }
+
+    .notification-wrapper .alert p span {
+        font-weight: 400;
+    }
+
+    .notification-wrapper .alert.success {
+        background-color: #54c08a;
+        border: none;
+        border-bottom: 8px solid #225d40;
+    }
+
+    .notification-wrapper .alert.danger {
+        background-color: #D54460;
+        border: none;
+        border-bottom: 8px solid #681828;
+    }
+
+    .notification-wrapper .alert.warning {
+        background-color: #f46800;
+        border: none;
+        border-bottom: 8px solid #662c00;
+    }
+
+    .notification-wrapper .alert.info {
+        background-color: #6dc6cd;
+        border: none;
+        border-bottom: 8px solid #276d72;
+    }
+
+    .notification-wrapper .alert .notification-type-icon {
+        position: absolute;
+        border-radius: 100%;
+        background: #FFF;
+        font-size: 24px;
+        top: 11px;
+    }
+
+    .notification-wrapper .alert.success .notification-type-icon {
+        color: #54c08a;
+        padding: 9px;
+    }
+
+    .notification-wrapper .alert.danger .notification-type-icon {
+        color: #D54460;
+        padding: 9px 12px;
+    }
+
+    .notification-wrapper .alert.warning .notification-type-icon {
+        color: #f46800;
+        padding: 9px 17px;
+    }
+
+    .notification-wrapper .alert.info .notification-type-icon {
+        color: #6dc6cd;
+        padding: 9px 17px;
+    }
+
+    .notification-wrapper .alert.success a.close-notification {
+        color: #225d40;
+    }
+
+    .notification-wrapper .alert.danger a.close-notification {
+        color: #681828;
+    }
+
+    .notification-wrapper .alert.warning a.close-notification {
+        color: #662c00;
+    }
+
+    .notification-wrapper .alert.info a.close-notification {
+        color: #276d72;
+    }
+
+    .notification-wrapper .alert a.close-notification:hover {
+        color: #FFFFFF;
+    }
+
+
+    /*Contact email for errors*/
+    .notification-wrapper .alert.danger a[href*="mailto:"] {
+        color: #681828;
+        font-weight: bold;
+    }

@@ -1,0 +1,99 @@
+﻿
+
+
+
+
+
+
+/*MOBILE 1st so load smallest image*/
+section.jumbotron .container {
+    position: relative;
+    width: 100%;
+    height: 47vh;
+    z-index:1;
+    padding:0;
+}
+
+section.jumbotron h1 {
+    color:var(--white);
+}
+
+section.jumbotron a {
+    color: var(--white);
+}
+
+section.jumbotron .background {
+    position: absolute;
+    z-index: -1;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: url("../image/background/abstract-landscape-original-sm-iphone.jpg") center center;
+    background-repeat:no-repeat;
+    width: 100%;
+    height: 100%;
+}
+
+
+    /*h1.jumbotron-heading {
+    font-size: 38px;
+    position: relative;
+    z-index: 2;
+}
+
+
+.jumbotron .container {
+    margin-top: 6.25em;
+}
+*/
+    /*Media queiries bassed on back image size*/
+@media screen and (min-width: 376px) {
+    section.jumbotron .background {
+        background-image: url("../image/background/abstract-landscape-pixel.jpg")
+    }
+}
+
+
+/*Media for PIXEL phone*/
+@media screen and  (min-width:410px) {
+    section.jumbotron {
+        height: 65vh;
+    }
+}
+
+
+@media screen and (min-width: 576px) {
+  .jumbotron {
+    padding: 0;
+    margin:0;
+   
+
+}
+}
+
+/*TABLETS*/
+@media screen and (min-width: 608px) {
+    section.jumbotron .background {
+        opacity: 0.3;
+        background-image: url("../image/background/abstract-landscape-tablet.jpg")
+    }
+
+    section.jumbotron h1 {
+        color: var(--dark-grey);
+    }
+
+
+}
+
+
+/*
+
+
+@media screen and (min-height: 900px) {
+    footer {
+        position: fixed;
+        bottom: 0;
+    }
+}
+*/
