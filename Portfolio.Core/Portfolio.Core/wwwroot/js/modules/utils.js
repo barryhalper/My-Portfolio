@@ -61,6 +61,6 @@ export class Utils {
 
     static getSitePath() {
         const host = Utils.getHost();
-        return window.location.href.replace(host, "");
+        return window.location.href.replace(host, "").replace("#", "");
     }
 }

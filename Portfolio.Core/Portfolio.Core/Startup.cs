@@ -48,10 +48,13 @@ namespace Portfolio.Core
             //add business service to app serive and DI
             services.AddScoped<ISkillService, SkillService>();
 
+            services.AddScoped<ITestimonialService, TestimonialService>();
+
 
             var mapperConfig = new MapperConfiguration(mc =>
             {
                 mc.AddProfile(new SkillMapping());
+                mc.AddProfile(new TestimonialMapping());
             });
 
             IMapper mapper = mapperConfig.CreateMapper();

@@ -1,10 +1,16 @@
 ﻿import { Utils } from "./utils.js"
+import { Testimonial } from "./testimonial.js"
 
 class App {
     constructor() {
        // this.bindNavigation();
         this.bindFooterAboutMe();
         this.setActiveMenuItem();
+
+        if (document.getElementById("testimonial")) {
+            const testimonial = new Testimonial(); 
+        }
+
     }
 
 
@@ -14,13 +20,17 @@ class App {
         //get array of  links in menu
         const menu = Array.from(document.querySelectorAll(".nav a"));
         //filter array based on current path
-        const item = menu.find(i => i.getAttribute("href") == path);
-        //active class to active item
-        item.classList.add("active");
+        try {
+            const item = menu.find(i => i.getAttribute("href") == path);
+            //active class to active item
+            item.classList.add("active");
+        }
+        catch{ }
        
     }
-        
-    
+
+
+   
     
 
     bindFooterAboutMe() {

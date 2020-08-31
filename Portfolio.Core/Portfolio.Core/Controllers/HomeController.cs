@@ -26,7 +26,7 @@ namespace Portfolio.Core.Controllers
         private IMapper mapper;
         private IMemoryCache cache;
 
-        public HomeController(ISkillService service, IMapper mapper, IMemoryCache memoryCache) {
+        public HomeController(ISkillService service, IMapper mapper, IMemoryCache memoryCache ) {
             this.service = service;
             this.mapper = mapper;
             this.cache = memoryCache;
@@ -80,7 +80,10 @@ namespace Portfolio.Core.Controllers
             return View("EducationView");
         }
 
-        
+       
+
+
+
 
         public IActionResult Projects()
         {

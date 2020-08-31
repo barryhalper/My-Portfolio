@@ -169,6 +169,10 @@ footer a.more:hover {
     bottom: 0!important;
     display:block!important;
 }
+
+
+
+
 /********PAGES ******************************************************************************************************************/
 
 /**HOME PAGE ********************************************************************************************************************/
@@ -268,3 +272,97 @@ form .btn-primary::before {
     font-family: "Font Awesome 5 Pro";
     content: "\f064";
 }
+
+
+/**TESTIMOMONIALS ******************************************************/
+#testimonial {
+    background-color: var(--very-dark-grey);
+    height:600px;
+    color:var(--white);
+   
+
+}
+
+#testimonial section {
+   
+   
+}
+
+#testimonial a {
+    color: var(--white);
+}
+
+
+    #testimonial a:hover {
+        color: var(--second-brand-color);
+    }
+
+    #testimonial .pullquote {
+        font-size: 1.5rem;
+        font-style: italic;
+        /* margin: 0 25px 0 26px; */
+        width: 90%;
+        padding: 0 75px;
+    }
+
+ #testimonial .recommendation p {
+     font-size:1.0rem;
+     margin:0;
+     padding:0;
+   
+ }
+
+#testimonial .author {
+        font-size: 1.0rem;
+ }
+
+#testimonial image-container {
+  max-width: 50px;
+  
+  
+}
+
+#testimonial img {
+        max-width: 50px;
+        border-radius: 30%;
+        float: left;
+        margin-right:15px;
+}
+
+.pullquote {
+
+}
+pullquote div {
+    margin: -4px 0px 0 30px;
+}
+
+
+#testimonial .more
+
+{
+    position: fixed;
+    
+    float: right;
+    right: 0%;
+}
+
+
+#testimonial ul {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+  
+}
+
+ #testimonial ul li {
+     margin-left:15px;
+ }
+
+#testimonial-more-content {
+    display:none;
+}
+
+#testimonial ul li a.active{
+   color:var(--second-brand-color);
+}
+

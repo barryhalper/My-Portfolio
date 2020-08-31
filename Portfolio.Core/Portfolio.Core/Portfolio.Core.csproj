@@ -43,4 +43,10 @@
     <Folder Include="ViewComponents\ComponetNewFolder\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\js\modules\app.js" />
+    <None Include="wwwroot\js\modules\testimonial.js" />
+    <None Include="wwwroot\js\modules\utils.js" />
+  </ItemGroup>
+
 </Project>

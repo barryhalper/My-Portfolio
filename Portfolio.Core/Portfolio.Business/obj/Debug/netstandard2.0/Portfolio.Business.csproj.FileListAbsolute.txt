@@ -1,12 +1,12 @@
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Business\bin\Debug\netstandard2.0\Portfolio.Business.deps.json
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Business\bin\Debug\netstandard2.0\Portfolio.Business.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Business\bin\Debug\netstandard2.0\Portfolio.Business.pdb
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Business\bin\Debug\netstandard2.0\MongoCrud.dll
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Business\bin\Debug\netstandard2.0\MongoCrud.pdb
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Business\obj\Debug\netstandard2.0\Portfolio.Business.csprojAssemblyReference.cache
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Business\obj\Debug\netstandard2.0\Portfolio.Business.AssemblyInfoInputs.cache
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Business\obj\Debug\netstandard2.0\Portfolio.Business.AssemblyInfo.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Business\obj\Debug\netstandard2.0\Portfolio.Business.csproj.CoreCompileInputs.cache
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Business\obj\Debug\netstandard2.0\Portfolio.Business.csproj.CopyComplete
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Business\obj\Debug\netstandard2.0\Portfolio.Business.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Business\obj\Debug\netstandard2.0\Portfolio.Business.pdb
-C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Business\obj\Debug\netstandard2.0\Portfolio.Business.csprojAssemblyReference.cache
-C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Business\bin\Debug\netstandard2.0\MongoCrud.dll
-C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Business\bin\Debug\netstandard2.0\MongoCrud.pdb
-C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Business\obj\Debug\netstandard2.0\Portfolio.Business.csproj.CopyComplete

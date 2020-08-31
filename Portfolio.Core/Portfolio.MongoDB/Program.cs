@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Configuration;
+using MongoCrud;
 using MongoDB.Bson;
 using MongoDB.Driver;
 
@@ -11,12 +12,12 @@ namespace Portfolio.MongoDBConsole
     {
         static void Main(string[] args)
         {
-            IConfiguration Configuration = new ConfigurationBuilder().AddJsonFile("appsettings.json", optional: true, reloadOnChange: true).AddCommandLine(args).Build();
+            DatabaseSettings databaseSettings = new DatabaseSettings();
+            databaseSettings.ConnectionString = "mongodb+srv://zkhTXZt42Sb8ama6:zkhTXZt42Sb8ama6@cluster0.tdoch.mongodb.net/test?authSource=admin&replicaSet=atlas-rk8855-shard-0&readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=true";
+            databaseSettings.DatabaseName = "Portfolio";
 
-            var DatabaseSettting = Configuration.GetSection("DatabaseSettings");
-
-            //SkillsCrud skills = new SkillsCrud();
-            //skills.Update();
+            TestimonialCrud skills = new TestimonialCrud(databaseSettings);
+            skills.Insert();
 
 
             //var businesss = new Business.DataAccess.SkillService("Portfolio", "Skills");
