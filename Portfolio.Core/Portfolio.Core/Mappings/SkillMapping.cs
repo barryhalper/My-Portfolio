@@ -13,8 +13,8 @@ namespace Portfolio.Core.Mappings
 
         public SkillMapping()
         {
-            CreateMap<SkillsViewModel, Skill>();
-            CreateMap<Skill, SkillsViewModel>();
+            CreateMap<SkillViewModel, Skill>();
+            CreateMap<Skill, SkillViewModel>();
         }
     }
 }

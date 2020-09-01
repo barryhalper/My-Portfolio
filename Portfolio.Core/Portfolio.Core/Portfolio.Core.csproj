@@ -6,15 +6,19 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="Views\Skills\**" />
     <Compile Remove="wwwroot\css\flex\**" />
     <Compile Remove="wwwroot\js\**" />
     <Compile Remove="wwwroot\lib\**" />
+    <Content Remove="Views\Skills\**" />
     <Content Remove="wwwroot\css\flex\**" />
     <Content Remove="wwwroot\js\**" />
     <Content Remove="wwwroot\lib\**" />
+    <EmbeddedResource Remove="Views\Skills\**" />
     <EmbeddedResource Remove="wwwroot\css\flex\**" />
     <EmbeddedResource Remove="wwwroot\js\**" />
     <EmbeddedResource Remove="wwwroot\lib\**" />
+    <None Remove="Views\Skills\**" />
     <None Remove="wwwroot\css\flex\**" />
     <None Remove="wwwroot\js\**" />
     <None Remove="wwwroot\lib\**" />
@@ -41,6 +45,7 @@
 
   <ItemGroup>
     <Folder Include="ViewComponents\ComponetNewFolder\" />
+    <Folder Include="wwwroot\image\education\" />
   </ItemGroup>
 
   <ItemGroup>

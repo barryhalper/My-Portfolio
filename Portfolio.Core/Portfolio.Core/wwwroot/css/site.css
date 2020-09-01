@@ -206,8 +206,9 @@ footer a.more:hover {
     z-index: 2;
     position: absolute;
     bottom: 25px;
-    transform: translateX(28%);
-   
+ 
+    right: 5%;
+    left: 5%;
 }
 
 
@@ -283,26 +284,23 @@ form .btn-primary::before {
 
 }
 
-#testimonial section {
-   
-   
-}
 
-#testimonial a {
-    color: var(--white);
-}
+    #testimonial a {
+        color: var(--white);
+    }
 
 
     #testimonial a:hover {
         color: var(--second-brand-color);
     }
 
-    #testimonial .pullquote {
+  #testimonial .pullquote {
         font-size: 1.5rem;
         font-style: italic;
         /* margin: 0 25px 0 26px; */
         width: 90%;
         padding: 0 75px;
+        display:none;
     }
 
  #testimonial .recommendation p {
@@ -366,3 +364,31 @@ pullquote div {
    color:var(--second-brand-color);
 }
 
+/**SKILLS ********************************************************************************************/
+
+#skills ul {
+    margin:0;
+    padding:0;
+}
+
+#skills ul li {
+    list-style:none;
+    margin-bottom:20px;
+    font-size:12px;
+}
+
+#skills li img {
+    height:25px;
+}
+
+
+/**EDUCATION ********************************************************************************************/
+
+#education-body h3{
+    font-size:1.4rem;
+    padding: 10px
+}
+
+#education-body .image-container {
+    border-bottom:1px solid var(--light-grey);
+}

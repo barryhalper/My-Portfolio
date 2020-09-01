@@ -1,24 +1,56 @@
-﻿@model IEnumerable<Portfolio.Core.Models.SkillsViewModel>
+﻿@model SkillsViewModel
 
 
 
-<div id="skills" class="jumbotron">
+<div id="skills">
 
-    <img srcset="/image/background/skills.jpg  1024w,
+    <div  class="jumbotron">
+
+        <img srcset="/image/background/skills.jpg  1024w,
             /image/background/skills-medium.jpg 640w,
              /image/background/skills-small.jpg 320w"
-            sizes="100vw"
-         
-         src="/image/background/skills-small.jpg" alt="skills" class="img-fluid" />
-    <div class="container">
-        <section class="page mb-3">
+             sizes="100vw"
+             src="/image/background/skills-small.jpg" alt="skills" class="img-fluid" />
+        <div class="container">
+            <section class="page mb-3">
 
-            <h1>Skills</h1>
-        </section>
+                <h1>Skills</h1>
+            </section>
+        </div>
     </div>
+
+    <section>
+        <div class="row  mt-3 d-flex justify-content-center">
+
+
+            @foreach (var type in Model.Types)
+            {
+                <div class="col-md-2">
+
+                    <div class="panel">
+                        <div class="panel-heading">
+                            @type
+                        </div>
+
+                        <div class="panel-body">
+
+                            <ul class="">
+
+                                @foreach (var skill in Model.Filter(type))
+                                {
+                                    <li><img src="~/image/skills/@skill.Image" alt="@skill.Name" title="" /> @skill.Name</li>
+                                }
+
+                            </ul>
+                        </div>
+
+                    </div>
+
+                </div>
+            }
+
+
+        </div>
+    </section>
+
 </div>
-
-<section>
-
-</section>
-

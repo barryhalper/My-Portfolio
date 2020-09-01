@@ -16,8 +16,8 @@ namespace Portfolio.MongoDBConsole
             databaseSettings.ConnectionString = "mongodb+srv://zkhTXZt42Sb8ama6:zkhTXZt42Sb8ama6@cluster0.tdoch.mongodb.net/test?authSource=admin&replicaSet=atlas-rk8855-shard-0&readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=true";
             databaseSettings.DatabaseName = "Portfolio";
 
-            TestimonialCrud skills = new TestimonialCrud(databaseSettings);
-            skills.Insert();
+            TestimonialCrud service = new TestimonialCrud(databaseSettings);
+            service.Insert();
 
 
             //var businesss = new Business.DataAccess.SkillService("Portfolio", "Skills");

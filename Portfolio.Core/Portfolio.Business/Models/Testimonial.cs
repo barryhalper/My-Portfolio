@@ -1,12 +1,17 @@
-﻿using System;
+﻿using MongoDB.Bson;
+using MongoDB.Bson.Serialization.Attributes;
+using System;
 using System.Collections.Generic;
 using System.Text;
 
 namespace Portfolio.Business.Models
 {
-    public class Testimonial
+    public class Testimonial : ITestimonial
     {
-        public Guid Id { get; set; }
+        [BsonId]
+        [BsonRepresentation(BsonType.ObjectId)]
+      
+        public string Id { get; set; }
         public string Recommendation { get; set; }
         public string Author { get; set; }
 

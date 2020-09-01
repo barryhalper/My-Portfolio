@@ -1,13 +1,14 @@
-﻿using System;
+﻿using Portfolio.Business.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
 namespace Portfolio.Core.Models
 {
-    public class TestimonialViewModel
+    public class TestimonialViewModel: ITestimonial
     {
-        public Guid Id { get; set; }
+        public string Id { get; set; }
         public string Recommendation { get; set; }
         public string Author { get; set; }
 

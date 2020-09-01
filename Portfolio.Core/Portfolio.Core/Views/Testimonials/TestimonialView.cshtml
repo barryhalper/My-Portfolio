@@ -12,52 +12,58 @@
 
             <h1 style="display:none;"> @ViewBag.Title </h1>
 
+            @foreach (var item in Model)
+            {
+                <div class="pullquote" id="testimonial-@item.Id">
 
-            <div class="pullquote">
 
-                <div class="recommendation">
-                    " <span >@Model.First().Recommendation</span> "
+
+                    <div class="recommendation">
+                        " <span>@item.Recommendation</span> "
+                    </div>
+
+                    <div class="author mt-3 ">
+                        <div class="image-container"><img src="~/image/testimonials/@item.Image" alt="@item.Author" /></div>
+
+                        <span class="author-name">@item.Author</span>
+                        <div class="position">@item.Position</div>
+
+                    </div>
+
+                   
+                </div>
+            }
+
+
+
+
+                <div class="more float-right mr-5">
+                    <ul>
+                        @foreach (var item in Model)
+                        {
+                            <li>
+                                <a href="#" data-id="@item.Id" title="@item.Author"> <i class="fad fa-circle fa-2x"></i></a>
+                            </li>
+                        }
+                    </ul>
+
                 </div>
 
-                <div class="author mt-3 ">
-                    <div class="image-container"><img src="~/image/testimonials/@Model.First().Image" alt="@Model.First().Author" /></div>
-
-                    <span class="author-name">@Model.First().Author</span>
-                    <div class="position">@Model.First().Position</div>
-
-                </div>
-            </div>
-
-            
-
-
-            <div class="more float-right mr-5">
-                <ul>
-                    @foreach (var item in Model)
-                    {
-                        <li>
-                            <a href="#" data-id="@item.Id" title="@item.Author"> <i class="fad fa-circle fa-2x"></i></a>
-                        </li>
-                    }
-                </ul>
-
-            </div>
 
 
 
 
 
-
-        </section>
+            </section>
     </div>
 </div>
 
-<div id="testimonial-more-content">
+@*<div id="testimonial-more-content">
     @foreach (var item in Model)
     {
           <div id="testimonial-@item.Id" data-id="@item.Id"  data-recommmendation="@item.Recommendation" data-author="@item.Author" data-img="@item.Image" data-jobtitle="@item.Position">@item</div>
     }
-</div>
+</div>*@
 
 
 

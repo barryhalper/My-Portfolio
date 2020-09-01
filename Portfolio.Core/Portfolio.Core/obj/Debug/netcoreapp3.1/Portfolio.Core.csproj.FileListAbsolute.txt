@@ -126,7 +126,6 @@ C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\ne
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Menu.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Modal.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Skills\_SkillsDock.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.RazorTargetAssemblyInfo.cache

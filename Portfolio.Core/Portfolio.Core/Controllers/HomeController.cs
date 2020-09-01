@@ -36,12 +36,12 @@ namespace Portfolio.Core.Controllers
         public IActionResult Index()
         {
             ViewBag.Home = true;
-            IEnumerable<SkillsViewModel> model;
+            IEnumerable<SkillViewModel> model;
 
 
             if(!cache.TryGetValue(CacheKeys.Home, out model))
             {
-                model = mapper.Map<IEnumerable<SkillsViewModel>>(service.Read(true));
+                model = mapper.Map<IEnumerable<SkillViewModel>>(service.Read(true));
                 var cacheEntryOptions = new MemoryCacheEntryOptions { SlidingExpiration = TimeSpan.FromDays(1) };
 
                 // Keep in cache for this time, reset time if accessed..SetSlidingExpiration(TimeSpan.FromSeconds(3));
@@ -63,6 +63,8 @@ namespace Portfolio.Core.Controllers
         [Route("About")]
         public IActionResult About()
         {
+
+
             return View("AboutView");
         }
 
@@ -70,7 +72,10 @@ namespace Portfolio.Core.Controllers
         [Route("Skills")]
         public IActionResult Skills()
         {
-            return View("SkillsListView");
+            var model = new SkillsViewModel();
+            model.Skills = mapper.Map<IEnumerable<SkillViewModel>>(service.Read());
+
+            return View("SkillsListView", model);
         }
 
 
