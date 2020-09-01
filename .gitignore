@@ -3,3 +3,7 @@ web-developer-essentials.jpg
 web-developer-essentials-small.jpg
 *.dll
 *.jfif
+*.dll
+*.cache
+*.pdb
+*.pdb

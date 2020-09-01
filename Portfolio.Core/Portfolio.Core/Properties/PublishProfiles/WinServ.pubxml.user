@@ -11,286 +11,286 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="appsettings.Development.json">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/31/2020 12:35:45</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/31/2020 12:35:50</publishTime>
     </File>
     <File Include="AutoMapper.dll">
-      <publishTime>01/07/2020 16:00:54</publishTime>
+      <publishTime>07/01/2020 16:00:54</publishTime>
     </File>
     <File Include="cs/Microsoft.CodeAnalysis.CSharp.resources.dll">
-      <publishTime>12/09/2019 17:08:58</publishTime>
+      <publishTime>09/12/2019 17:08:58</publishTime>
     </File>
     <File Include="cs/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:09:12</publishTime>
+      <publishTime>09/12/2019 17:09:12</publishTime>
     </File>
     <File Include="cs/Microsoft.CodeAnalysis.resources.dll">
-      <publishTime>12/09/2019 17:07:46</publishTime>
+      <publishTime>09/12/2019 17:07:46</publishTime>
     </File>
     <File Include="cs/Microsoft.CodeAnalysis.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:08:36</publishTime>
+      <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="de/Microsoft.CodeAnalysis.CSharp.resources.dll">
-      <publishTime>12/09/2019 17:08:58</publishTime>
+      <publishTime>09/12/2019 17:08:58</publishTime>
     </File>
     <File Include="de/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:09:12</publishTime>
+      <publishTime>09/12/2019 17:09:12</publishTime>
     </File>
     <File Include="de/Microsoft.CodeAnalysis.resources.dll">
-      <publishTime>12/09/2019 17:07:46</publishTime>
+      <publishTime>09/12/2019 17:07:46</publishTime>
     </File>
     <File Include="de/Microsoft.CodeAnalysis.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:08:36</publishTime>
+      <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="DnsClient.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>03/31/2020 21:28:56</publishTime>
     </File>
     <File Include="dotnet-aspnet-codegenerator-design.dll">
-      <publishTime>03/08/2020 18:30:10</publishTime>
+      <publishTime>08/03/2020 18:30:10</publishTime>
     </File>
     <File Include="es/Microsoft.CodeAnalysis.CSharp.resources.dll">
-      <publishTime>12/09/2019 17:09:00</publishTime>
+      <publishTime>09/12/2019 17:09:00</publishTime>
     </File>
     <File Include="es/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:09:12</publishTime>
+      <publishTime>09/12/2019 17:09:12</publishTime>
     </File>
     <File Include="es/Microsoft.CodeAnalysis.resources.dll">
-      <publishTime>12/09/2019 17:07:46</publishTime>
+      <publishTime>09/12/2019 17:07:46</publishTime>
     </File>
     <File Include="es/Microsoft.CodeAnalysis.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:08:36</publishTime>
+      <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="fr/Microsoft.CodeAnalysis.CSharp.resources.dll">
-      <publishTime>12/09/2019 17:09:00</publishTime>
+      <publishTime>09/12/2019 17:09:00</publishTime>
     </File>
     <File Include="fr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:09:12</publishTime>
+      <publishTime>09/12/2019 17:09:12</publishTime>
     </File>
     <File Include="fr/Microsoft.CodeAnalysis.resources.dll">
-      <publishTime>12/09/2019 17:07:46</publishTime>
+      <publishTime>09/12/2019 17:07:46</publishTime>
     </File>
     <File Include="fr/Microsoft.CodeAnalysis.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:08:36</publishTime>
+      <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="it/Microsoft.CodeAnalysis.CSharp.resources.dll">
-      <publishTime>12/09/2019 17:09:00</publishTime>
+      <publishTime>09/12/2019 17:09:00</publishTime>
     </File>
     <File Include="it/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:09:12</publishTime>
+      <publishTime>09/12/2019 17:09:12</publishTime>
     </File>
     <File Include="it/Microsoft.CodeAnalysis.resources.dll">
-      <publishTime>12/09/2019 17:07:46</publishTime>
+      <publishTime>09/12/2019 17:07:46</publishTime>
     </File>
     <File Include="it/Microsoft.CodeAnalysis.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:08:36</publishTime>
+      <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="ja/Microsoft.CodeAnalysis.CSharp.resources.dll">
-      <publishTime>12/09/2019 17:09:00</publishTime>
+      <publishTime>09/12/2019 17:09:00</publishTime>
     </File>
     <File Include="ja/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:09:12</publishTime>
+      <publishTime>09/12/2019 17:09:12</publishTime>
     </File>
     <File Include="ja/Microsoft.CodeAnalysis.resources.dll">
-      <publishTime>12/09/2019 17:07:46</publishTime>
+      <publishTime>09/12/2019 17:07:46</publishTime>
     </File>
     <File Include="ja/Microsoft.CodeAnalysis.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:08:36</publishTime>
+      <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="ko/Microsoft.CodeAnalysis.CSharp.resources.dll">
-      <publishTime>12/09/2019 17:09:00</publishTime>
+      <publishTime>09/12/2019 17:09:00</publishTime>
     </File>
     <File Include="ko/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:09:12</publishTime>
+      <publishTime>09/12/2019 17:09:12</publishTime>
     </File>
     <File Include="ko/Microsoft.CodeAnalysis.resources.dll">
-      <publishTime>12/09/2019 17:07:46</publishTime>
+      <publishTime>09/12/2019 17:07:46</publishTime>
     </File>
     <File Include="ko/Microsoft.CodeAnalysis.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:08:36</publishTime>
+      <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.JsonPatch.dll">
-      <publishTime>12/11/2018 17:28:34</publishTime>
+      <publishTime>11/12/2018 17:28:34</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Mvc.Razor.Extensions.dll">
-      <publishTime>12/11/2018 17:29:40</publishTime>
+      <publishTime>11/12/2018 17:29:40</publishTime>
     </File>
     <File Include="Microsoft.AspNetCore.Razor.Language.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/16/2019 06:08:46</publishTime>
     </File>
     <File Include="Microsoft.CodeAnalysis.CSharp.dll">
-      <publishTime>12/09/2019 17:08:58</publishTime>
+      <publishTime>09/12/2019 17:08:58</publishTime>
     </File>
     <File Include="Microsoft.CodeAnalysis.CSharp.Workspaces.dll">
-      <publishTime>12/09/2019 17:09:12</publishTime>
+      <publishTime>09/12/2019 17:09:12</publishTime>
     </File>
     <File Include="Microsoft.CodeAnalysis.dll">
-      <publishTime>12/09/2019 17:07:46</publishTime>
+      <publishTime>09/12/2019 17:07:46</publishTime>
     </File>
     <File Include="Microsoft.CodeAnalysis.Razor.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/16/2019 06:08:52</publishTime>
     </File>
     <File Include="Microsoft.CodeAnalysis.Workspaces.dll">
-      <publishTime>12/09/2019 17:08:34</publishTime>
+      <publishTime>09/12/2019 17:08:34</publishTime>
     </File>
     <File Include="Microsoft.DotNet.PlatformAbstractions.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>05/15/2018 21:01:34</publishTime>
     </File>
     <File Include="Microsoft.Extensions.DependencyModel.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>05/15/2018 21:01:34</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll">
-      <publishTime>03/08/2020 18:29:50</publishTime>
+      <publishTime>08/03/2020 18:29:50</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Core.dll">
-      <publishTime>03/08/2020 18:30:02</publishTime>
+      <publishTime>08/03/2020 18:30:02</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGeneration.dll">
-      <publishTime>03/08/2020 18:30:04</publishTime>
+      <publishTime>08/03/2020 18:30:04</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore.dll">
-      <publishTime>03/08/2020 18:30:02</publishTime>
+      <publishTime>08/03/2020 18:30:02</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll">
-      <publishTime>03/08/2020 18:29:58</publishTime>
+      <publishTime>08/03/2020 18:29:58</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll">
-      <publishTime>03/08/2020 18:29:56</publishTime>
+      <publishTime>08/03/2020 18:29:56</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll">
-      <publishTime>03/08/2020 18:30:06</publishTime>
+      <publishTime>08/03/2020 18:30:06</publishTime>
     </File>
     <File Include="MongoCrud.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/01/2020 17:18:09</publishTime>
     </File>
     <File Include="MongoCrud.pdb">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/01/2020 17:18:09</publishTime>
     </File>
     <File Include="MongoDB.Bson.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/25/2020 17:55:44</publishTime>
     </File>
     <File Include="MongoDB.Driver.Core.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/25/2020 17:55:52</publishTime>
     </File>
     <File Include="MongoDB.Driver.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/25/2020 17:55:58</publishTime>
     </File>
     <File Include="MongoDB.Libmongocrypt.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/13/2019 20:35:30</publishTime>
     </File>
     <File Include="Newtonsoft.Json.Bson.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>03/22/2017 11:01:20</publishTime>
     </File>
     <File Include="Newtonsoft.Json.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>03/24/2018 17:44:14</publishTime>
     </File>
     <File Include="NuGet.Frameworks.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/24/2018 21:27:10</publishTime>
     </File>
     <File Include="pl/Microsoft.CodeAnalysis.CSharp.resources.dll">
-      <publishTime>12/09/2019 17:09:00</publishTime>
+      <publishTime>09/12/2019 17:09:00</publishTime>
     </File>
     <File Include="pl/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:09:12</publishTime>
+      <publishTime>09/12/2019 17:09:12</publishTime>
     </File>
     <File Include="pl/Microsoft.CodeAnalysis.resources.dll">
-      <publishTime>12/09/2019 17:07:48</publishTime>
+      <publishTime>09/12/2019 17:07:48</publishTime>
     </File>
     <File Include="pl/Microsoft.CodeAnalysis.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:08:36</publishTime>
+      <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="Portfolio.Business.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/01/2020 17:18:10</publishTime>
     </File>
     <File Include="Portfolio.Business.pdb">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/01/2020 17:18:10</publishTime>
     </File>
     <File Include="Portfolio.Core.deps.json">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/01/2020 17:18:17</publishTime>
     </File>
     <File Include="Portfolio.Core.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/01/2020 17:18:12</publishTime>
     </File>
     <File Include="Portfolio.Core.exe">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/01/2020 17:18:13</publishTime>
     </File>
     <File Include="Portfolio.Core.pdb">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/01/2020 17:18:12</publishTime>
     </File>
     <File Include="Portfolio.Core.runtimeconfig.json">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/28/2020 15:34:07</publishTime>
     </File>
     <File Include="Portfolio.Core.Views.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/01/2020 17:18:16</publishTime>
     </File>
     <File Include="Portfolio.Core.Views.pdb">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/01/2020 17:18:16</publishTime>
     </File>
     <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll">
-      <publishTime>12/09/2019 17:09:00</publishTime>
+      <publishTime>09/12/2019 17:09:00</publishTime>
     </File>
     <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:09:14</publishTime>
+      <publishTime>09/12/2019 17:09:14</publishTime>
     </File>
     <File Include="pt-BR/Microsoft.CodeAnalysis.resources.dll">
-      <publishTime>12/09/2019 17:07:48</publishTime>
+      <publishTime>09/12/2019 17:07:48</publishTime>
     </File>
     <File Include="pt-BR/Microsoft.CodeAnalysis.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:08:36</publishTime>
+      <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="ru/Microsoft.CodeAnalysis.CSharp.resources.dll">
-      <publishTime>12/09/2019 17:09:00</publishTime>
+      <publishTime>09/12/2019 17:09:00</publishTime>
     </File>
     <File Include="ru/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:09:14</publishTime>
+      <publishTime>09/12/2019 17:09:14</publishTime>
     </File>
     <File Include="ru/Microsoft.CodeAnalysis.resources.dll">
-      <publishTime>12/09/2019 17:07:48</publishTime>
+      <publishTime>09/12/2019 17:07:48</publishTime>
     </File>
     <File Include="ru/Microsoft.CodeAnalysis.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:08:36</publishTime>
+      <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="runtimes/win/native/libzstd.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/25/2020 17:50:22</publishTime>
     </File>
     <File Include="runtimes/win/native/snappy32.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/25/2020 17:50:22</publishTime>
     </File>
     <File Include="runtimes/win/native/snappy64.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/25/2020 17:50:22</publishTime>
     </File>
     <File Include="SharpCompress.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>02/27/2019 12:59:52</publishTime>
     </File>
     <File Include="Sitecore.FakeDb.dll">
-      <publishTime>05/12/2019 21:32:02</publishTime>
+      <publishTime>12/05/2019 21:32:02</publishTime>
     </File>
     <File Include="System.Composition.AttributedModel.dll">
-      <publishTime>05/11/2016 04:55:42</publishTime>
+      <publishTime>11/05/2016 04:55:42</publishTime>
     </File>
     <File Include="System.Composition.Convention.dll">
-      <publishTime>05/11/2016 04:55:42</publishTime>
+      <publishTime>11/05/2016 04:55:42</publishTime>
     </File>
     <File Include="System.Composition.Hosting.dll">
-      <publishTime>05/11/2016 04:55:42</publishTime>
+      <publishTime>11/05/2016 04:55:42</publishTime>
     </File>
     <File Include="System.Composition.Runtime.dll">
-      <publishTime>05/11/2016 04:55:44</publishTime>
+      <publishTime>11/05/2016 04:55:44</publishTime>
     </File>
     <File Include="System.Composition.TypedParts.dll">
-      <publishTime>05/11/2016 04:55:46</publishTime>
+      <publishTime>11/05/2016 04:55:46</publishTime>
     </File>
     <File Include="tr/Microsoft.CodeAnalysis.CSharp.resources.dll">
-      <publishTime>12/09/2019 17:09:00</publishTime>
+      <publishTime>09/12/2019 17:09:00</publishTime>
     </File>
     <File Include="tr/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:09:14</publishTime>
+      <publishTime>09/12/2019 17:09:14</publishTime>
     </File>
     <File Include="tr/Microsoft.CodeAnalysis.resources.dll">
-      <publishTime>12/09/2019 17:07:48</publishTime>
+      <publishTime>09/12/2019 17:07:48</publishTime>
     </File>
     <File Include="tr/Microsoft.CodeAnalysis.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:08:36</publishTime>
+      <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="Views/Contact/ContactFormView.cshtml">
       <publishTime>08/28/2020 17:42:03</publishTime>
@@ -344,214 +344,268 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/17/2020 12:01:48</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/01/2020 17:18:25</publishTime>
     </File>
     <File Include="wwwroot/android-chrome-192x192.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/28/2020 16:29:50</publishTime>
     </File>
     <File Include="wwwroot/android-chrome-512x512.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/28/2020 16:29:50</publishTime>
     </File>
     <File Include="wwwroot/apple-touch-icon.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/28/2020 16:29:50</publishTime>
     </File>
     <File Include="wwwroot/css/animations.css">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>04/21/2020 12:49:48</publishTime>
     </File>
     <File Include="wwwroot/css/backgound.css">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/25/2020 14:03:50</publishTime>
     </File>
     <File Include="wwwroot/css/home.css">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/27/2020 10:13:11</publishTime>
     </File>
     <File Include="wwwroot/css/media.css">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/27/2020 10:43:34</publishTime>
     </File>
     <File Include="wwwroot/css/site.css">
-      <publishTime>09/01/2020 15:50:04</publishTime>
+      <publishTime>01/09/2020 15:50:04</publishTime>
     </File>
     <File Include="wwwroot/css/_vars.css">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/31/2020 18:17:49</publishTime>
     </File>
     <File Include="wwwroot/favicon-16x16.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/28/2020 16:29:50</publishTime>
     </File>
     <File Include="wwwroot/favicon-32x32.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/28/2020 16:29:50</publishTime>
     </File>
     <File Include="wwwroot/favicon.ico">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/28/2020 16:29:50</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape-medium.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/27/2020 10:18:04</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape-original-sm-iphone.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/25/2020 15:16:17</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape-original-sm-wide.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/25/2020 15:08:37</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape-original-sm.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/25/2020 15:04:42</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape-original.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/21/2020 16:22:07</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape-pixel.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/25/2020 15:34:26</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape-small.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/27/2020 10:18:49</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape-tablet-pixel.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/25/2020 15:32:49</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape-tablet.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/25/2020 16:03:58</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape-wide.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/27/2020 10:16:21</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/26/2020 16:56:31</publishTime>
     </File>
     <File Include="wwwroot/image/background/barry-halper-northern-lights-medium.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/28/2020 17:19:35</publishTime>
     </File>
     <File Include="wwwroot/image/background/barry-halper-northern-lights-small.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/28/2020 17:19:56</publishTime>
     </File>
     <File Include="wwwroot/image/background/barry-halper-northern-lights-wide.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/28/2020 17:27:22</publishTime>
     </File>
     <File Include="wwwroot/image/background/barry-halper-northern-lights.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/28/2020 17:17:48</publishTime>
     </File>
     <File Include="wwwroot/image/background/keyboard-contact.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/26/2020 19:43:14</publishTime>
     </File>
     <File Include="wwwroot/image/background/library-medium.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/28/2020 17:49:19</publishTime>
     </File>
     <File Include="wwwroot/image/background/library-small.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/28/2020 17:56:44</publishTime>
     </File>
     <File Include="wwwroot/image/background/library-wide.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/28/2020 17:48:36</publishTime>
     </File>
     <File Include="wwwroot/image/background/library.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/28/2020 17:48:57</publishTime>
     </File>
     <File Include="wwwroot/image/background/skills-medium.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/28/2020 17:59:44</publishTime>
     </File>
     <File Include="wwwroot/image/background/skills-small.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/28/2020 18:00:01</publishTime>
     </File>
     <File Include="wwwroot/image/background/skills-wide.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/28/2020 17:58:57</publishTime>
     </File>
     <File Include="wwwroot/image/background/skills.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/28/2020 17:59:20</publishTime>
     </File>
     <File Include="wwwroot/image/barry-halper-profile.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/19/2020 12:08:02</publishTime>
     </File>
     <File Include="wwwroot/image/dell-web-developer-essentails.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/19/2020 14:46:18</publishTime>
+    </File>
+    <File Include="wwwroot/image/education/harrow.png">
+      <publishTime>09/01/2020 15:37:38</publishTime>
+    </File>
+    <File Include="wwwroot/image/education/manchester-metropolitian-university.png">
+      <publishTime>09/01/2020 15:40:41</publishTime>
+    </File>
+    <File Include="wwwroot/image/education/queen-mary-london.jpg">
+      <publishTime>09/01/2020 15:38:22</publishTime>
+    </File>
+    <File Include="wwwroot/image/education/queen-mary-london.png">
+      <publishTime>09/01/2020 15:38:44</publishTime>
     </File>
     <File Include="wwwroot/image/me-by-jacob-b-w-gold.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/17/2020 14:45:52</publishTime>
     </File>
     <File Include="wwwroot/image/me-by-jacob-b-w-small.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/30/2020 18:23:56</publishTime>
     </File>
     <File Include="wwwroot/image/skills/Adobe_ColdFusion.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/01/2020 10:27:24</publishTime>
+    </File>
+    <File Include="wwwroot/image/skills/asp-net-core.png">
+      <publishTime>09/01/2020 15:14:13</publishTime>
+    </File>
+    <File Include="wwwroot/image/skills/asp-net-mvc-logo.jpg">
+      <publishTime>09/01/2020 15:08:03</publishTime>
+    </File>
+    <File Include="wwwroot/image/skills/asp-net-mvc-logo.png">
+      <publishTime>09/01/2020 15:08:33</publishTime>
+    </File>
+    <File Include="wwwroot/image/skills/aspn-net-core.png">
+      <publishTime>09/01/2020 14:58:53</publishTime>
+    </File>
+    <File Include="wwwroot/image/skills/basecamp.png">
+      <publishTime>09/01/2020 14:53:46</publishTime>
     </File>
     <File Include="wwwroot/image/skills/bootstrap.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/01/2020 10:14:32</publishTime>
     </File>
     <File Include="wwwroot/image/skills/c-sharp.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/31/2020 11:31:49</publishTime>
+    </File>
+    <File Include="wwwroot/image/skills/css.png">
+      <publishTime>09/01/2020 10:15:25</publishTime>
     </File>
     <File Include="wwwroot/image/skills/css3.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/01/2020 10:19:34</publishTime>
     </File>
     <File Include="wwwroot/image/skills/dotnet.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/31/2020 11:35:06</publishTime>
     </File>
     <File Include="wwwroot/image/skills/dreamweaver.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/21/2020 20:05:54</publishTime>
     </File>
     <File Include="wwwroot/image/skills/dreamweaver.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/23/2020 13:51:38</publishTime>
+    </File>
+    <File Include="wwwroot/image/skills/eclipse.png">
+      <publishTime>09/01/2020 14:52:32</publishTime>
+    </File>
+    <File Include="wwwroot/image/skills/es6.png">
+      <publishTime>09/01/2020 15:00:35</publishTime>
+    </File>
+    <File Include="wwwroot/image/skills/gimp.png">
+      <publishTime>09/01/2020 14:51:26</publishTime>
+    </File>
+    <File Include="wwwroot/image/skills/github.png">
+      <publishTime>09/01/2020 15:12:46</publishTime>
     </File>
     <File Include="wwwroot/image/skills/html-5.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/01/2020 10:16:25</publishTime>
     </File>
     <File Include="wwwroot/image/skills/javascript.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/31/2020 11:33:51</publishTime>
+    </File>
+    <File Include="wwwroot/image/skills/Jira.png">
+      <publishTime>09/01/2020 15:11:10</publishTime>
     </File>
     <File Include="wwwroot/image/skills/jquery.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/01/2020 10:40:50</publishTime>
+    </File>
+    <File Include="wwwroot/image/skills/LINQPad.png">
+      <publishTime>09/01/2020 15:13:36</publishTime>
     </File>
     <File Include="wwwroot/image/skills/mongo-db.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/31/2020 11:47:14</publishTime>
     </File>
     <File Include="wwwroot/image/skills/ms-dot-net.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/19/2020 17:11:49</publishTime>
     </File>
     <File Include="wwwroot/image/skills/ms-iis.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/23/2020 13:46:04</publishTime>
     </File>
     <File Include="wwwroot/image/skills/ms-sql-server.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/22/2020 10:49:15</publishTime>
     </File>
     <File Include="wwwroot/image/skills/ms-sql-server.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/01/2020 10:46:05</publishTime>
     </File>
     <File Include="wwwroot/image/skills/photoshop.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/23/2020 13:56:05</publishTime>
     </File>
     <File Include="wwwroot/image/skills/SQL.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/31/2020 11:52:19</publishTime>
     </File>
     <File Include="wwwroot/image/skills/SQL.png">
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
+    <File Include="wwwroot/image/skills/tortoise.png">
+      <publishTime>09/01/2020 15:10:22</publishTime>
+    </File>
+    <File Include="wwwroot/image/skills/trello.png">
+      <publishTime>09/01/2020 14:56:23</publishTime>
+    </File>
     <File Include="wwwroot/image/skills/visual-studio.png">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/23/2020 13:54:42</publishTime>
     </File>
     <File Include="wwwroot/image/testimonials/graham-bond.jfif">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/31/2020 12:02:37</publishTime>
     </File>
     <File Include="wwwroot/image/testimonials/graham-bond.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/31/2020 13:40:55</publishTime>
     </File>
     <File Include="wwwroot/image/testimonials/laura-sharman.jfif">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/31/2020 12:08:48</publishTime>
     </File>
     <File Include="wwwroot/image/testimonials/laura-sharman.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/31/2020 13:41:23</publishTime>
     </File>
     <File Include="wwwroot/image/testimonials/lotte-debell.jfif">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/31/2020 12:10:18</publishTime>
     </File>
     <File Include="wwwroot/image/testimonials/lotte-debell.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/31/2020 13:41:48</publishTime>
     </File>
     <File Include="wwwroot/image/testimonials/nick-tong.jfif">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/31/2020 12:13:36</publishTime>
     </File>
     <File Include="wwwroot/image/testimonials/nick-tong.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/31/2020 13:42:33</publishTime>
     </File>
     <File Include="wwwroot/image/testimonials/simon-whatley.jfif">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/31/2020 12:11:41</publishTime>
     </File>
     <File Include="wwwroot/image/testimonials/simon-whatley.jpg">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/31/2020 13:42:54</publishTime>
     </File>
     <File Include="wwwroot/js/modules/app.js">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -563,31 +617,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/site.webmanifest">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/28/2020 16:29:50</publishTime>
     </File>
     <File Include="zh-Hans/Microsoft.CodeAnalysis.CSharp.resources.dll">
-      <publishTime>12/09/2019 17:09:00</publishTime>
+      <publishTime>09/12/2019 17:09:00</publishTime>
     </File>
     <File Include="zh-Hans/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:09:14</publishTime>
+      <publishTime>09/12/2019 17:09:14</publishTime>
     </File>
     <File Include="zh-Hans/Microsoft.CodeAnalysis.resources.dll">
-      <publishTime>12/09/2019 17:07:48</publishTime>
+      <publishTime>09/12/2019 17:07:48</publishTime>
     </File>
     <File Include="zh-Hans/Microsoft.CodeAnalysis.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:08:36</publishTime>
+      <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="zh-Hant/Microsoft.CodeAnalysis.CSharp.resources.dll">
-      <publishTime>12/09/2019 17:09:00</publishTime>
+      <publishTime>09/12/2019 17:09:00</publishTime>
     </File>
     <File Include="zh-Hant/Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:09:14</publishTime>
+      <publishTime>09/12/2019 17:09:14</publishTime>
     </File>
     <File Include="zh-Hant/Microsoft.CodeAnalysis.resources.dll">
-      <publishTime>12/09/2019 17:07:48</publishTime>
+      <publishTime>09/12/2019 17:07:48</publishTime>
     </File>
     <File Include="zh-Hant/Microsoft.CodeAnalysis.Workspaces.resources.dll">
-      <publishTime>12/09/2019 17:08:36</publishTime>
+      <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
   </ItemGroup>
 </Project>
