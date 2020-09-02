@@ -1,0 +1,82 @@
+﻿@model IEnumerable<Portfolio.Core.Models.ProjectViewModel>
+
+@{
+    ViewBag.Title = "Projects";
+
+}
+
+<div id="project" class="jumbotron">
+
+    <img srcset="/image/background/skills.jpg  1024w,
+            /image/background/skills-medium.jpg 640w,
+             /image/background/skills-small.jpg 320w"
+         sizes="100vw"
+         src="/image/background/skills-small.jpg" alt="skills" class="img-fluid" />
+    <div class="container">
+        <section class="page mb-3">
+
+            <h1>@ViewBag.Title </h1>
+        </section>
+    </div>
+</div>
+
+
+<section>
+    <div class="container  mt-3 " id="project-body">
+
+
+        @foreach (var project in Model)
+        {
+
+            <div class="col-md-12">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <div class="row">
+                            <div class="col-md-10">
+                                @project.Name
+                            </div>
+                            <div class="col-md-2">
+                                <div class="float-right">
+                                    <ul class="list-inline mb-0 pb-0">
+                                        <li>
+                                            <a href="#"><i class="fas fa-external-link-square"></i></a>
+                                        </li>
+                                        @if (!String.IsNullOrEmpty(project.GithubUrl))
+                                        {
+                                            <li><a href="#"><i class="fab fa-github-square"></i></a></li>
+                                        }
+                                        @if (!String.IsNullOrEmpty(project.Video))
+                                        {
+                                            <li>  <a href="#" class="video" data-url="/video/@project.Video"><i class="fas fa-play-circle"></i></a></li>
+                                        }
+
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="panel-body">
+
+                        <div class="row">
+                            <div class="col-md-6">
+
+                                <img src="~/image/projects/@project.Image" alt="@project.Name" class="img-fluid" />
+                            </div>
+
+                            <div class="col-md-6">
+                                @project.Content
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        }
+
+    </div>
+
+
+</section>
+
+@section Scripts{
+    <partial name="_Modal" />
+}

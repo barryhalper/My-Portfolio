@@ -30,6 +30,12 @@ namespace Portfolio.Business.DataAccess
             return mongoDb.Read<Skill>(table);
         }
 
+
+        public IEnumerable<string> GetId(string [] Ids)
+        {
+            return mongoDb.Read<Skill>(table).Where(x=> Ids.Contains(x.Id)).Select(x=>x.Id).AsEnumerable();
+        }
+
         //public void Insert()
         //{
         //    List<Skill> skills = new List<Skill>();

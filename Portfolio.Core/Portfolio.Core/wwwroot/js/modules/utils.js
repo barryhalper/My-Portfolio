@@ -28,6 +28,8 @@ export class Utils {
         }
     }
 
+
+
     static fadeOut(elem, ms) {
         if (!elem)
             return;
@@ -63,4 +65,28 @@ export class Utils {
         const host = Utils.getHost();
         return window.location.href.replace(host, "").replace("#", "");
     }
+
+    static showModal(args) {
+        $("#Modal").on('shown.bs.modal', function () {
+        })
+        $(function () {
+            $("#Modal").modal("show");
+        });
+        if ('title' in args) {
+            $(".modal-header h5").html(args.title);
+        }
+        if ('html' in args) {
+            $(".modal-body").html(args.html);
+        }
+        if ('wide' in args) {
+            $(".modal-content").addClass("modal-wide")
+        }
+
+        if ('showFooter' in args) {
+            $(".modal-footer").style.display = "block";
+        }
+
+
+    }
+
 }

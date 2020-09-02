@@ -6,7 +6,7 @@ using System.Text;
 
 namespace Portfolio.Business.Models
 {
-    public class Project
+    public class Project : IProject
     {
         [BsonId]
         [BsonRepresentation(BsonType.ObjectId)]
@@ -20,6 +20,16 @@ namespace Portfolio.Business.Models
 
         public string Description { get; set; }
 
-        public int PubSeq { get; set; }
+        public string Content { get; set; }
+
+        public int Order { get; set; }
+
+        public string Video { get; set; }
+
+        public IEnumerable<string> Skills { get; set; }
+
+
+        public string GithubUrl { get; set; }
+
     }
 }

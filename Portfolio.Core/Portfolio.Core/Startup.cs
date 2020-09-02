@@ -49,11 +49,13 @@ namespace Portfolio.Core
             services.AddScoped<ISkillService, SkillService>();
 
             services.AddScoped<ITestimonialService, TestimonialService>();
+            services.AddScoped<IProjectService, ProjectService>();
 
 
             var mapperConfig = new MapperConfiguration(mc =>
             {
                 mc.AddProfile(new SkillMapping());
+                mc.AddProfile(new ProjectMapping());
                 mc.AddProfile(new TestimonialMapping());
             });
 

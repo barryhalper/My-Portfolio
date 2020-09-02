@@ -1,5 +1,6 @@
 ﻿import { Utils } from "./utils.js"
 import { Testimonial } from "./testimonial.js"
+import { Project } from "./project.js"
 
 class App {
     constructor() {
@@ -9,6 +10,10 @@ class App {
 
         if (document.getElementById("testimonial")) {
             const testimonial = new Testimonial(); 
+        }
+
+        if (document.getElementById("project")) {
+            const project = new Project();
         }
 
     }

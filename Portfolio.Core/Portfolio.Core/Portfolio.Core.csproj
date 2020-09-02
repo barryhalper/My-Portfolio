@@ -46,10 +46,12 @@
   <ItemGroup>
     <Folder Include="ViewComponents\ComponetNewFolder\" />
     <Folder Include="wwwroot\image\education\" />
+    <Folder Include="wwwroot\video\" />
   </ItemGroup>
 
   <ItemGroup>
     <None Include="wwwroot\js\modules\app.js" />
+    <None Include="wwwroot\js\modules\project.js" />
     <None Include="wwwroot\js\modules\testimonial.js" />
     <None Include="wwwroot\js\modules\utils.js" />
   </ItemGroup>
