@@ -66,9 +66,12 @@ export class Utils {
         return window.location.href.replace(host, "").replace("#", "");
     }
 
+    //as modal-pop up uses JQuery, use notation
     static showModal(args) {
         $("#Modal").on('shown.bs.modal', function () {
         })
+
+
         $(function () {
             $("#Modal").modal("show");
         });
@@ -85,6 +88,12 @@ export class Utils {
         if ('showFooter' in args) {
             $(".modal-footer").style.display = "block";
         }
+
+        //add listener to empty close modal when
+        $("#Modal").on('hiden.bs.modal', function () {
+            $(".modal-header h5").html("");
+            $(".modal-body").html("");
+        })
 
 
     }

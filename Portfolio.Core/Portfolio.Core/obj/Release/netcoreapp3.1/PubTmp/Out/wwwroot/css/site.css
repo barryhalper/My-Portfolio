@@ -19,7 +19,6 @@ h1 {
 }
 
 
-
 a, a:visited {
     color: var(--dark-grey);
 }
@@ -167,15 +166,73 @@ footer a.more:hover {
 }
 
 
+
+
+
+
 /********PAGES ******************************************************************************************************************/
+
+
+/**MISC******************************/
+.panel {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-color: #ddd;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border: 1px solid transparent;
+    border-radius: 6px;
+    
+}
+
+.panel-heading {
+    border: none;
+    padding: 10px 15px;
+    font-size: 24px;
+    border-bottom: 2px solid var(--light-grey);
+   
+}
+
+.panel-body {
+    padding: 1rem;
+   
+}
+
+/***FORM CONTROLS **************/
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: var(--second-brand-color);
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+
+
+form .btn-primary {
+    background-color:var(--second-brand-color);
+    border-color:var(--second-brand-color);
+}
+
+form .btn-primary::before {
+    font-family: "Font Awesome 5 Pro";
+    content: "\f064";
+}
+
+.list-inline {
+    list-style: none;
+}
+
+.list-inline li {
+    display: inline-block;
+ }
 
 /**HOME PAGE ********************************************************************************************************************/
 #skills-dock {
     width: 100%;
     height: 50px;
-    display:flex;
-    justify-content:center;
-
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -200,7 +257,6 @@ footer a.more:hover {
     z-index: 2;
     position: absolute;
     bottom: 25px;
- 
     right: 5%;
     left: 5%;
 }
@@ -214,59 +270,16 @@ footer a.more:hover {
     padding: 0;
 }
 
- 
-.social-media li {
+
+    .social-media li {
         margin: 10px 0 25px 0;
     }
 
 
-.social-media li i {
-        margin-right:10px
-}
+        .social-media li i {
+            margin-right: 10px
+        }
 
-/***FORM CONTROLS **************/
-.form-control:focus {
-    color: #495057;
-    background-color: #fff;
-    border-color: var(--second-brand-color);
-    outline: 0;
-    box-shadow: 0 0 0 0;
-}
-
-/**MISC******************************/
-.panel {
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    border-color: #ddd;
-    margin-bottom: 20px;
-    background-color: #fff;
-    border: 1px solid transparent;
-    border-radius: 4px;
-}
-
-.panel-heading {
-    background: var(--second-brand-color) !important;
-    color: var(--navigation-background-color);
-    border: none;
-    border-top-left-radius: 2px;
-    border-top-right-radius: 2px;
-    padding: 10px 15px;
-    font-size: 18px;
-}
-
-.panel-body {
-    padding: 1rem;
-}
-
-form .btn-primary {
-    background-color:var(--second-brand-color);
-    border-color:var(--second-brand-color);
-}
-
-form .btn-primary::before {
-    font-family: "Font Awesome 5 Pro";
-    content: "\f064";
-}
 
 
 /**TESTIMOMONIALS ******************************************************/
@@ -385,4 +398,50 @@ pullquote div {
 
 #education-body .image-container {
     border-bottom:2px solid var(--light-grey);
+}
+
+
+/**PROJECTS*********************************************************************************************/
+#project-body ul li{
+    margin-left:10px;
+}
+
+#project-body a, #project-body a:visited {
+    color: var(--second-brand-color);
+}
+
+#project-body a:hover {
+    color: var(--dark-grey);
+}
+
+#project-body .btn-primary, #project-body.btn-primary:visited {
+    background-color: var(--white);
+    border-color: var(--white);
+    color: var(--very-dark-grey);
+}
+
+
+ #project-body .btn-primary:hover {
+        border-color: var(--light-grey);
+        color: var(--second-brand-color);
+  }
+#project-body .dropdown-menu {
+    transform: translate3d(-86px, 35px, 0px) !important;
+    background-color:var(--off-white);
+}
+
+#project-body a.dropdown-item {
+    color: var(--dark-grey);
+}
+
+ #project-body a.dropdown-item:hover {
+        color: var(--second-brand-color);
+ }
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.02rem var(--second-brand-color);
+}
+
+video {
+    width:100%;
 }

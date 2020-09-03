@@ -14,22 +14,16 @@ namespace Portfolio.Business.Models
 
         public string Name { get; set; }
 
-        public string Url { get; set; }
-
-        public string Image { get; set; }
-
         public string Description { get; set; }
 
         public string Content { get; set; }
 
         public int Order { get; set; }
 
-        public string Video { get; set; }
+     
+        //public IEnumerable<string> Skills { get; set; }
 
-        public IEnumerable<string> Skills { get; set; }
-
-
-        public string GithubUrl { get; set; }
+        public IList<Media> Media { get; set; } 
 
     }
 }

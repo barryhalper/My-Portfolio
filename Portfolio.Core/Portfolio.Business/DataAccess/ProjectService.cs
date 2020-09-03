@@ -2,6 +2,7 @@
 using Portfolio.Business.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Portfolio.Business.DataAccess
@@ -19,7 +20,7 @@ namespace Portfolio.Business.DataAccess
 
         public List<Project> Read()
         {
-            return mongoDb.Read<Project>("Projects");
+            return mongoDb.Read<Project>("Projects").OrderBy(x=>x.Order).ToList();
         }
 
         public Project Read(string id)

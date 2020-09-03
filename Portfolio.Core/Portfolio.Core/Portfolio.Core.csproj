@@ -46,6 +46,7 @@
   <ItemGroup>
     <Folder Include="ViewComponents\ComponetNewFolder\" />
     <Folder Include="wwwroot\image\education\" />
+    <Folder Include="wwwroot\image\projects\localgov\" />
     <Folder Include="wwwroot\video\" />
   </ItemGroup>
 

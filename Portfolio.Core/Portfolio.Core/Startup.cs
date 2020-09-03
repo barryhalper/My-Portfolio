@@ -18,11 +18,15 @@ using Portfolio.Business.Models;
 using Microsoft.CodeAnalysis.Options;
 using Microsoft.Extensions.Options;
 using MongoCrud;
+using Microsoft.Extensions.FileProviders;
+using System.IO;
 
 namespace Portfolio.Core
 {
     public class Startup
     {
+        private string applicationRoot;
+
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -50,6 +54,9 @@ namespace Portfolio.Core
 
             services.AddScoped<ITestimonialService, TestimonialService>();
             services.AddScoped<IProjectService, ProjectService>();
+
+            //services.AddSingleton<IFileProvider>(new PhysicalFileProvider( Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")));
+           
 
 
             var mapperConfig = new MapperConfiguration(mc =>

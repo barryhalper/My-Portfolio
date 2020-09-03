@@ -19,7 +19,6 @@ h1 {
 }
 
 
-
 a, a:visited {
     color: var(--dark-grey);
 }
@@ -408,9 +407,41 @@ pullquote div {
 }
 
 #project-body a, #project-body a:visited {
-    color: var(--second-brand-color)
+    color: var(--second-brand-color);
 }
 
 #project-body a:hover {
     color: var(--dark-grey);
+}
+
+#project-body .btn-primary, #project-body.btn-primary:visited {
+    background-color: var(--white);
+    border-color: var(--white);
+    color: var(--very-dark-grey);
+}
+
+
+ #project-body .btn-primary:hover {
+        border-color: var(--light-grey);
+        color: var(--second-brand-color);
+  }
+#project-body .dropdown-menu {
+    transform: translate3d(-86px, 35px, 0px) !important;
+    background-color:var(--off-white);
+}
+
+#project-body a.dropdown-item {
+    color: var(--dark-grey);
+}
+
+ #project-body a.dropdown-item:hover {
+        color: var(--second-brand-color);
+ }
+
+.btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show > .btn-primary.dropdown-toggle:focus {
+    box-shadow: 0 0 0 0.02rem var(--second-brand-color);
+}
+
+video {
+    width:100%;
 }
