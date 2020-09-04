@@ -227,6 +227,47 @@ form .btn-primary::before {
     display: inline-block;
  }
 
+
+.mytooltip:hover:after {
+    background: #333;
+    background: rgba(0,0,0,.9);
+    border-radius: 5px;
+    bottom: 26px;
+    color: rgb(255, 77, 85);
+    content: attr(title);
+    right: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+}
+
+.mytooltip:hover:before {
+    border: solid;
+    border-color: #333 transparent;
+    border-width: 6px 6px 0 6px;
+    bottom: 20px;
+    content: "";
+    right: 50%;
+    position: absolute;
+    z-index: 99;
+}
+
+.mytooltip {
+    radius: 4px !important;
+    background-color: black;
+    color: rgb(255, 77, 85) !important;
+    padding: 5px 20px;
+    border-radius: 20px;
+    margin: 50px;
+    text-align: center;
+    font: bold 14px;
+    font-stretch: condensed;
+    text-decoration: none;
+    box-shadow: 0 0 10px black;
+}
+
+
 /**HOME PAGE ********************************************************************************************************************/
 #skills-dock {
     width: 100%;
@@ -380,8 +421,10 @@ pullquote div {
 
 #skills ul li {
     list-style:none;
-    margin-bottom:20px;
+    margin:0 10px 20px 10px;
     font-size:1rem;
+    display:inline-block;
+
 }
 
 #skills li img {
@@ -444,4 +487,33 @@ pullquote div {
 
 video {
     width:100%;
+}
+
+
+
+.carousel a, .carousel a:visited, .carousel a:focus, .carousel-control-next:focus, .carousel-control-next:hover {
+    color: var(--second-brand-color);
+}
+
+    .carousel a:hover {
+        color: var(--second-brand-color);
+    }
+
+
+.transparent-modal .modal-content {
+    background-color: transparent !important;
+}
+
+.transparent-modal .modal-header {
+    border: 0px solid transparent;
+    width: 88%;
+}
+
+.transparent-modal .modal-header .close {
+        color: var(--second-brand-color);
+        font-size:2rem;
+ }
+
+.transparent-modal .carousel-item >  img {
+    margin: auto;
 }

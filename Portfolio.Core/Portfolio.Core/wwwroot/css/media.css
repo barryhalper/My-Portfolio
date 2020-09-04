@@ -28,10 +28,13 @@
 
 @media (min-width: 1200px) {
     .modal-dialog {
-        max-width: 768px;
+        max-width:90Vw;
        
     }
 
+    #Modal {
+        background-color: transparent !important;
+    }
     
 }
 

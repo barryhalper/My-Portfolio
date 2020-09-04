@@ -1,16 +1,18 @@
 ﻿@model SkillsViewModel
 
+@{
+    ViewBag.Title = "Skills";
+
+
+}
 
 
 <div id="skills">
 
-    <div  class="jumbotron">
+    <div class="jumbotron">
 
-        <img srcset="/image/background/skills.jpg  1024w,
-            /image/background/skills-medium.jpg 640w,
-             /image/background/skills-small.jpg 320w"
-             sizes="100vw"
-             src="/image/background/skills-small.jpg" alt="skills" class="img-fluid" />
+        <partial name="_backgroundImage" model="(string)ViewBag.Title.ToLower()" />
+
         <div class="container">
             <section class="page mb-3">
 
@@ -38,7 +40,11 @@
 
                                 @foreach (var skill in Model.Filter(type))
                                 {
-                                    <li><img src="~/image/skills/@skill.Image" alt="@skill.Name" title="" /> @skill.Name</li>
+                                <li>
+
+
+                                    <a  class="show-tool-tip" href="#" title="@skill.Name"><img src="~/image/skills/@skill.Image" class="mr-auto ml-auto" style="" alt="@skill.Name" title="@skill.Name" /></a>
+                                </li>
                                 }
 
                             </ul>
@@ -54,3 +60,8 @@
     </section>
 
 </div>
+
+
+<script>
+  
+</script>

@@ -16,8 +16,9 @@ export class Project {
                 const title = event.target.getAttribute("data-title");
                 //as modal-pop up uses JQuery, use notation
                 const html = `<video controls autoplay><source src="/video/${src}" type="video/mp4"/></video>`;
-                Utils.showModal({ title: title, html:html });
+                Utils.showModal({ html:html });
                 this.bindStopVideoOnModalClose(); 
+
 
             });
 
@@ -31,7 +32,7 @@ export class Project {
                 event.preventDefault();
                 const id = event.target.getAttribute("data-id");
              
-              
+                
                 const title = event.target.getAttribute("data-title");
                // console.log(document.getElementById(`carousel-${id}`).parentNode[0]);
                 //select all images in div
@@ -40,13 +41,25 @@ export class Project {
                     img.setAttribute("src", `/image/projects${img.getAttribute("data-src")}`)
                 });
 
-                Utils.showModal({ title: title, html:"" });
+                Utils.showModal({ title: "", html:"" });
                 //bind parent node DOM Object to model body
                 //clone node
                 let node = document.getElementById(`carousel-${id}`).parentNode.cloneNode(true);
                 //update id to be unqiue
-                node.setAttribute("id", `carousel-${id}-modal`);
+                //set new node id to be diffent from the one cloned
+                const newId = `carousel-${id}-modal`;
+                node.setAttribute("id", newId);
                 document.querySelector("#Modal .modal-body").appendChild(node);
+                $(newId).carousel();
+                //rebind buttons
+                $(newId).bind('slid', function (e) {
+                   
+                });
+                //get DOM object
+                //document.getElementById(newId).closest(".modal").classList.add("transparent-modal")
+           
+                //make Modal transparent
+
             });
 
         });

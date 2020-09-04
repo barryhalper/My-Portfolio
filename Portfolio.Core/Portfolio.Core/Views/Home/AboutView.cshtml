@@ -5,13 +5,7 @@
 
 <div id="skills" class="jumbotron">
 
-    <img srcset="
-            /image/background/barry-halper-northern-lights.jpg  1024w,
-            /image/background/barry-halper-northern-lights-medium.jpg 640w,
-             /image/background/barry-halper-northern-lights-small.jpg 320w
-            /image/background/barry-halper-northern-lights-wide.jpg  1980w" ,
-         sizes="100vw"
-         src="/image/background/barry-halper-northern-lights-small.jpg" alt="skills" class="img-fluid" />
+    <partial name="_backgroundImage" model="(string)ViewBag.Title.ToLower()" />
     <div class="container">
         <section class="page mb-3">
 

@@ -9,6 +9,8 @@ namespace Portfolio.Core.Models
 {
     public class ProjectViewModel : IProject
     {
+
+       
         public string Content { get; set; }
         public string Description { get; set; }
         public string Id { get; set; }
@@ -18,6 +20,7 @@ namespace Portfolio.Core.Models
         public int Order { get; set; }
 
         public IList<Media> Media { get ; set; }
+        private IEnumerable<String> images;
 
 
         public IEnumerable<Media> GetMediaByType(string category) {
@@ -26,32 +29,44 @@ namespace Portfolio.Core.Models
         }
 
        public string ImageFolderName {
-            get {
-                return $"{Name.Replace(" ", "-")}".ToLower();
-            }
+           
+                get=> $"{Name.Replace(" ", "-")}".ToLower();
+            
         }
 
          public string FirstImage
         {
-            get
-            {
-                return ($"{ImageFolderName}/{GetMediaByType("Image").FirstOrDefault().File}");
-            }
+              
+              get=> ($"{GetMediaByType("Image").FirstOrDefault().File}");
+            
 
         }
 
         public IEnumerable<string> GetImages(IEnumerable<string> images)
         {
             string path = ($"/{Name.Replace(" ", "-").ToLower()}");
-            return images.Where(x => x.StartsWith(path)).AsEnumerable();
+            //filter list of images to NOT inlcude 1st one
+            return images.Where(x => x.StartsWith(path)).Where(x=>x!= FirstImage).AsEnumerable();
 
 
         }
 
         public string Video {
-            get {
-                return GetMediaByType("Video").Where(x => !String.IsNullOrEmpty(x.File)).FirstOrDefault().File;
-            }
+            get => GetMediaByType("Video").Where(x => !String.IsNullOrEmpty(x.File)).FirstOrDefault().File;
+                   
+        }
+
+        public IEnumerable<string> Images {
+           
+               get=> images;
+           
+
+               set => images = GetImages(value);
+            
+        }
+
+        public string IsActive(int currentPosition) {
+            return (currentPosition == 0) ? "active" : String.Empty;
         }
     }
 }

@@ -3,17 +3,17 @@
 
 
 @{
-    ViewBag.Title = "Contact Me";
+    ViewBag.Title = "Contact";
 }
 
 
 <div id="contact-me" class="jumbotron">
 
-    <img src="~/image/background/keyboard-contact.jpg" />
+    <partial name="_backgroundImage" model="(string)ViewBag.Title.ToLower()" />
     <div class="container">
         <section class="page mb-3">
 
-            <h1>@ViewBag.Title</h1>
+            <h1>Contact Me..</h1>
         </section>
     </div>
 </div>

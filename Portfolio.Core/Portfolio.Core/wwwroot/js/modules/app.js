@@ -16,8 +16,15 @@ class App {
             const project = new Project();
         }
 
+        this.binToolTip();
+
     }
 
+    binToolTip() {
+        $(function () {
+            $("a.show-tool-tip").tooltip({ tooltipClass: "mytooltip", });
+        });
+    }
 
     setActiveMenuItem() {
         //get path minus host
