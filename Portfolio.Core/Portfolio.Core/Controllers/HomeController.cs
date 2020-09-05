@@ -5,6 +5,7 @@ using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
 using Microsoft.Extensions.Logging;
@@ -25,11 +26,13 @@ namespace Portfolio.Core.Controllers
         private ISkillService service;
         private IMapper mapper;
         private IMemoryCache cache;
+        private IWebHostEnvironment env;
 
-        public HomeController(ISkillService service, IMapper mapper, IMemoryCache memoryCache ) {
+        public HomeController(ISkillService service, IMapper mapper, IMemoryCache memoryCache, IWebHostEnvironment env ) {
             this.service = service;
             this.mapper = mapper;
             this.cache = memoryCache;
+            this.env = env;
         }
 
 
@@ -56,6 +59,7 @@ namespace Portfolio.Core.Controllers
         }
 
         public IActionResult Test() {
+            ViewBag.webRoot =env.WebRootPath;
             return View();
         }
 
@@ -98,8 +102,15 @@ namespace Portfolio.Core.Controllers
         [Route("CV")]
         public IActionResult CV()
         {
-            var stream = new FileStream(@"App_Data\Barry-Halper-CV.pdf", FileMode.Open);
-            return new FileStreamResult(stream, "application/pdf");
+            try
+            {
+                string path = System.IO.Path.Combine(env.WebRootPath, "doc/Barry-Halper-CV.pdf");
+                var stream = new FileStream(path, FileMode.Open);
+                return new FileStreamResult(stream, "application/pdf");
+            }
+            catch { 
+                
+            }
         }
 
         public IActionResult Unsupported()

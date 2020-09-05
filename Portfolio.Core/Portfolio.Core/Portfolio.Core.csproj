@@ -8,20 +8,32 @@
   <ItemGroup>
     <Compile Remove="Views\Skills\**" />
     <Compile Remove="wwwroot\css\flex\**" />
+    <Compile Remove="wwwroot\doc\**" />
+    <Compile Remove="wwwroot\image\**" />
     <Compile Remove="wwwroot\js\**" />
     <Compile Remove="wwwroot\lib\**" />
+    <Compile Remove="wwwroot\video\**" />
     <Content Remove="Views\Skills\**" />
     <Content Remove="wwwroot\css\flex\**" />
+    <Content Remove="wwwroot\doc\**" />
+    <Content Remove="wwwroot\image\**" />
     <Content Remove="wwwroot\js\**" />
     <Content Remove="wwwroot\lib\**" />
+    <Content Remove="wwwroot\video\**" />
     <EmbeddedResource Remove="Views\Skills\**" />
     <EmbeddedResource Remove="wwwroot\css\flex\**" />
+    <EmbeddedResource Remove="wwwroot\doc\**" />
+    <EmbeddedResource Remove="wwwroot\image\**" />
     <EmbeddedResource Remove="wwwroot\js\**" />
     <EmbeddedResource Remove="wwwroot\lib\**" />
+    <EmbeddedResource Remove="wwwroot\video\**" />
     <None Remove="Views\Skills\**" />
     <None Remove="wwwroot\css\flex\**" />
+    <None Remove="wwwroot\doc\**" />
+    <None Remove="wwwroot\image\**" />
     <None Remove="wwwroot\js\**" />
     <None Remove="wwwroot\lib\**" />
+    <None Remove="wwwroot\video\**" />
   </ItemGroup>
 
   <ItemGroup>
@@ -45,8 +57,6 @@
 
   <ItemGroup>
     <Folder Include="ViewComponents\ComponetNewFolder\" />
-    <Folder Include="wwwroot\image\education\" />
-    <Folder Include="wwwroot\image\projects\localgov\" />
   </ItemGroup>
 
   <ItemGroup>
