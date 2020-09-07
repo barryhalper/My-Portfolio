@@ -25,7 +25,6 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
 
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
    
     <!--TODO: Add all css and js to bundle for depployment-->
     <!-- Bootstrap compiled and minified CSS -->
@@ -42,7 +41,7 @@
     <!--JS FILES-->
 
 
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  
     @RenderSection("Head", required: false)
 
 </head>
@@ -63,7 +62,8 @@
     <partial name="_Footer" />
 
 
- 
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <script src="~/js//modules/app.js" asp-append-version="true" type="module"></script>
     @RenderSection("Scripts", required: false)
 </body>

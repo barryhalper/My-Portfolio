@@ -54,40 +54,40 @@
         <div class="col-md-5">
             <div class="panel">
                 <div class="panel-heading">
-                    ..Or complete this and I'll get back to you asap
+                    ..or complete this and I'll get back to you
                 </div>
                 <div class="panel-body">
-                    <form asp-action="Index" asp-antiforgery="true">
-                        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+                    <form asp-action="Index" asp-antiforgery="true" data-ajax="true" data-ajax-method="post"  >
+                        <div asp-validation-summary="ModelOnly" class="text-danger" ></div>
 
                         <div class="form-group">
-
-                            <input asp-for="Name" class="form-control" placeholder="Your name" />
                             <span asp-validation-for="Name" class="text-danger"></span>
+                            <input asp-for="Name" class="form-control" placeholder="Your name" />
+
                         </div>
 
                         <div class="form-group">
-
-                            <input asp-for="Email" class="form-control" placeholder="Your email address" />
                             <span asp-validation-for="Email" class="text-danger"></span>
+                            <input asp-for="Email" class="form-control" placeholder="Your email address" />
+
                         </div>
                         <div class="form-group">
-
-                            <input asp-for="ConfirmEmail" class="form-control" placeholder="Your email address again to confirm" />
                             <span asp-validation-for="ConfirmEmail" class="text-danger"></span>
+                            <input asp-for="ConfirmEmail" class="form-control" placeholder="Your email address again to confirm" />
+
                         </div>
 
                         <div class="form-group">
-
-
-                            <textarea asp-for="Message" class="form-control" placeholder="What would you like to ask?">
-
-                    </textarea>
 
                             <span asp-validation-for="Message" class="text-danger"></span>
+                            <textarea asp-for="Message" class="form-control" placeholder="What would you like to ask?">
+
+                            </textarea>
+
+
                         </div>
                         <div class="form-group">
-                            <button type="button" class="btn btn-primary">Complete </button>
+                            <button type="submit" class="btn btn-primary">Complete </button>
                         </div>
                     </form>
 
@@ -98,3 +98,9 @@
     </div>
 
 </section>
+
+
+@section Scripts{
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.unobtrusive-ajax.js"></script>
+}

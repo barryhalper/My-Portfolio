@@ -102,20 +102,16 @@ namespace Portfolio.Core.Controllers
         [Route("CV")]
         public IActionResult CV()
         {
-            try
-            {
+           
                 string path = System.IO.Path.Combine(env.WebRootPath, "doc/Barry-Halper-CV.pdf");
                 var stream = new FileStream(path, FileMode.Open);
                 return new FileStreamResult(stream, "application/pdf");
-            }
-            catch { 
-                
-            }
+           
         }
 
         public IActionResult Unsupported()
         {
-            return View("UnsupportedBrowse");
+            return View("UnsupportedBrowser");
         }
 
         //[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

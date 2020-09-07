@@ -1,8 +1,10 @@
 ﻿@model String
 
 
+
+
     <img srcset="/image/background/@Model-wide.jpg  1980w,
-                 /image/background/(@Model).jpg  1024w,
+                 /image/background/@($"{Model}.jpg")  1024w,
                  /image/background/@Model-medium.jpg 640w,
                  /image/background/@Model-small.jpg 320w"
          sizes="100vw"

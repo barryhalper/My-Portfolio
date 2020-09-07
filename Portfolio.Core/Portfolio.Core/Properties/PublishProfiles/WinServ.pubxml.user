@@ -161,10 +161,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/03/2020 18:30:06</publishTime>
     </File>
     <File Include="MongoCrud.dll">
-      <publishTime>09/03/2020 18:22:51</publishTime>
+      <publishTime>07/09/2020 12:52:56</publishTime>
     </File>
     <File Include="MongoCrud.pdb">
-      <publishTime>09/03/2020 18:22:51</publishTime>
+      <publishTime>07/09/2020 12:52:56</publishTime>
     </File>
     <File Include="MongoDB.Bson.dll">
       <publishTime>08/25/2020 17:55:44</publishTime>
@@ -200,31 +200,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="Portfolio.Business.dll">
-      <publishTime>09/03/2020 18:22:51</publishTime>
+      <publishTime>07/09/2020 12:52:57</publishTime>
     </File>
     <File Include="Portfolio.Business.pdb">
-      <publishTime>09/03/2020 18:22:51</publishTime>
+      <publishTime>07/09/2020 12:52:57</publishTime>
     </File>
     <File Include="Portfolio.Core.deps.json">
-      <publishTime>09/05/2020 14:05:56</publishTime>
+      <publishTime>09/07/2020 17:54:09</publishTime>
     </File>
     <File Include="Portfolio.Core.dll">
-      <publishTime>09/05/2020 14:05:54</publishTime>
+      <publishTime>09/07/2020 17:54:06</publishTime>
     </File>
     <File Include="Portfolio.Core.exe">
-      <publishTime>09/05/2020 14:05:55</publishTime>
+      <publishTime>09/07/2020 17:54:06</publishTime>
     </File>
     <File Include="Portfolio.Core.pdb">
-      <publishTime>09/05/2020 14:05:54</publishTime>
+      <publishTime>09/07/2020 17:54:06</publishTime>
     </File>
     <File Include="Portfolio.Core.runtimeconfig.json">
-      <publishTime>08/28/2020 15:34:07</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Portfolio.Core.Views.dll">
-      <publishTime>09/05/2020 14:05:55</publishTime>
+      <publishTime>09/07/2020 17:54:07</publishTime>
     </File>
     <File Include="Portfolio.Core.Views.pdb">
-      <publishTime>09/05/2020 14:05:55</publishTime>
+      <publishTime>09/07/2020 17:54:07</publishTime>
     </File>
     <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>09/12/2019 17:09:00</publishTime>
@@ -344,7 +344,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/17/2020 12:01:48</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>09/05/2020 14:05:59</publishTime>
+      <publishTime>09/07/2020 17:54:13</publishTime>
     </File>
     <File Include="wwwroot/android-chrome-192x192.png">
       <publishTime>08/28/2020 16:29:50</publishTime>
@@ -365,10 +365,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/27/2020 10:13:11</publishTime>
     </File>
     <File Include="wwwroot/css/media.css">
-      <publishTime>04/09/2020 12:59:11</publishTime>
+      <publishTime>09/07/2020 16:10:50</publishTime>
     </File>
     <File Include="wwwroot/css/site.css">
-      <publishTime>04/09/2020 18:18:05</publishTime>
+      <publishTime>09/07/2020 17:23:34</publishTime>
     </File>
     <File Include="wwwroot/css/_vars.css">
       <publishTime>09/03/2020 15:35:47</publishTime>

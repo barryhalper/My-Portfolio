@@ -8,3 +8,5 @@ web-developer-essentials-small.jpg
 *.pdb
 *.pdb
 *.mp4
+*.exe
+*.log

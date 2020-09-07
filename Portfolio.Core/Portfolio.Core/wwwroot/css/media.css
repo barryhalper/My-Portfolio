@@ -15,26 +15,70 @@
         display: none;
     }
 
-    #skills-dock li {
-        height: 25px;
-    }
-
-    .jumbotron .container {
-        margin-top: 3em;
-    }
+ 
+   
 }
 
 
 
-@media (min-width: 1200px) {
-    .modal-dialog {
-        max-width:90Vw;
-       
+
+
+@media (min-width: 768px) {
+    h1 {
+        font-size: 3.5rem;
+        color: var(--white);
+        margin-top: 0;
     }
 
-    #Modal {
-        background-color: transparent !important;
+    .jumbotron section {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 7%;
+        max-height: 65vh;
     }
+    /*
+    .jumbotron .btn-primary {
+        background-color: var(--white);
+        border-color: var(--white);
+        color: var(--dark-grey);
+    }
+
+
+        .jumbotron .btn-primary:hover {
+            background-color: var(--second-brand-color);
+            border-color: var(--second-brand-color);
+        }*/
+
+
+    #home .skills {
+        bottom: 20px;
+        position: absolute;
+        padding: 20px;
+    }
+
+    #skills-dock div {
+        padding: 0 10px 0 10px;
+        margin: auto;
+    }
+
+    #skills .skills-container {
+        display: flex;
+        justify-content: center 
+    
+    }
+
     
 }
+
+
+    @media (min-width: 1200px) {
+        .modal-dialog {
+            max-width: 90Vw;
+        }
+
+        #Modal {
+            background-color: transparent !important;
+        }
+    }
 

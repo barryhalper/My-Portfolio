@@ -18,7 +18,14 @@ namespace Portfolio.Core.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Index(ContactViewModel model)
         {
-            return View("ContactFormView");
+            if (ModelState.IsValid)
+            {
+                return Ok();
+            }
+            else {
+                return BadRequest();
+            }
+
         }
     }
 }

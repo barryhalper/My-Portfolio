@@ -1,41 +1,39 @@
 ﻿@inject Microsoft.Extensions.Options.IOptions<AppSettings> appSettings
 @model IEnumerable<Portfolio.Core.Models.SkillViewModel>
-
+@{
+    string backgroundImage = "abstract-landscape";
+}
 
 <div id="home" class="jumbotron ">
-    <img  srcset="
-             /image/background/abstract-landscape.jpg  1024w,
-            /image/background/abstract-landscape-medium.jpg 640w,
-             /image/background/abstract-landscape-small.jpg 320w,"
-            sizes="100vw"
-         src="~/image/background/abstract-landscape-small.jpg"
-         class="img-fluid"  />
+    <partial name="_backgroundImage" model="backgroundImage" />
 
     <div class="container">
-        <section class="page d-none d-sm-block" >
+        <section class="page">
 
             <h1> @appSettings.Value.Title</h1>
-            <p class="mt-5">
+            <p class="">
                 <a class="btn btn-primary btn-lg" asp-controller="Contact" asp-action="" asp-area=""><i class="fad fa-envelope-open"></i> Contact Me</a>
 
             </p>
         </section>
 
-       
-            <div class="skills d-flex justify-content-center d-none d-mb-block">
-                <div id="skills-dock">
-                    <ul>
 
-                        @foreach (var skill in Model)
-                        {
-                        <a href="#" class="show-tool-tip"><li><img class="img-fluid" src="/image/skills/@skill.Image" alt="@skill.Name" title="@skill.Name"></li></a>
-                        }
-                    </ul>
+        <div class="skills d-flex justify-content-center ">
+            <div id="skills-dock">
+              
 
-                </div>
+                    @foreach (var skill in Model)
+                    {
+                        <div>
+                            <a href="/skils/"  title="@skill.Name"> <img class="img-fluid" src="/image/skills/@skill.Image" alt="@skill.Name" title="@skill.Name"></a>
+                        </div>
+                    }
+              
+
             </div>
+        </div>
 
-       
+
 
     </div>
 </div>
