@@ -13,4 +13,6 @@ web-developer-essentials-small.jpg
 *.cache
 Portfolio.Core/Portfolio.Core/bin/
 Portfolio.Core/Portfolio.Business/bin/
+Portfolio.Core/Portfolio.Core/logs/
 
+*.log
