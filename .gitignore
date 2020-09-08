@@ -10,3 +10,7 @@ web-developer-essentials-small.jpg
 *.mp4
 *.exe
 *.log
+*.cache
+Portfolio.Core/Portfolio.Core/bin/
+Portfolio.Core/Portfolio.Business/bin/
+
