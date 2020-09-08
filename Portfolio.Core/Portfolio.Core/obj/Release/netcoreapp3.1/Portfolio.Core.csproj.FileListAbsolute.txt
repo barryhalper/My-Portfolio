@@ -110,7 +110,6 @@ C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Home\UnsupportedBrowser.cshtml.g.cs
-C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Contact\ContactFormView.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\AutoMapper.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\DnsClient.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
@@ -140,3 +139,12 @@ C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Projects\ProjectListView.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Shared\_backgroundImage.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\web.config
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\MailKit.dll
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\MimeKit.dll
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\NETCore.MailKit.dll
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\BouncyCastle.Crypto.dll
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Contact\ContactView.cshtml.g.cs
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Contact\_contactFormView.cshtml.g.cs
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Contact\_success.cshtml.g.cs

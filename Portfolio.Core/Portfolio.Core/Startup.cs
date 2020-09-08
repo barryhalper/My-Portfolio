@@ -54,9 +54,9 @@ namespace Portfolio.Core
 
             services.AddScoped<ITestimonialService, TestimonialService>();
             services.AddScoped<IProjectService, ProjectService>();
-
+            services.AddScoped<IContactService, ContactService>();
             //services.AddSingleton<IFileProvider>(new PhysicalFileProvider( Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")));
-           
+
 
 
             var mapperConfig = new MapperConfiguration(mc =>
@@ -64,10 +64,14 @@ namespace Portfolio.Core
                 mc.AddProfile(new SkillMapping());
                 mc.AddProfile(new ProjectMapping());
                 mc.AddProfile(new TestimonialMapping());
+                mc.AddProfile(new ContactMapping());
             });
 
             IMapper mapper = mapperConfig.CreateMapper();
             services.AddSingleton(mapper);
+
+
+            services.AddSingleton<IEmailConfiguration>(Configuration.GetSection("EmailConfiguration").Get<EmailConfiguration>());
 
 
             services.AddAntiforgery(options =>

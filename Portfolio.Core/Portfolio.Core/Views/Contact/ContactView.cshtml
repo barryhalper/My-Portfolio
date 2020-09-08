@@ -57,41 +57,13 @@
                     ..or complete this and I'll get back to you
                 </div>
                 <div class="panel-body">
-                    <form asp-action="Index" asp-antiforgery="true" data-ajax="true" data-ajax-method="post"  >
-                        <div asp-validation-summary="ModelOnly" class="text-danger" ></div>
+                    <form asp-action="Index" asp-antiforgery="true" data-ajax="true" data-ajax-method="post" data-ajax-update="#updatePanel" data-ajax-begin="onSubmit" data-ajax-loading-duration="2000">
 
-                        <div class="form-group">
-                            <span asp-validation-for="Name" class="text-danger"></span>
-                            <input asp-for="Name" class="form-control" placeholder="Your name" />
-
+                        <div id="updatePanel">
+                            <partial name="_contactFormView" model="Model" />
                         </div>
 
-                        <div class="form-group">
-                            <span asp-validation-for="Email" class="text-danger"></span>
-                            <input asp-for="Email" class="form-control" placeholder="Your email address" />
-
-                        </div>
-                        <div class="form-group">
-                            <span asp-validation-for="ConfirmEmail" class="text-danger"></span>
-                            <input asp-for="ConfirmEmail" class="form-control" placeholder="Your email address again to confirm" />
-
-                        </div>
-
-                        <div class="form-group">
-
-                            <span asp-validation-for="Message" class="text-danger"></span>
-                            <textarea asp-for="Message" class="form-control" placeholder="What would you like to ask?">
-
-                            </textarea>
-
-
-                        </div>
-                        <div class="form-group">
-                            <button type="submit" class="btn btn-primary">Complete </button>
-                        </div>
                     </form>
-
-
                 </div>
             </div>
         </div>
@@ -101,6 +73,15 @@
 
 
 @section Scripts{
-    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
-    <script src="~/lib/jquery-validation-unobtrusive/jquery.unobtrusive-ajax.js"></script>
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>d
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.unobtrusive-ajax.min.js"></script>
+
+    <script>
+        //inline script
+        //todo: move to class
+        onSubmit = function (xhr) {
+            document.getElementById("updatePanel").querySelector("button i").classList.add("fa-spin");
+        };
+    </script>
+
 }

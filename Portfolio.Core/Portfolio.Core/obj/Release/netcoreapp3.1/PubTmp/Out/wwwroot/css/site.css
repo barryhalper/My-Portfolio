@@ -238,10 +238,7 @@ form .btn-primary {
 
 
 
-form .btn-primary::after {
-    font-family: "Font Awesome 5 Pro";
-    content: "\f064";
-}
+
 
 .list-inline {
     list-style: none;

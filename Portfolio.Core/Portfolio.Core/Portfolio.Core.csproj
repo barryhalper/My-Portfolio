@@ -48,6 +48,7 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Runtime" Version="2.2.0" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="3.1.4" />
+    <PackageReference Include="NETCore.MailKit" Version="2.0.3" />
   </ItemGroup>
 
   <ItemGroup>
@@ -64,6 +65,7 @@
     <None Include="wwwroot\js\modules\project.js" />
     <None Include="wwwroot\js\modules\testimonial.js" />
     <None Include="wwwroot\js\modules\utils.js" />
+    <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.unobtrusive-ajax.min.js" />
   </ItemGroup>
 
 </Project>

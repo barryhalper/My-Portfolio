@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Portfolio.Business.Models;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Linq;
@@ -6,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Portfolio.Core.Models
 {
-    public class ContactViewModel
+    public class ContactViewModel : IContact
     {
         [Required]
         [DataType(DataType.EmailAddress)]
@@ -15,7 +16,7 @@ namespace Portfolio.Core.Models
         [Required]
 
         [Compare("Email", ErrorMessage = "The Email address does not not match.")]
-        [Display (Name="Confirm Email")]
+        [Display(Name = "Confirm Email")]
         public string ConfirmEmail { get; set; }
 
         [Required]
@@ -23,5 +24,7 @@ namespace Portfolio.Core.Models
 
         [Required]
         public string Message { get; set; }
+
+
     }
 }
