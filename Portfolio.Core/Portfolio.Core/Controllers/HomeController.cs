@@ -38,7 +38,7 @@ namespace Portfolio.Core.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.Home = true;
+           
             IEnumerable<SkillViewModel> model;
 
 

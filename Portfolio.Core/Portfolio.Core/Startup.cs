@@ -20,12 +20,15 @@ using Microsoft.Extensions.Options;
 using MongoCrud;
 using Microsoft.Extensions.FileProviders;
 using System.IO;
+using Portfolio.Core.Utils;
+using Microsoft.AspNetCore.Mvc.Razor;
+using Microsoft.Extensions.FileProviders.Embedded;
 
 namespace Portfolio.Core
 {
     public class Startup
     {
-        private string applicationRoot;
+       // private string applicationRoot;
 
         public Startup(IConfiguration configuration)
         {
@@ -57,6 +60,10 @@ namespace Portfolio.Core
             services.AddScoped<IContactService, ContactService>();
             //services.AddSingleton<IFileProvider>(new PhysicalFileProvider( Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")));
 
+            services.AddTransient<IRenderViewService, RenderViewService>();
+
+            // Add the embedded file provider
+           
 
 
             var mapperConfig = new MapperConfiguration(mc =>
@@ -70,7 +77,7 @@ namespace Portfolio.Core
             IMapper mapper = mapperConfig.CreateMapper();
             services.AddSingleton(mapper);
 
-
+            services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
             services.AddSingleton<IEmailConfiguration>(Configuration.GetSection("EmailConfiguration").Get<EmailConfiguration>());
 
 

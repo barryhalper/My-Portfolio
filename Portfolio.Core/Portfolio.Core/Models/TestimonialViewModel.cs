@@ -15,5 +15,7 @@ namespace Portfolio.Core.Models
         public string Position { get; set; }
 
         public string Image { get; set; }
+
+        public int Order { get; set; }
     }
 }

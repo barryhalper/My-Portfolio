@@ -9,5 +9,9 @@ namespace Portfolio.Business.Models
         string Image { get; set; }
         string Position { get; set; }
         string Recommendation { get; set; }
+
+        int Order { get; set; }
+
+       
     }
 }

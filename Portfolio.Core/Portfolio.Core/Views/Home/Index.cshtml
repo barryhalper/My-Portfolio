@@ -2,6 +2,9 @@
 @model IEnumerable<Portfolio.Core.Models.SkillViewModel>
 @{
     string backgroundImage = "abstract-landscape";
+    ViewBag.Title = "My Portfolio";
+    ViewBag.Meta = new MetaViewModel { Title = ViewBag.Title, Image = $"background/{backgroundImage}-small.jpg" };
+
 }
 
 <div id="home" class="jumbotron ">

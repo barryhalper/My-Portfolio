@@ -2,6 +2,7 @@
 using Portfolio.Business.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 using System.Text;
 
 namespace Portfolio.Business.DataAccess
@@ -20,7 +21,7 @@ namespace Portfolio.Business.DataAccess
 
         public List<Testimonial> Read()
         {
-            return mongoDb.Read<Testimonial>(table);
+            return mongoDb.Read<Testimonial>(table).OrderBy(x=>x.Order).ToList();
         }
 
     }

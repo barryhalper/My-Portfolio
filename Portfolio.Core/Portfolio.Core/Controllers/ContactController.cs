@@ -11,6 +11,7 @@ using MailKit.Net.Smtp;
 using MimeKit;
 using MimeKit.Text;
 using System.Linq.Expressions;
+using Portfolio.Core.Utils;
 
 namespace Portfolio.Core.Controllers
 {
@@ -19,11 +20,13 @@ namespace Portfolio.Core.Controllers
         private IContactService service;
         private IMapper mapper;
         private IEmailConfiguration emailConfiguration;
+        private IRenderViewService renderViewService;
 
-        public ContactController(IContactService service, IMapper mapper, IEmailConfiguration emailConfiguration) {
+        public ContactController(IContactService service, IMapper mapper, IEmailConfiguration emailConfiguration, IRenderViewService renderViewService) {
             this.service = service;
             this.mapper = mapper;
             this.emailConfiguration = emailConfiguration;
+            this.renderViewService = renderViewService;
         }
 
 
@@ -39,9 +42,14 @@ namespace Portfolio.Core.Controllers
             if (ModelState.IsValid)
             {
                 service.CreateAysnc(mapper.Map<Contact>(model));
+                
+
+                string view = "/Views/Email/contactNotification.cshtml";
+                var htmlBody = await renderViewService.RenderViewToStringAsync(view, model);
+
                 await SendEmail(new EmailMessage
                 {
-                    Content = $"<h1>A new message</h1><h3>{model.Name} has posted on your site barryhalper.com</h3><div style='font-style:italic; margin: 20px'>{model.Message}</div>",
+                    Content = htmlBody,
                     Subject = "New post from my portfolio"
                 });
                    

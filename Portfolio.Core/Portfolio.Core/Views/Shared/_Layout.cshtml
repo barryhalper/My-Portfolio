@@ -1,8 +1,17 @@
 ﻿@*use IOptionsSnapshot to ensure chnaging the config file updates the setting*@
+@using Portfolio.Core.Models
+@using Microsoft.AspNetCore.Http;
 @inject Microsoft.Extensions.Options.IOptionsSnapshot<AppSettings> appSettings
+@inject IHttpContextAccessor Host
+
 @{
     var rv = ViewContext.RouteData.Values;
+    var title = $"{appSettings.Value.Author} - {appSettings.Value.Title} / {ViewBag.Title}";
     var thispage = $"{rv["Controller"]}-{rv["Action"]}".ToLowerInvariant();
+    SocialMediaMetaViewModel socialMediaModel =new SocialMediaMetaViewModel(appSettings, Host, ViewBag);
+    socialMediaModel.Title = title;
+    
+    
 
 }
 <!DOCTYPE html>
@@ -10,7 +19,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@appSettings.Value.Author - @appSettings.Value.Title / @ViewBag.Title</title>
+    <title>@title</title>
     @if (ViewBag.Meta == null)
     {
         <meta name="description" content="@appSettings.Value.Lead" />
@@ -25,7 +34,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
 
-   
+
     <!--TODO: Add all css and js to bundle for depployment-->
     <!-- Bootstrap compiled and minified CSS -->
     <link href="~/lib/fonts/futura-lt-cufonfonts-webfont/style.css" rel="stylesheet" />
@@ -40,8 +49,8 @@
     <link href="~/css/backgound.css" rel="stylesheet" asp-append-version="true" />
     <!--JS FILES-->
 
+    <partial name="_socialMediaMeta" model="socialMediaModel" />
 
-  
     @RenderSection("Head", required: false)
 
 </head>
@@ -60,6 +69,7 @@
 
     </div>
     <partial name="_Footer" />
+
 
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

@@ -148,3 +148,9 @@ C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Contact\ContactView.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Contact\_contactFormView.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Contact\_success.cshtml.g.cs
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Blogs\BlogListView.cshtml.g.cs
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Email\contactNotification.cshtml.g.cs
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Shared\_SocialMediaMeta.cshtml.g.cs
