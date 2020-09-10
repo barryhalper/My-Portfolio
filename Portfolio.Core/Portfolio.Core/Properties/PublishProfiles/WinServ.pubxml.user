@@ -233,25 +233,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/09/2020 16:08:40</publishTime>
     </File>
     <File Include="Portfolio.Core.deps.json">
-      <publishTime>09/09/2020 16:08:54</publishTime>
+      <publishTime>09/10/2020 17:36:10</publishTime>
     </File>
     <File Include="Portfolio.Core.dll">
-      <publishTime>09/09/2020 16:08:46</publishTime>
+      <publishTime>09/10/2020 17:36:08</publishTime>
     </File>
     <File Include="Portfolio.Core.exe">
-      <publishTime>09/09/2020 16:08:47</publishTime>
+      <publishTime>09/10/2020 17:36:08</publishTime>
     </File>
     <File Include="Portfolio.Core.pdb">
-      <publishTime>09/09/2020 16:08:46</publishTime>
+      <publishTime>09/10/2020 17:36:08</publishTime>
     </File>
     <File Include="Portfolio.Core.runtimeconfig.json">
       <publishTime>09/09/2020 16:08:54</publishTime>
     </File>
     <File Include="Portfolio.Core.Views.dll">
-      <publishTime>09/09/2020 16:08:54</publishTime>
+      <publishTime>09/10/2020 17:36:09</publishTime>
     </File>
     <File Include="Portfolio.Core.Views.pdb">
-      <publishTime>09/09/2020 16:08:54</publishTime>
+      <publishTime>09/10/2020 17:36:09</publishTime>
     </File>
     <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>09/12/2019 17:09:00</publishTime>
@@ -371,7 +371,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/17/2020 12:01:48</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>09/09/2020 16:09:10</publishTime>
+      <publishTime>09/10/2020 17:36:14</publishTime>
     </File>
     <File Include="wwwroot/android-chrome-192x192.png">
       <publishTime>08/28/2020 16:29:50</publishTime>
@@ -392,13 +392,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/27/2020 10:13:11</publishTime>
     </File>
     <File Include="wwwroot/css/media.css">
-      <publishTime>09/07/2020 16:10:50</publishTime>
+      <publishTime>09/10/2020 13:56:22</publishTime>
     </File>
     <File Include="wwwroot/css/site.css">
-      <publishTime>08/09/2020 13:11:25</publishTime>
+      <publishTime>09/10/2020 17:17:33</publishTime>
     </File>
     <File Include="wwwroot/css/_vars.css">
-      <publishTime>09/03/2020 15:35:47</publishTime>
+      <publishTime>09/10/2020 17:12:21</publishTime>
     </File>
     <File Include="wwwroot/favicon-16x16.png">
       <publishTime>08/28/2020 16:29:50</publishTime>

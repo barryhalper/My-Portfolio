@@ -10,7 +10,7 @@ export class Testimonial {
         //get data items from DOM
         
         //read all more links 
-        this.links = this.page.querySelectorAll(".more a");
+        this.links = document.querySelectorAll(".testimonial-more a");
         this.addListener();
         //set first element to be active
         Array.from(this.links)[0].classList.add("active");

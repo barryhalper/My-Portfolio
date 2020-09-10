@@ -37,6 +37,10 @@
         left: 7%;
         max-height: 65vh;
     }
+
+    #testimonial section {
+        font-size:1.5rem;
+}
     /*
     .jumbotron .btn-primary {
         background-color: var(--white);
@@ -49,8 +53,6 @@
             background-color: var(--second-brand-color);
             border-color: var(--second-brand-color);
         }*/
-
-
     #home .skills {
         bottom: 20px;
         position: absolute;
@@ -80,5 +82,22 @@
         #Modal {
             background-color: transparent !important;
         }
+
+        
     }
+
+@media(min-width:1300px) {
+    .jumbotron div.container {
+        display: flex;
+    }
+
+     .jumbotron div.container section {
+            left: 17%
+     }
+
+    #testimonial div.container {
+        left:0;
+    }
+
+}
 

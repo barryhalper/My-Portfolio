@@ -159,14 +159,14 @@ footer a.more:hover {
 
 
 
-    .jumbotron .btn-primary {
+    .btn-primary {
         background-color: var(--second-brand-color);
         border-color: var(--second-brand-color);
         color: var(--white);
     }
 
 
-        .jumbotron .btn-primary:hover {
+ .btn-primary:hover {
             background-color: var(--dark-grey);
             border-color: var(--dark-grey);
         }
@@ -328,26 +328,32 @@ form .btn-primary {
     background-color: var(--very-dark-grey);
     height:600px;
     color:var(--white);
+    position:relative;
    
 
 }
-
-
-    #testimonial a {
-        color: var(--white);
+    #testimonial section {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        left: 7%;
+        max-height: 65vh
     }
+#testimonial a {
+    color: var(--white);
+}
 
 
-    #testimonial a:hover {
+#testimonial a:hover {
         color: var(--second-brand-color);
-    }
+ }
 
-  #testimonial .pullquote {
-        font-size: 1.5rem;
+ #testimonial .pullquote {
+        font-size: 1em;
         font-style: italic;
         /* margin: 0 25px 0 26px; */
-        width: 90%;
-        padding: 0 75px;
+       
+        padding: 0 75px 0 0;
         display:none;
     }
 
@@ -359,7 +365,7 @@ form .btn-primary {
  }
 
 #testimonial .author {
-        font-size: 1.0rem;
+        font-size: 1vw;
  }
 
 #testimonial image-container {
@@ -383,11 +389,9 @@ pullquote div {
 }
 
 
-#testimonial .more
-
-{
+/*#testimonial .more {
     position: fixed;
-    
+    bottom: -205px;
     float: right;
     right: 0%;
 }
@@ -402,10 +406,26 @@ pullquote div {
 
  #testimonial ul li {
      margin-left:15px;
- }
+ }*/
+.testimonial-more {
+    position: absolute;
+    bottom: 15px;
+    left: 0;
+    width: 95%;
+    justify-content:flex-end;
+   
+ 
+}
+
+
+
+.testimonial-more div {
+   flex-basis:4%;
+}
+
 
 #testimonial-more-content {
-    display:none;
+    display: none;
 }
 
 #testimonial ul li a.active{
@@ -491,6 +511,7 @@ video {
 
 .transparent-modal .modal-content {
     background-color: transparent !important;
+    border:none;
 }
 
 .transparent-modal .modal-header {
@@ -507,3 +528,29 @@ video {
     margin: auto;
 }
 
+#about-content .panel-heading i{
+    float:right;    
+}
+
+#about-content .panel-body a {
+    margin-top:10px;
+}
+
+#about-content .panel-body ul {
+    padding:0;
+}
+
+#about-content .panel-body li {
+    list-style: none;
+    margin:0 5px 10px 0;
+}
+
+   
+
+
+    #about-content .panel-body li:before {
+        font-family: "Font Awesome 5 Pro";
+        font-weight: 900;
+        color: var(--green);
+        content: "\f00c";
+    }
