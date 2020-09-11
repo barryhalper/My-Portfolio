@@ -58,8 +58,8 @@ namespace Portfolio.Core
             services.AddScoped<ITestimonialService, TestimonialService>();
             services.AddScoped<IProjectService, ProjectService>();
             services.AddScoped<IContactService, ContactService>();
-            //services.AddSingleton<IFileProvider>(new PhysicalFileProvider( Path.Combine(Directory.GetCurrentDirectory(), "wwwroot")));
-
+            services.AddScoped<IAboutService, AboutService>();
+            //render service used to call view for email
             services.AddTransient<IRenderViewService, RenderViewService>();
 
             // Add the embedded file provider
@@ -72,6 +72,7 @@ namespace Portfolio.Core
                 mc.AddProfile(new ProjectMapping());
                 mc.AddProfile(new TestimonialMapping());
                 mc.AddProfile(new ContactMapping());
+                mc.AddProfile(new AboutMapping());
             });
 
             IMapper mapper = mapperConfig.CreateMapper();

@@ -5,5 +5,6 @@
   </PropertyGroup>
   <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Import Project="$(NuGetPackageRoot)microsoft.extensions.fileproviders.embedded\3.1.8\build\netstandard2.0\Microsoft.Extensions.FileProviders.Embedded.targets" Condition="Exists('$(NuGetPackageRoot)microsoft.extensions.fileproviders.embedded\3.1.8\build\netstandard2.0\Microsoft.Extensions.FileProviders.Embedded.targets')" />
+    <Import Project="$(NuGetPackageRoot)buildbundlerminifier\3.2.449\build\BuildBundlerMinifier.targets" Condition="Exists('$(NuGetPackageRoot)buildbundlerminifier\3.2.449\build\BuildBundlerMinifier.targets')" />
   </ImportGroup>
 </Project>

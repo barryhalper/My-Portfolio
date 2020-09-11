@@ -1,17 +1,19 @@
 ﻿@*use IOptionsSnapshot to ensure chnaging the config file updates the setting*@
 @using Portfolio.Core.Models
-@using Microsoft.AspNetCore.Http;
+@using Microsoft.AspNetCore.Http
+@using Microsoft.AspNetCore.Hosting
 @inject Microsoft.Extensions.Options.IOptionsSnapshot<AppSettings> appSettings
 @inject IHttpContextAccessor Host
+@inject IWebHostEnvironment env
 
 @{
     var rv = ViewContext.RouteData.Values;
-    var title = $"{appSettings.Value.Author} - {appSettings.Value.Title} / {ViewBag.Title}";
-    var thispage = $"{rv["Controller"]}-{rv["Action"]}".ToLowerInvariant();
-    SocialMediaMetaViewModel socialMediaModel =new SocialMediaMetaViewModel(appSettings, Host, ViewBag);
-    socialMediaModel.Title = title;
-    
-    
+ var title = $"{appSettings.Value.Author} - {appSettings.Value.Title} / {ViewBag.Title}";
+ var thispage = $"{rv["Controller"]}-{rv["Action"]}".ToLowerInvariant();
+ SocialMediaMetaViewModel socialMediaModel = new SocialMediaMetaViewModel(appSettings, Host, ViewBag);
+ socialMediaModel.Title = title;
+
+
 
 }
 <!DOCTYPE html>
@@ -29,13 +31,16 @@
         <meta name="description" content="ViewBag.Meta" />
     }
 
+    @*detect brower type*@
+    <script src="~/js/site.js"></script>
+
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
     <link rel="manifest" href="/manifest.json">
 
 
-    <!--TODO: Add all css and js to bundle for depployment-->
+  
     <!-- Bootstrap compiled and minified CSS -->
     <link href="~/lib/fonts/futura-lt-cufonfonts-webfont/style.css" rel="stylesheet" />
     @*<script src="https://kit.fontawesome.com/8a5bcfdeb6.js" crossorigin="anonymous"></script>*@
@@ -44,9 +49,16 @@
     <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
 
 
-    <link href="~/css/site.css" rel="stylesheet" asp-append-version="true" />
-    <link href="~/css/media.css" rel="stylesheet" asp-append-version="true" />
-    <link href="~/css/backgound.css" rel="stylesheet" asp-append-version="true" />
+    <!--Only include minify file in live mode to avoid local rebuild-->
+    @if (@env.EnvironmentName == "Development")
+    {
+        <link href="~/css/site.css" rel="stylesheet" asp-append-version="true" />
+        <link href="~/css/media.css" rel="stylesheet" asp-append-version="true" />
+    }
+    else
+    {
+        <link href="~/css/site.min.css" rel="stylesheet" asp-append-version="true" />
+    }
     <!--JS FILES-->
 
     <partial name="_socialMediaMeta" model="socialMediaModel" />
@@ -74,7 +86,12 @@
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    
+
     <script src="~/js//modules/app.js" asp-append-version="true" type="module"></script>
     @RenderSection("Scripts", required: false)
+
+
 </body>
 </html>

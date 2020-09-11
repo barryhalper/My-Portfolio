@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "r9xIeFprDtxlWNPBIgD5zrpbpfreeJ4fWTl6SJuiRT+XChlHKdPc36FJ0c1PKpuCUQS4GjFERMqUGNJAuPlVkA==",
+  "dgSpecHash": "pXZq+GiUFpCZkmGE3bb1EFhvvd3GiQ3SXYCJ8TmzzWZNzl1cCx7KXN3XixrbAb0dNnQnLyJxTzK8eAdaKs2cUg==",
   "success": true,
   "projectFilePath": "C:\\Users\\barry\\Documents\\My Portfolio\\Portfolio.Core\\Portfolio.Core\\Portfolio.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\barry\\.nuget\\packages\\automapper\\10.0.0\\automapper.10.0.0.nupkg.sha512",
+    "C:\\Users\\barry\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
     "C:\\Users\\barry\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
     "C:\\Users\\barry\\.nuget\\packages\\mailkit\\2.6.0\\mailkit.2.6.0.nupkg.sha512",
     "C:\\Users\\barry\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

@@ -1,0 +1,55 @@
+﻿@model AboutViewModel
+@using Portfolio.Core.Utils
+
+@{
+    ViewBag.Title = "About";
+}
+
+
+<div id="about" class="jumbotron">
+
+    <partial name="_backgroundImage" model="(string)ViewBag.Title.ToLower()" />
+    <div class="container">
+        <section class="page mb-3">
+
+            <h1>@ViewBag.Title</h1>
+        </section>
+    </div>
+</div>
+
+
+
+<section id="about-content">
+    <div class="container">
+        <div class="row mt-3 ">
+            @foreach (var type in Model.Items.Types())
+            {
+                AboutTypeViewModel aboutType = Model.GetTypeData(type);
+
+                <div class="col-12 col-xs-12 col-sm-12 col-md-4">
+
+
+                    <div class="panel">
+                        <div class="panel-heading">
+                            @type <i class="fad @aboutType.Icon"></i>
+                        </div>
+
+                        <div class="panel-body">
+                            <ul>
+                                
+                                @foreach (var item in Model.Filter(type)) { 
+                                    <li> @item.Desc</li>
+                                }
+
+
+                                <a href="/@aboutType.Href" class="btn-primary btn btn-sm">view my @aboutType.Href</a>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+            }
+
+            </div>
+        </div>
+    </section>

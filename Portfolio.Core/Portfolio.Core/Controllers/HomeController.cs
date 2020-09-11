@@ -64,13 +64,7 @@ namespace Portfolio.Core.Controllers
         }
 
 
-        [Route("About")]
-        public IActionResult About()
-        {
-
-
-            return View("AboutView");
-        }
+        
 
 
         [Route("Skills")]
@@ -109,6 +103,7 @@ namespace Portfolio.Core.Controllers
            
         }
 
+        [Route("UnsupportedBrowser")]
         public IActionResult Unsupported()
         {
             return View("UnsupportedBrowser");

@@ -11,16 +11,19 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="appsettings.Development.json">
-      <publishTime>08/09/2020 17:26:23</publishTime>
+      <publishTime>09/11/2020 15:46:15</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>09/09/2020 12:04:54</publishTime>
+      <publishTime>09/11/2020 15:46:27</publishTime>
     </File>
     <File Include="AutoMapper.dll">
       <publishTime>07/01/2020 16:00:54</publishTime>
     </File>
     <File Include="BouncyCastle.Crypto.dll">
       <publishTime>08/02/2019 01:50:10</publishTime>
+    </File>
+    <File Include="bundleconfig.json">
+      <publishTime>09/11/2020 16:35:43</publishTime>
     </File>
     <File Include="cs/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>09/12/2019 17:08:58</publishTime>
@@ -227,31 +230,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="Portfolio.Business.dll">
-      <publishTime>09/09/2020 16:08:40</publishTime>
+      <publishTime>09/11/2020 16:42:30</publishTime>
     </File>
     <File Include="Portfolio.Business.pdb">
-      <publishTime>09/09/2020 16:08:40</publishTime>
+      <publishTime>09/11/2020 16:42:30</publishTime>
     </File>
     <File Include="Portfolio.Core.deps.json">
-      <publishTime>09/10/2020 17:36:10</publishTime>
+      <publishTime>09/11/2020 17:23:34</publishTime>
     </File>
     <File Include="Portfolio.Core.dll">
-      <publishTime>09/10/2020 17:36:08</publishTime>
+      <publishTime>09/11/2020 17:23:32</publishTime>
     </File>
     <File Include="Portfolio.Core.exe">
-      <publishTime>09/10/2020 17:36:08</publishTime>
+      <publishTime>09/11/2020 17:23:32</publishTime>
     </File>
     <File Include="Portfolio.Core.pdb">
-      <publishTime>09/10/2020 17:36:08</publishTime>
+      <publishTime>09/11/2020 17:23:32</publishTime>
     </File>
     <File Include="Portfolio.Core.runtimeconfig.json">
-      <publishTime>09/09/2020 16:08:54</publishTime>
+      <publishTime>09/11/2020 16:42:35</publishTime>
     </File>
     <File Include="Portfolio.Core.Views.dll">
-      <publishTime>09/10/2020 17:36:09</publishTime>
+      <publishTime>09/11/2020 17:23:34</publishTime>
     </File>
     <File Include="Portfolio.Core.Views.pdb">
-      <publishTime>09/10/2020 17:36:09</publishTime>
+      <publishTime>09/11/2020 17:23:34</publishTime>
     </File>
     <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>09/12/2019 17:09:00</publishTime>
@@ -320,58 +323,58 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="Views/Contact/ContactFormView.cshtml">
-      <publishTime>08/28/2020 17:42:03</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Home/AboutView.cshtml">
-      <publishTime>08/28/2020 17:41:29</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Home/EducationView.cshtml">
-      <publishTime>09/01/2020 15:51:37</publishTime>
+      <publishTime>01/09/2020 15:51:37</publishTime>
     </File>
     <File Include="Views/Home/Index.cshtml">
-      <publishTime>09/01/2020 11:28:08</publishTime>
+      <publishTime>01/09/2020 11:28:08</publishTime>
     </File>
     <File Include="Views/Home/Privacy.cshtml">
-      <publishTime>08/17/2020 12:01:48</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Home/SkillsListView.cshtml">
-      <publishTime>09/01/2020 12:45:14</publishTime>
+      <publishTime>01/09/2020 12:45:14</publishTime>
     </File>
     <File Include="Views/Home/Test.cshtml">
-      <publishTime>08/27/2020 12:16:34</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Home/UnsupportedBrowser.cshtml">
-      <publishTime>08/22/2020 12:27:08</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/Error.cshtml">
-      <publishTime>11/22/2019 11:19:28</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/_Footer.cshtml">
-      <publishTime>08/26/2020 18:24:28</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/_Layout.cshtml">
-      <publishTime>08/31/2020 18:57:30</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/_Menu.cshtml">
-      <publishTime>08/31/2020 12:28:09</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Shared/_Modal.cshtml">
-      <publishTime>10/04/2019 11:07:20</publishTime>
+      <publishTime>04/10/2019 11:07:20</publishTime>
     </File>
     <File Include="Views/Shared/_ValidationScriptsPartial.cshtml">
-      <publishTime>08/17/2020 12:01:48</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/Testimonials/TestimonialView.cshtml">
-      <publishTime>08/31/2020 20:55:55</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/_ViewImports.cshtml">
-      <publishTime>08/27/2020 12:16:37</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="Views/_ViewStart.cshtml">
-      <publishTime>08/17/2020 12:01:48</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>09/10/2020 17:36:14</publishTime>
+      <publishTime>09/11/2020 17:23:39</publishTime>
     </File>
     <File Include="wwwroot/android-chrome-192x192.png">
       <publishTime>08/28/2020 16:29:50</publishTime>
@@ -391,11 +394,17 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="wwwroot/css/home.css">
       <publishTime>08/27/2020 10:13:11</publishTime>
     </File>
+    <File Include="wwwroot/css/ie.css">
+      <publishTime>09/11/2020 15:44:09</publishTime>
+    </File>
     <File Include="wwwroot/css/media.css">
-      <publishTime>09/10/2020 13:56:22</publishTime>
+      <publishTime>09/11/2020 14:17:24</publishTime>
     </File>
     <File Include="wwwroot/css/site.css">
-      <publishTime>09/10/2020 17:17:33</publishTime>
+      <publishTime>09/11/2020 13:16:12</publishTime>
+    </File>
+    <File Include="wwwroot/css/site.min.css">
+      <publishTime>09/11/2020 16:45:24</publishTime>
     </File>
     <File Include="wwwroot/css/_vars.css">
       <publishTime>09/10/2020 17:12:21</publishTime>
@@ -410,388 +419,388 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/28/2020 16:29:50</publishTime>
     </File>
     <File Include="wwwroot/image/background/about-medium.jpg">
-      <publishTime>09/04/2020 17:01:15</publishTime>
+      <publishTime>04/09/2020 17:01:15</publishTime>
     </File>
     <File Include="wwwroot/image/background/about-small.jpg">
-      <publishTime>09/04/2020 17:01:37</publishTime>
+      <publishTime>04/09/2020 17:01:37</publishTime>
     </File>
     <File Include="wwwroot/image/background/about-wide.jpg">
-      <publishTime>09/04/2020 17:00:26</publishTime>
+      <publishTime>04/09/2020 17:00:26</publishTime>
     </File>
     <File Include="wwwroot/image/background/about.jpg">
-      <publishTime>09/04/2020 17:00:53</publishTime>
+      <publishTime>04/09/2020 17:00:53</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape-medium.jpg">
-      <publishTime>08/27/2020 10:18:04</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape-original-sm-iphone.jpg">
-      <publishTime>08/25/2020 15:16:17</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape-original-sm-wide.jpg">
-      <publishTime>08/25/2020 15:08:37</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape-original-sm.jpg">
-      <publishTime>08/25/2020 15:04:42</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape-original.jpg">
-      <publishTime>08/21/2020 16:22:07</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape-pixel.jpg">
-      <publishTime>08/25/2020 15:34:26</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape-small.jpg">
-      <publishTime>08/27/2020 10:18:49</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape-tablet-pixel.jpg">
-      <publishTime>08/25/2020 15:32:49</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape-tablet.jpg">
-      <publishTime>08/25/2020 16:03:58</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape-wide.jpg">
-      <publishTime>08/27/2020 10:16:21</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/abstract-landscape.jpg">
-      <publishTime>08/26/2020 16:56:31</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/barry-halper-northern-lights-medium.jpg">
-      <publishTime>08/28/2020 17:19:35</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/barry-halper-northern-lights-small.jpg">
-      <publishTime>08/28/2020 17:19:56</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/barry-halper-northern-lights-wide.jpg">
-      <publishTime>08/28/2020 17:27:22</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/barry-halper-northern-lights.jpg">
-      <publishTime>08/28/2020 17:17:48</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/contact-medium.jpg">
-      <publishTime>09/04/2020 17:10:05</publishTime>
+      <publishTime>04/09/2020 17:10:05</publishTime>
     </File>
     <File Include="wwwroot/image/background/contact-small.jpg">
-      <publishTime>09/04/2020 17:10:24</publishTime>
+      <publishTime>04/09/2020 17:10:24</publishTime>
     </File>
     <File Include="wwwroot/image/background/contact-wide.jpg">
-      <publishTime>09/04/2020 17:08:57</publishTime>
+      <publishTime>04/09/2020 17:08:57</publishTime>
     </File>
     <File Include="wwwroot/image/background/contact.jpg">
-      <publishTime>09/04/2020 17:09:26</publishTime>
+      <publishTime>04/09/2020 17:09:26</publishTime>
     </File>
     <File Include="wwwroot/image/background/education-medium.jpg">
-      <publishTime>08/28/2020 17:49:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/education-small.jpg">
-      <publishTime>08/28/2020 17:56:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/education-wide.jpg">
-      <publishTime>08/28/2020 17:48:36</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/education.jpg">
-      <publishTime>08/28/2020 17:48:57</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/keyboard-contact.jpg">
-      <publishTime>08/26/2020 19:43:14</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/library-medium.jpg">
-      <publishTime>08/28/2020 17:49:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/library-small.jpg">
-      <publishTime>08/28/2020 17:56:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/library-wide.jpg">
-      <publishTime>08/28/2020 17:48:36</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/library.jpg">
-      <publishTime>08/28/2020 17:48:57</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/projects-medium.jpg">
-      <publishTime>09/04/2020 16:54:44</publishTime>
+      <publishTime>04/09/2020 16:54:44</publishTime>
     </File>
     <File Include="wwwroot/image/background/projects-small.jpg">
-      <publishTime>09/04/2020 16:55:04</publishTime>
+      <publishTime>04/09/2020 16:55:04</publishTime>
     </File>
     <File Include="wwwroot/image/background/projects-wide.jpg">
-      <publishTime>09/04/2020 16:53:39</publishTime>
+      <publishTime>04/09/2020 16:53:39</publishTime>
     </File>
     <File Include="wwwroot/image/background/projects.jpg">
-      <publishTime>09/04/2020 16:54:25</publishTime>
+      <publishTime>04/09/2020 16:54:25</publishTime>
     </File>
     <File Include="wwwroot/image/background/skills-medium.jpg">
-      <publishTime>08/28/2020 17:59:44</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/skills-small.jpg">
-      <publishTime>08/28/2020 18:00:01</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/skills-wide.jpg">
-      <publishTime>08/28/2020 17:58:57</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/background/skills.jpg">
-      <publishTime>08/28/2020 17:59:20</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/barry-halper-profile.jpg">
-      <publishTime>08/19/2020 12:08:02</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/dell-web-developer-essentails.jpg">
-      <publishTime>08/19/2020 14:46:18</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/education/harrow.png">
-      <publishTime>01/09/2020 15:37:38</publishTime>
+      <publishTime>09/01/2020 15:37:38</publishTime>
     </File>
     <File Include="wwwroot/image/education/manchester-metropolitian-university.png">
-      <publishTime>01/09/2020 15:40:41</publishTime>
+      <publishTime>09/01/2020 15:40:41</publishTime>
     </File>
     <File Include="wwwroot/image/education/queen-mary-london.jpg">
-      <publishTime>01/09/2020 15:38:22</publishTime>
+      <publishTime>09/01/2020 15:38:22</publishTime>
     </File>
     <File Include="wwwroot/image/education/queen-mary-london.png">
-      <publishTime>01/09/2020 15:38:44</publishTime>
+      <publishTime>09/01/2020 15:38:44</publishTime>
     </File>
     <File Include="wwwroot/image/localgov.png">
-      <publishTime>09/02/2020 10:31:04</publishTime>
+      <publishTime>02/09/2020 10:31:04</publishTime>
     </File>
     <File Include="wwwroot/image/me-by-jacob-b-w-gold.jpg">
-      <publishTime>08/17/2020 14:45:52</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/me-by-jacob-b-w-small.jpg">
-      <publishTime>08/30/2020 18:23:56</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/projects/bridge-wb.png">
-      <publishTime>09/02/2020 10:45:59</publishTime>
+      <publishTime>02/09/2020 10:45:59</publishTime>
     </File>
     <File Include="wwwroot/image/projects/hemming-publishing-cms/publishing-cms-ad-manager.png">
-      <publishTime>09/04/2020 14:38:54</publishTime>
+      <publishTime>04/09/2020 14:38:54</publishTime>
     </File>
     <File Include="wwwroot/image/projects/hemming-publishing-cms/publishing-cms-article.png">
-      <publishTime>09/04/2020 14:31:44</publishTime>
+      <publishTime>04/09/2020 14:31:44</publishTime>
     </File>
     <File Include="wwwroot/image/projects/hemming-publishing-cms/publishing-cms-articles.png">
-      <publishTime>09/04/2020 14:28:43</publishTime>
+      <publishTime>04/09/2020 14:28:43</publishTime>
     </File>
     <File Include="wwwroot/image/projects/hemming-publishing-cms/publishing-cms-bulletin.png">
-      <publishTime>09/04/2020 14:37:29</publishTime>
+      <publishTime>04/09/2020 14:37:29</publishTime>
     </File>
     <File Include="wwwroot/image/projects/hemming-publishing-cms/publishing-cms-dashboard.png">
-      <publishTime>09/04/2020 14:31:02</publishTime>
+      <publishTime>04/09/2020 14:31:02</publishTime>
     </File>
     <File Include="wwwroot/image/projects/hemming-publishing-cms/publishing-cms-menu.png">
-      <publishTime>09/04/2020 14:35:19</publishTime>
+      <publishTime>04/09/2020 14:35:19</publishTime>
     </File>
     <File Include="wwwroot/image/projects/hemming-publishing-cms/publishing-cms-user-analytics.png">
-      <publishTime>09/04/2020 14:34:12</publishTime>
+      <publishTime>04/09/2020 14:34:12</publishTime>
     </File>
     <File Include="wwwroot/image/projects/lapv-cms.png">
-      <publishTime>09/02/2020 10:39:06</publishTime>
+      <publishTime>02/09/2020 10:39:06</publishTime>
     </File>
     <File Include="wwwroot/image/projects/localgov-homepage.png">
-      <publishTime>09/02/2020 10:43:32</publishTime>
+      <publishTime>02/09/2020 10:43:32</publishTime>
     </File>
     <File Include="wwwroot/image/projects/localgov.png">
-      <publishTime>09/02/2020 10:43:32</publishTime>
+      <publishTime>02/09/2020 10:43:32</publishTime>
     </File>
     <File Include="wwwroot/image/projects/localgov/localgov-article-cms.png">
-      <publishTime>03/09/2020 12:22:10</publishTime>
+      <publishTime>09/03/2020 12:22:10</publishTime>
     </File>
     <File Include="wwwroot/image/projects/localgov/localgov-article.png">
-      <publishTime>03/09/2020 12:19:44</publishTime>
+      <publishTime>09/03/2020 12:19:44</publishTime>
     </File>
     <File Include="wwwroot/image/projects/localgov/localgov-covid-search-results.png">
-      <publishTime>03/09/2020 12:15:57</publishTime>
+      <publishTime>09/03/2020 12:15:57</publishTime>
     </File>
     <File Include="wwwroot/image/projects/localgov/localgov-finance.png">
-      <publishTime>03/09/2020 12:18:24</publishTime>
+      <publishTime>09/03/2020 12:18:24</publishTime>
     </File>
     <File Include="wwwroot/image/projects/localgov/localgov-homepage.png">
-      <publishTime>09/02/2020 10:43:32</publishTime>
+      <publishTime>02/09/2020 10:43:32</publishTime>
     </File>
     <File Include="wwwroot/image/projects/mj-awards.png">
-      <publishTime>09/02/2020 10:48:57</publishTime>
+      <publishTime>02/09/2020 10:48:57</publishTime>
     </File>
     <File Include="wwwroot/image/projects/myb-public-spend-home.png">
-      <publishTime>09/02/2020 10:40:32</publishTime>
+      <publishTime>02/09/2020 10:40:32</publishTime>
     </File>
     <File Include="wwwroot/image/projects/myb-public-spend.png">
-      <publishTime>09/02/2020 10:40:32</publishTime>
+      <publishTime>02/09/2020 10:40:32</publishTime>
     </File>
     <File Include="wwwroot/image/projects/myb-public-spend/localgov-article.png">
-      <publishTime>09/03/2020 12:10:35</publishTime>
+      <publishTime>03/09/2020 12:10:35</publishTime>
     </File>
     <File Include="wwwroot/image/projects/myb-public-spend/myb-public-spend-dashboard.png">
-      <publishTime>09/04/2020 10:48:47</publishTime>
+      <publishTime>04/09/2020 10:48:47</publishTime>
     </File>
     <File Include="wwwroot/image/projects/myb-public-spend/myb-public-spend-spend-entry.png">
-      <publishTime>09/04/2020 11:10:28</publishTime>
+      <publishTime>04/09/2020 11:10:28</publishTime>
     </File>
     <File Include="wwwroot/image/projects/myb-public-spend/myb-public-spend-spend-my-dashboard.png">
-      <publishTime>09/04/2020 11:19:17</publishTime>
+      <publishTime>04/09/2020 11:19:17</publishTime>
     </File>
     <File Include="wwwroot/image/projects/myb-public-spend/myb-public-spend-spend-risk.png">
-      <publishTime>09/04/2020 11:11:42</publishTime>
+      <publishTime>04/09/2020 11:11:42</publishTime>
     </File>
     <File Include="wwwroot/image/projects/myb-public-spend/myb-public-spend-spend-total-spend-local-authority.png">
-      <publishTime>09/04/2020 11:13:42</publishTime>
+      <publishTime>04/09/2020 11:13:42</publishTime>
     </File>
     <File Include="wwwroot/image/projects/myb-public-spend/myb-public-spend.png">
-      <publishTime>09/02/2020 10:40:32</publishTime>
+      <publishTime>02/09/2020 10:40:32</publishTime>
     </File>
     <File Include="wwwroot/image/projects/portfolio.png">
-      <publishTime>09/04/2020 15:09:25</publishTime>
+      <publishTime>04/09/2020 15:09:25</publishTime>
     </File>
     <File Include="wwwroot/image/projects/publishing-cms-login.png">
-      <publishTime>09/04/2020 15:01:52</publishTime>
+      <publishTime>04/09/2020 15:01:52</publishTime>
     </File>
     <File Include="wwwroot/image/skills/Adobe_ColdFusion.png">
-      <publishTime>01/09/2020 10:27:24</publishTime>
+      <publishTime>09/01/2020 10:27:24</publishTime>
     </File>
     <File Include="wwwroot/image/skills/asp-net-core.png">
-      <publishTime>01/09/2020 15:14:13</publishTime>
+      <publishTime>09/01/2020 15:14:13</publishTime>
     </File>
     <File Include="wwwroot/image/skills/asp-net-mvc-logo.jpg">
-      <publishTime>01/09/2020 15:08:03</publishTime>
+      <publishTime>09/01/2020 15:08:03</publishTime>
     </File>
     <File Include="wwwroot/image/skills/asp-net-mvc-logo.png">
-      <publishTime>09/04/2020 17:20:05</publishTime>
+      <publishTime>04/09/2020 17:20:05</publishTime>
     </File>
     <File Include="wwwroot/image/skills/aspn-net-core.png">
-      <publishTime>01/09/2020 14:58:53</publishTime>
+      <publishTime>09/01/2020 14:58:53</publishTime>
     </File>
     <File Include="wwwroot/image/skills/basecamp.png">
-      <publishTime>01/09/2020 14:53:46</publishTime>
+      <publishTime>09/01/2020 14:53:46</publishTime>
     </File>
     <File Include="wwwroot/image/skills/bootstrap.png">
-      <publishTime>01/09/2020 10:14:32</publishTime>
+      <publishTime>09/01/2020 10:14:32</publishTime>
     </File>
     <File Include="wwwroot/image/skills/c-sharp.png">
-      <publishTime>08/31/2020 11:31:49</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/skills/css.png">
-      <publishTime>01/09/2020 10:15:25</publishTime>
+      <publishTime>09/01/2020 10:15:25</publishTime>
     </File>
     <File Include="wwwroot/image/skills/css3.png">
-      <publishTime>01/09/2020 10:19:34</publishTime>
+      <publishTime>09/01/2020 10:19:34</publishTime>
     </File>
     <File Include="wwwroot/image/skills/dotnet.png">
-      <publishTime>08/31/2020 11:35:06</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/skills/dreamweaver.jpg">
-      <publishTime>08/21/2020 20:05:54</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/skills/dreamweaver.png">
-      <publishTime>08/23/2020 13:51:38</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/skills/eclipse.png">
-      <publishTime>01/09/2020 14:52:32</publishTime>
+      <publishTime>09/01/2020 14:52:32</publishTime>
     </File>
     <File Include="wwwroot/image/skills/entity-framewrok.png">
-      <publishTime>09/04/2020 17:47:06</publishTime>
+      <publishTime>04/09/2020 17:47:06</publishTime>
     </File>
     <File Include="wwwroot/image/skills/es6.png">
-      <publishTime>01/09/2020 15:00:35</publishTime>
+      <publishTime>09/01/2020 15:00:35</publishTime>
     </File>
     <File Include="wwwroot/image/skills/gimp.png">
-      <publishTime>01/09/2020 14:51:26</publishTime>
+      <publishTime>09/01/2020 14:51:26</publishTime>
     </File>
     <File Include="wwwroot/image/skills/github.png">
-      <publishTime>01/09/2020 15:12:46</publishTime>
+      <publishTime>09/01/2020 15:12:46</publishTime>
     </File>
     <File Include="wwwroot/image/skills/html-5.png">
-      <publishTime>01/09/2020 10:16:25</publishTime>
+      <publishTime>09/01/2020 10:16:25</publishTime>
     </File>
     <File Include="wwwroot/image/skills/javascript.png">
-      <publishTime>08/31/2020 11:33:51</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/skills/Jira.png">
-      <publishTime>01/09/2020 15:11:10</publishTime>
+      <publishTime>09/01/2020 15:11:10</publishTime>
     </File>
     <File Include="wwwroot/image/skills/jquery.png">
-      <publishTime>01/09/2020 10:40:50</publishTime>
+      <publishTime>09/01/2020 10:40:50</publishTime>
     </File>
     <File Include="wwwroot/image/skills/LINQPad.png">
-      <publishTime>01/09/2020 15:13:36</publishTime>
+      <publishTime>09/01/2020 15:13:36</publishTime>
     </File>
     <File Include="wwwroot/image/skills/mongo-db.png">
-      <publishTime>08/31/2020 11:47:14</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/skills/mongodb-compass.png">
-      <publishTime>09/04/2020 17:36:36</publishTime>
+      <publishTime>04/09/2020 17:36:36</publishTime>
     </File>
     <File Include="wwwroot/image/skills/ms-dot-net.png">
-      <publishTime>08/19/2020 17:11:49</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/skills/ms-iis.png">
-      <publishTime>08/23/2020 13:46:04</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/skills/ms-sql-server.jpg">
-      <publishTime>08/22/2020 10:49:15</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/skills/ms-sql-server.png">
-      <publishTime>01/09/2020 10:46:05</publishTime>
+      <publishTime>09/01/2020 10:46:05</publishTime>
     </File>
     <File Include="wwwroot/image/skills/Oauth.png">
-      <publishTime>09/04/2020 17:45:07</publishTime>
+      <publishTime>04/09/2020 17:45:07</publishTime>
     </File>
     <File Include="wwwroot/image/skills/photoshop.png">
-      <publishTime>08/23/2020 13:56:05</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/skills/postman.png">
-      <publishTime>09/04/2020 17:32:31</publishTime>
+      <publishTime>04/09/2020 17:32:31</publishTime>
     </File>
     <File Include="wwwroot/image/skills/rest-api.png">
-      <publishTime>09/04/2020 17:42:46</publishTime>
+      <publishTime>04/09/2020 17:42:46</publishTime>
     </File>
     <File Include="wwwroot/image/skills/sql-sever-management-studio.png">
-      <publishTime>09/04/2020 17:29:25</publishTime>
+      <publishTime>04/09/2020 17:29:25</publishTime>
     </File>
     <File Include="wwwroot/image/skills/SQL.jpg">
-      <publishTime>08/31/2020 11:52:19</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/skills/SQL.png">
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/skills/stripe.png">
-      <publishTime>09/04/2020 17:31:08</publishTime>
+      <publishTime>04/09/2020 17:31:08</publishTime>
     </File>
     <File Include="wwwroot/image/skills/tortoise.png">
-      <publishTime>01/09/2020 15:10:22</publishTime>
+      <publishTime>09/01/2020 15:10:22</publishTime>
     </File>
     <File Include="wwwroot/image/skills/trello.png">
-      <publishTime>01/09/2020 14:56:23</publishTime>
+      <publishTime>09/01/2020 14:56:23</publishTime>
     </File>
     <File Include="wwwroot/image/skills/visual-studio.png">
-      <publishTime>08/23/2020 13:54:42</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/skills/windows-server.png">
-      <publishTime>09/04/2020 17:21:55</publishTime>
+      <publishTime>04/09/2020 17:21:55</publishTime>
     </File>
     <File Include="wwwroot/image/testimonials/graham-bond.jfif">
-      <publishTime>08/31/2020 12:02:37</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/testimonials/graham-bond.jpg">
-      <publishTime>08/31/2020 13:40:55</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/testimonials/laura-sharman.jfif">
-      <publishTime>08/31/2020 12:08:48</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/testimonials/laura-sharman.jpg">
-      <publishTime>08/31/2020 13:41:23</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/testimonials/lotte-debell.jfif">
-      <publishTime>08/31/2020 12:10:18</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/testimonials/lotte-debell.jpg">
-      <publishTime>08/31/2020 13:41:48</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/testimonials/nick-tong.jfif">
-      <publishTime>08/31/2020 12:13:36</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/testimonials/nick-tong.jpg">
-      <publishTime>08/31/2020 13:42:33</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/testimonials/simon-whatley.jfif">
-      <publishTime>08/31/2020 12:11:41</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/image/testimonials/simon-whatley.jpg">
-      <publishTime>08/31/2020 13:42:54</publishTime>
+      <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="wwwroot/js/modules/app.js">
       <publishTime>01/01/0001 00:00:00</publishTime>
@@ -812,7 +821,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/09/2020 15:05:53</publishTime>
     </File>
     <File Include="wwwroot/video/localgov.mp4">
-      <publishTime>09/04/2020 10:22:33</publishTime>
+      <publishTime>04/09/2020 10:22:33</publishTime>
     </File>
     <File Include="wwwroot/video/MYB-public-spend.mp4">
       <publishTime>07/07/2020 17:42:20</publishTime>

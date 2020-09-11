@@ -38,7 +38,7 @@ namespace Portfolio.Core.Models
         public IHttpContextAccessor HttpContextAccessor { get => httpContextAccessor; }
 
         public string ImagePath {
-            get => (meta != null)? $"{httpContextAccessor.HttpContext.Request.Host.Value}/image/{meta.Image}" : $"{httpContextAccessor.HttpContext.Request.Host.Value}/image/barry_halper_profile.jpg";
+            get => (meta != null)? $"{httpContextAccessor.HttpContext.Request.Scheme}://{httpContextAccessor.HttpContext.Request.Host.Value}/image/{meta.Image}" : $"{httpContextAccessor.HttpContext.Request.Host.Value}/image/barry_halper_profile.jpg";
         }
 
         public IOptionsSnapshot<AppSettings> AppSettings { get => appSettings; }

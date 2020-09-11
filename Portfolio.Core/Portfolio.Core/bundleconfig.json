@@ -1,0 +1,33 @@
+[
+  {
+    "outputFileName": "wwwroot/css/site.min.css",
+    "inputFiles": [
+      "wwwroot/css/site.css",
+      "wwwroot/css/media.css"
+
+    ]
+  },
+
+  {
+    "outputFileName": "wwwroot/js/modules/app.min.js",
+    "inputFiles": [
+      "wwwroot/js/modules/utils.js",
+      "wwwroot/js/modules/app.js",
+      "wwwroot/js/modules/project.js",
+      "wwwroot/js/modules/testimonial.js"
+
+    ]
+  },
+
+  {
+    "outputFileName": "wwwroot/js/site.min.js",
+    "inputFiles": [
+      "wwwroot/js/site.js"
+    ],
+    "minify": {
+      "enabled": true,
+      "renameLocals": true
+    },
+    "sourceMap": false
+  }
+]

@@ -45,6 +45,7 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="BuildBundlerMinifier" Version="3.2.449" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.TagHelpers" Version="2.2.0" />
     <PackageReference Include="Microsoft.AspNetCore.Razor.Runtime" Version="2.2.0" />
     <PackageReference Include="Microsoft.Extensions.FileProviders.Embedded" Version="3.1.8" />
@@ -63,9 +64,12 @@
 
   <ItemGroup>
     <None Include="wwwroot\js\modules\app.js" />
+    <None Include="wwwroot\js\modules\app.min.js" />
     <None Include="wwwroot\js\modules\project.js" />
     <None Include="wwwroot\js\modules\testimonial.js" />
     <None Include="wwwroot\js\modules\utils.js" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\js\site.min.js" />
     <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.unobtrusive-ajax.min.js" />
   </ItemGroup>
 

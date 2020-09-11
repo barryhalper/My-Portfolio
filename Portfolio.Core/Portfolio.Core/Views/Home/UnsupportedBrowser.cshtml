@@ -1,4 +1,5 @@
-﻿
+﻿@*use IOptionsSnapshot to ensure chnaging the config file updates the setting*@
+@inject Microsoft.Extensions.Options.IOptionsSnapshot<AppSettings> appSettings
 @{
     Layout = null;
 }
@@ -8,8 +9,61 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
-    <title>Unsupported Browsers</title>
+    <title>@appSettings.Value.Author / Unsupported Browsers</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="~/lib/fontawesome-pro-5.14.0-web/css/fontawesome.min.css" rel="stylesheet" />
+    <link href="~/lib/fontawesome-pro-5.14.0-web/css/all.min.css" rel="stylesheet" />
+
+
+
+
+    <link href="~/lib/fonts/futura-lt-cufonfonts-webfont/style.css" rel="stylesheet" />
+    <link href="~/css/ie.css" rel="stylesheet" />
 </head>
 <body>
+    <header>
+        <div class="row">
+            <div class="container">
+                <a class="navbar-brand " asp-area="" asp-controller="Home" asp-action="Index"><img class=" img-fluid" src="~/image/barry-halper-profile.jpg" alt="@appSettings.Value.Author"> @appSettings.Value.Author / @appSettings.Value.Title</a>
+            </div>
+
+        </div>
+    </header>
+
+  
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="jumbotron">
+                    <h1><img src="/image/ie.png" /> Unsupported Browser</h1>
+
+                    <div>It looks like you are using Internet Exploror 11 or lower</div>
+                    <div>Unfortunlay I can't at this time suport that browser and pretty soon neither will Mircosoft</div>
+
+                    <a href="https://techcommunity.microsoft.com/t5/microsoft-365-blog/microsoft-365-apps-say-farewell-to-internet-explorer-11-and/ba-p/1591666" class="btn btn-primary">Microsoft say farewell to Internet Explorer 11</a>
+
+
+                    <h2>Contact me</h2>
+                    <ul>
+                        <li><i class="fas fa-envelope"></i> <a href="mailto:@appSettings.Value.ContactSettings.Email" class=""> Email</a></li>
+                        <li><i class="fab fa-linkedin"></i>  <a href="@appSettings.Value.ContactSettings.LinkedIn" class="">Linked In</a></li>
+                        <li><i class="fab fa-twitter-square"></i> <a href="@appSettings.Value.ContactSettings.Twitter" class=""> Twitter</a></li>
+                        <li><i class="fab fa-github-square"></i> <a href="@appSettings.Value.ContactSettings.Github" class=""> GitHub</a></li>
+
+                    </ul>
+                    </div>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+        </div>
+    </footer>
 </body>
 </html>

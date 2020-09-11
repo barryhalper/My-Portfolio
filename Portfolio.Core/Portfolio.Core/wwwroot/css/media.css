@@ -38,21 +38,18 @@
         max-height: 65vh;
     }
 
-    #testimonial section {
-        font-size:1.5rem;
-}
-    /*
-    .jumbotron .btn-primary {
-        background-color: var(--white);
-        border-color: var(--white);
-        color: var(--dark-grey);
+    
+    #testimonial .pullquote {
+        font-size: 1.2em;
+       
+    }
+    #testimonial .recommendation {
+        width: 90%
     }
 
+    
 
-        .jumbotron .btn-primary:hover {
-            background-color: var(--second-brand-color);
-            border-color: var(--second-brand-color);
-        }*/
+
     #home .skills {
         bottom: 20px;
         position: absolute;
@@ -74,8 +71,8 @@
 }
 
 
-    @media (min-width: 1200px) {
-        .modal-dialog {
+ @media (min-width: 1200px) {
+      .modal-dialog {
             max-width: 90Vw;
         }
 
@@ -96,7 +93,8 @@
      }
 
     #testimonial div.container {
-        left:0;
+        left: 0;
+        display: flex;
     }
 
 }

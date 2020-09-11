@@ -131,7 +131,6 @@ C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Home\Test.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\MongoCrud.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\MongoCrud.pdb
-C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Home\AboutView.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Home\EducationView.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Home\SkillsListView.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Shared\_Menu.cshtml.g.cs
@@ -154,3 +153,5 @@ C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Blogs\BlogListView.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Email\contactNotification.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Shared\_SocialMediaMeta.cshtml.g.cs
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\bundleconfig.json
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\About\AboutListView.cshtml.g.cs

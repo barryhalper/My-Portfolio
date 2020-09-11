@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "swf0xv005Z+ii7gE4gPMFvTYEKrQ58DOMbwWUTNpQYefh3KE/tjuKBNQltfH7rqZQzER7gfKxedxO9HFu1DaWw==",
+  "dgSpecHash": "ArHZn0dMaqzP3Mqf2CQc8Io1IYvB9gm8Ee+dt3xgARuhCSzUCf098mhh4mF+fbAxMQN8hff16YDGxusOMFHDtw==",
   "success": true,
   "projectFilePath": "C:\\Users\\barry\\Documents\\My Portfolio\\Portfolio.Core\\Portfolio.MongoDB\\Portfolio.MongoDBConsole.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\barry\\.nuget\\packages\\buildbundlerminifier\\3.2.449\\buildbundlerminifier.3.2.449.nupkg.sha512",
     "C:\\Users\\barry\\.nuget\\packages\\dnsclient\\1.3.1\\dnsclient.1.3.1.nupkg.sha512",
     "C:\\Users\\barry\\.nuget\\packages\\microsoft.extensions.configuration\\3.1.7\\microsoft.extensions.configuration.3.1.7.nupkg.sha512",
     "C:\\Users\\barry\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.1.7\\microsoft.extensions.configuration.abstractions.3.1.7.nupkg.sha512",

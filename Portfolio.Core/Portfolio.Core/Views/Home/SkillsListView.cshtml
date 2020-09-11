@@ -1,4 +1,5 @@
 ﻿@model SkillsViewModel
+@using Portfolio.Core.Utils
 
 @{
     ViewBag.Title = "Skills";
@@ -20,14 +21,14 @@
             </section>
         </div>
     </div>
-
+    <div class="container">
     <section>
         <div class="row mt-3 skills-container" >
 
 
-            @foreach (var type in Model.Types)
+            @foreach (var type in Model.Skills.Types())
             {
-                <div class="col-4 col-sm-4 col-md-2 col-lg-2 col-xl-2">
+                <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2">
 
                     <div class="panel">
                         <div class="panel-heading justify-content-center d-flex">
@@ -66,7 +67,6 @@
 
         </div>
     </section>
-
 </div>
 
 

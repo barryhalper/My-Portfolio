@@ -33,5 +33,4 @@ C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.MongoDB\bin\Debug
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.MongoDB\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.MongoDB\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.MongoDB\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
-C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.MongoDB\obj\Debug\netcoreapp3.1\Portfolio.MongoDBConsole.csproj.CoreCompileInputs.cache
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.MongoDB\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.CommandLine.dll

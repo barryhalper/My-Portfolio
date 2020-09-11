@@ -348,24 +348,22 @@ form .btn-primary {
         color: var(--second-brand-color);
  }
 
- #testimonial .pullquote {
-        font-size: 1em;
+#testimonial .pullquote {
+        font-size: 0.8rem;
         font-style: italic;
         /* margin: 0 25px 0 26px; */
-       
         padding: 0 75px 0 0;
-        display:none;
+        display: none;
     }
 
- #testimonial .recommendation p {
-     font-size:1.0rem;
-     margin:0;
-     padding:0;
-   
- }
+ #testimonial .recommendation  {
+        margin: 0;
+        padding: 0;
+        width:120%
+    }
 
 #testimonial .author {
-        font-size: 1vw;
+      font-size: 0.8em;
  }
 
 #testimonial image-container {

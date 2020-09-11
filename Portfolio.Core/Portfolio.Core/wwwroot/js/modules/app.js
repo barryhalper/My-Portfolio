@@ -21,25 +21,22 @@ class App {
     }
 
    
-
     setActiveMenuItem() {
         //get path minus host
         const path = Utils.getSitePath();
         //get array of  links in menu
         const menu = Array.from(document.querySelectorAll(".nav a"));
         //filter array based on current path
-        try {
-            const item = menu.find(i => i.getAttribute("href") == path);
+      
+        const item = menu.find(i => i.getAttribute("href") == path);
             //active class to active item
+        if (item) {
             item.classList.add("active");
         }
-        catch{ }
+     
        
     }
 
-
-   
-    
 
     bindFooterAboutMe() {
         let anchor = document.getElementById("footer-show-more");

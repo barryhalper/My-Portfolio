@@ -17,33 +17,33 @@ namespace Portfolio.MongoDBConsole
             databaseSettings.ConnectionString = "mongodb+srv://zkhTXZt42Sb8ama6:zkhTXZt42Sb8ama6@cluster0.tdoch.mongodb.net/test?authSource=admin&replicaSet=atlas-rk8855-shard-0&readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=true";
             databaseSettings.DatabaseName = "Portfolio";
 
-            //ProjectCrud service = new ProjectCrud(databaseSettings);
-            //service.Insert();
+            AboutCrud service = new AboutCrud(databaseSettings);
+            service.Insert();
 
-            var mongodb = new MongoCrud.DataAccess(databaseSettings);
+            //var mongodb = new MongoCrud.DataAccess(databaseSettings);
 
-            Project record = mongodb.ReadById<Project>("Projects", "5f4f97e6dd417c13cd30f044");
+            //Project record = mongodb.ReadById<Project>("Projects", "5f4f97e6dd417c13cd30f044");
 
-            record.Media = new List<Media>();
-            record.Media.Add(new Media { Category = "Video", Url = "https://player.vimeo.com/video/277472536?api=1&amp;player_id=vvvvimeoVideo-0" });
-            record.Media.Add(new Media { Category = "Video", File = "MYB-public-spend.mp4" });
+            //record.Media = new List<Media>();
+            //record.Media.Add(new Media { Category = "Video", Url = "https://player.vimeo.com/video/277472536?api=1&amp;player_id=vvvvimeoVideo-0" });
+            //record.Media.Add(new Media { Category = "Video", File = "MYB-public-spend.mp4" });
 
-            record.Media.Add(new Media { Category = "Url", Url = "https://www.mybpublicspend.com/" });
-             record.Media.Add(new Media
-             {
-                 Category = "Image",
-                 File = "myb-public-spend.png"
-             });
+            //record.Media.Add(new Media { Category = "Url", Url = "https://www.mybpublicspend.com/" });
+            // record.Media.Add(new Media
+            // {
+            //     Category = "Image",
+            //     File = "myb-public-spend.png"
+            // });
 
-            record.Media.Add(new Media
-            {
-                Category = "GitHub",
-                Url = ""
-            });
+            //record.Media.Add(new Media
+            //{
+            //    Category = "GitHub",
+            //    Url = ""
+            //});
 
 
 
-            mongodb.Upsert<Project>("Projects", "5f4f97e6dd417c13cd30f044", record);
+            //mongodb.Upsert<Project>("Projects", "5f4f97e6dd417c13cd30f044", record);
 
             //var businesss = new Business.DataAccess.SkillService("Portfolio", "Skills");
             //businesss.Insert();

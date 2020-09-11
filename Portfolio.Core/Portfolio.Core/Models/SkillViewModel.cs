@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Portfolio.Core.Models
 {
-    public class SkillViewModel: ISkill
+    public class SkillViewModel: IType, ISkill
     {
         public string Id { get; set; }
         public string Name { get; set; }
