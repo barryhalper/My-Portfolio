@@ -3,6 +3,10 @@ web-developer-essentials.jpg
 web-developer-essentials-small.jpg
 *.dll
 *.jfif
+Portfolio.Core\Portfolio.Core\node_modules
+
+
+
 *.dll
 *.cache
 *.pdb
@@ -16,3 +20,4 @@ Portfolio.Core/Portfolio.Business/bin/
 Portfolio.Core/Portfolio.Core/logs/
 *.vp
 *.log
+Portfolio.Core/Portfolio.Core/node_modules

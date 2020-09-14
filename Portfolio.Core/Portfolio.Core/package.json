@@ -3,9 +3,7 @@
   "name": "asp.net",
   "private": true,
   "scripts": {
-
     "build": "babel wwwroot/js/modules/app.js -o wwwroot/js/es5.js"
-
   },
   "devDependencies": {
     "@babel/cli": "^7.11.6",
