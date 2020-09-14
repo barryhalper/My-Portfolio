@@ -155,3 +155,5 @@ C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\ne
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.pdb
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.genruntimeconfig.cache
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\package-lock.json
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\package.json

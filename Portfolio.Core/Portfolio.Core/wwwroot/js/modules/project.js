@@ -1,10 +1,8 @@
-﻿import { Utils } from "./utils.js"
-
-export class Project {
-    constructor() {
-
+﻿export class Project {
+    constructor(utils) {
         this.bindCarouselToModal();
         this.bindVideoToModal();
+        this.Utils = utils;
     }
 
 

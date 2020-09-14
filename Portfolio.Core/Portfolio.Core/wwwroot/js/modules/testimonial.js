@@ -1,12 +1,11 @@
-﻿import { Utils } from "./utils.js"
-
-export class Testimonial {
-    constructor() {
+﻿export class Testimonial {
+    constructor(utils) {
         // this.bindNavigation();
+        this.Utils = utils;
         this.page = document.getElementById("testimonial");
         this.pullQuouteArray = Array.from(this.page.querySelectorAll(".pullquote"));
         console.log(this.pullQuouteArray)
-        Utils.fadeIn(this.pullQuouteArray[0], 2500);
+        this.Utils.fadeIn(this.pullQuouteArray[0], 2500);
         //get data items from DOM
         
         //read all more links 

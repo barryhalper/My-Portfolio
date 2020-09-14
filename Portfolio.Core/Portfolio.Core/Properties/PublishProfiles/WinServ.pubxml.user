@@ -23,7 +23,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>08/02/2019 01:50:10</publishTime>
     </File>
     <File Include="bundleconfig.json">
-      <publishTime>09/11/2020 16:35:43</publishTime>
+      <publishTime>09/14/2020 16:37:14</publishTime>
     </File>
     <File Include="cs/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>09/12/2019 17:08:58</publishTime>
@@ -217,6 +217,12 @@ by editing this MSBuild file. In order to learn more about this please visit htt
     <File Include="NuGet.Frameworks.dll">
       <publishTime>04/24/2018 21:27:10</publishTime>
     </File>
+    <File Include="package-lock.json">
+      <publishTime>09/14/2020 15:41:55</publishTime>
+    </File>
+    <File Include="package.json">
+      <publishTime>09/14/2020 16:22:33</publishTime>
+    </File>
     <File Include="pl/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>09/12/2019 17:09:00</publishTime>
     </File>
@@ -236,25 +242,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/11/2020 16:42:30</publishTime>
     </File>
     <File Include="Portfolio.Core.deps.json">
-      <publishTime>09/11/2020 17:23:34</publishTime>
+      <publishTime>09/14/2020 16:39:29</publishTime>
     </File>
     <File Include="Portfolio.Core.dll">
-      <publishTime>09/11/2020 17:23:32</publishTime>
+      <publishTime>09/14/2020 16:39:27</publishTime>
     </File>
     <File Include="Portfolio.Core.exe">
-      <publishTime>09/11/2020 17:23:32</publishTime>
+      <publishTime>09/14/2020 16:39:27</publishTime>
     </File>
     <File Include="Portfolio.Core.pdb">
-      <publishTime>09/11/2020 17:23:32</publishTime>
+      <publishTime>09/14/2020 16:39:27</publishTime>
     </File>
     <File Include="Portfolio.Core.runtimeconfig.json">
       <publishTime>09/11/2020 16:42:35</publishTime>
     </File>
     <File Include="Portfolio.Core.Views.dll">
-      <publishTime>09/11/2020 17:23:34</publishTime>
+      <publishTime>09/14/2020 16:39:28</publishTime>
     </File>
     <File Include="Portfolio.Core.Views.pdb">
-      <publishTime>09/11/2020 17:23:34</publishTime>
+      <publishTime>09/14/2020 16:39:28</publishTime>
     </File>
     <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>09/12/2019 17:09:00</publishTime>
@@ -374,7 +380,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>09/11/2020 17:23:39</publishTime>
+      <publishTime>09/14/2020 16:39:35</publishTime>
     </File>
     <File Include="wwwroot/android-chrome-192x192.png">
       <publishTime>08/28/2020 16:29:50</publishTime>

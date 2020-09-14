@@ -9,11 +9,11 @@ class App {
         this.setActiveMenuItem();
 
         if (document.getElementById("testimonial")) {
-            const testimonial = new Testimonial(); 
+            const testimonial = new Testimonial(Utils); 
         }
 
         if (document.getElementById("project")) {
-            const project = new Project();
+            const project = new Project(Utils);
         }
 
        
@@ -78,8 +78,10 @@ class App {
 
 }
 
+
+
+
 document.addEventListener("DOMContentLoaded", function () {
-    var app = new App();
+    let app = new App();
     //console.log(factory.utils);   
 })
-

@@ -155,3 +155,5 @@ C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Shared\_SocialMediaMeta.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\bundleconfig.json
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\About\AboutListView.cshtml.g.cs
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\package-lock.json
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\package.json
