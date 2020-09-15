@@ -60,15 +60,21 @@
 
   <ItemGroup>
     <Folder Include="ViewComponents\ComponetNewFolder\" />
+    <Folder Include="wwwroot\js\modules\min\" />
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="wwwroot\js\app.js" />
+    <None Include="wwwroot\js\app.min.js" />
     <None Include="wwwroot\js\es5.js" />
     <None Include="wwwroot\js\modules\app.js" />
     <None Include="wwwroot\js\modules\app.min.js" />
     <None Include="wwwroot\js\modules\project.js" />
+    <None Include="wwwroot\js\modules\project.min.js" />
     <None Include="wwwroot\js\modules\testimonial.js" />
+    <None Include="wwwroot\js\modules\testimonial.min.js" />
     <None Include="wwwroot\js\modules\utils.js" />
+    <None Include="wwwroot\js\modules\utils.min.js" />
     <None Include="wwwroot\js\site.js" />
     <None Include="wwwroot\js\site.min.js" />
     <None Include="wwwroot\lib\jquery-validation-unobtrusive\jquery.unobtrusive-ajax.min.js" />

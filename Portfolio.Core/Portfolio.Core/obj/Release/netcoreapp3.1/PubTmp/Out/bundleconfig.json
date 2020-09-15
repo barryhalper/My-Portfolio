@@ -9,31 +9,21 @@
   },
 
   {
-    "outputFileName": "wwwroot/js/modules/app.min.js",
+    "outputFileName": "wwwroot/js/app.min.js",
     "inputFiles": [
-      "wwwroot/js/modules/utils.js",
-      "wwwroot/js/modules/app.js",
-      "wwwroot/js/modules/project.js",
-      "wwwroot/js/modules/testimonial.js"
+      "wwwroot/js/app.js"
 
     ]
   },
 
-  {
-    "outputFileName": "wwwroot/js/es5.min.js",
-    "inputFiles": [
-      "wwwroot/js/es5.js"
-
-    ]
-  },
-
+ 
   {
     "outputFileName": "wwwroot/js/site.min.js",
     "inputFiles": [
       "wwwroot/js/site.js"
     ],
     "minify": {
-      "enabled": true,
+      "enabled": false,
       "renameLocals": true
     },
     "sourceMap": false

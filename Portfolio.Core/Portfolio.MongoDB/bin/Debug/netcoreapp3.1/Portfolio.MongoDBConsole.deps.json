@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v3.1": {
       "Portfolio.MongoDBConsole/1.0.0": {
         "dependencies": {
+          "BuildBundlerMinifier": "3.2.449",
           "Microsoft.Extensions.Configuration": "3.1.7",
           "Microsoft.Extensions.Configuration.CommandLine": "3.1.7",
           "Microsoft.Extensions.Configuration.Json": "3.1.7",
@@ -19,6 +20,7 @@
           "Portfolio.MongoDBConsole.dll": {}
         }
       },
+      "BuildBundlerMinifier/3.2.449": {},
       "DnsClient/1.3.1": {
         "runtime": {
           "lib/netstandard2.1/DnsClient.dll": {
@@ -897,6 +899,13 @@
       "type": "project",
       "serviceable": false,
       "sha512": ""
+    },
+    "BuildBundlerMinifier/3.2.449": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uA9sYDy4VepL3xwzBTLcP2LyuVYMt0ZIT3gaSiXvGoX15Ob+rOP+hGydhevlSVd+rFo+Y+VQFEHDuWU8HBW+XA==",
+      "path": "buildbundlerminifier/3.2.449",
+      "hashPath": "buildbundlerminifier.3.2.449.nupkg.sha512"
     },
     "DnsClient/1.3.1": {
       "type": "package",

@@ -1,7 +1,9 @@
 ﻿@model IEnumerable<Portfolio.Core.Models.TestimonialViewModel>
-
+@using Microsoft.AspNetCore.Hosting
+@inject IWebHostEnvironment env
 @{
     ViewBag.Title = "Testimonials";
+    
 }
 
 <div id="testimonial" class="jumbotron">
@@ -14,7 +16,9 @@
 
             @foreach (var item in Model)
             {
-                <div class="pullquote" id="testimonial-@item.Id">
+              
+
+                <div class="pullquote " id="testimonial-@item.Id">
 
 
 
@@ -32,6 +36,7 @@
 
 
                 </div>
+               
             }
 
         </section>
@@ -60,6 +65,14 @@
               <div id="testimonial-@item.Id" data-id="@item.Id"  data-recommmendation="@item.Recommendation" data-author="@item.Author" data-img="@item.Image" data-jobtitle="@item.Position">@item</div>
         }
     </div>*@
+
+@*@section Scripts{
+        <script nomodule src="~/js/es5/testimonial.js"></script>
+    }
+}*@
+
+
+
 
 
 

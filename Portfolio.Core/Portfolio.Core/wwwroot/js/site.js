@@ -17,7 +17,15 @@ function IsIE() {
     //return false;
 }
 
+
+
 //dont wait for page to load  run function to sniff browswe
-if (IsIE()){
+if (IsIE()) {
     window.location.href = "/UnsupportedBrowser";
 }
+
+document.addEventListener("DOMContentLoaded", function () {
+    var _body = document.getElementsByTagName("body")[0];
+    _body.classList.remove("no-js");
+});
+

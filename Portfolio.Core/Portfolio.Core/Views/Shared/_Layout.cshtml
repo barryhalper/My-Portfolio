@@ -40,7 +40,7 @@
     <link rel="manifest" href="/manifest.json">
 
 
-  
+
     <!-- Bootstrap compiled and minified CSS -->
     <link href="~/lib/fonts/futura-lt-cufonfonts-webfont/style.css" rel="stylesheet" />
     @*<script src="https://kit.fontawesome.com/8a5bcfdeb6.js" crossorigin="anonymous"></script>*@
@@ -49,16 +49,18 @@
     <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
 
 
-    <!--Only include minify file in live mode to avoid local rebuild-->
-    @if (@env.EnvironmentName == "Development")
-    {
+   
+
+    <environment include="Development">
         <link href="~/css/site.css" rel="stylesheet" asp-append-version="true" />
         <link href="~/css/media.css" rel="stylesheet" asp-append-version="true" />
-    }
-    else
-    {
+    </environment>
+
+    <environment exclude="Development">
         <link href="~/css/site.min.css" rel="stylesheet" asp-append-version="true" />
-    }
+    </environment>
+
+    <noscript><link rel="stylesheet" href="~/css/nojs.css"></noscript>
     <!--JS FILES-->
 
     <partial name="_socialMediaMeta" model="socialMediaModel" />
@@ -66,7 +68,7 @@
     @RenderSection("Head", required: false)
 
 </head>
-<body>
+<body class="no-js">
 
 
     <div class="container p-0" id="main-container">
@@ -88,17 +90,17 @@
     <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 
 
+    <environment include="Development">
+        <script src="~/js/app.js" asp-append-version="true" type="module"></script>
+    </environment>
 
-    @if (@env.EnvironmentName == "Development"){
+    <environment exclude="Development">
+        <script src="~/js/app.min.js" asp-append-version="true" type="module"></script>
+        <script nomodule src="~/js/es5.js" asp-append-version="true" ></script>
+    </environment>
 
-    <script src="~/js/modules/app.js" asp-append-version="true" type="module"></script>
-    <script nomodule src="~/js/es5.js"></script>
 
-    }
-    else{
-    <script src="~/js/modules/app.min.js" asp-append-version="true" type="module"></script>
-    <script nomodule src="~/js/es5.js"></script>
-}
+
 
     @RenderSection("Scripts", required: false)
 

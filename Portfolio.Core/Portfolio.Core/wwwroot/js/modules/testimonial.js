@@ -1,11 +1,12 @@
-﻿export class Testimonial {
-    constructor(utils) {
+﻿import { Utils } from "./utils.js"
+
+export class Testimonial {
+    constructor() {
         // this.bindNavigation();
-        this.Utils = utils;
         this.page = document.getElementById("testimonial");
         this.pullQuouteArray = Array.from(this.page.querySelectorAll(".pullquote"));
-        console.log(this.pullQuouteArray)
-        this.Utils.fadeIn(this.pullQuouteArray[0], 2500);
+       
+        Utils.fadeIn(this.pullQuouteArray[0], 1000);
         //get data items from DOM
         
         //read all more links 
@@ -27,8 +28,8 @@
                 this.links.forEach(a => a.classList.remove("active"));
                 a.classList.add("active");
                 //use JQUERY to utilise delegate
-                $(".pullquote").fadeOut(1500).promise().done(function () {
-                    $(`#testimonial-${a.getAttribute("data-id")}`).fadeIn(1500);
+                $(".pullquote").fadeOut(500).promise().done(function () {
+                    $(`#testimonial-${a.getAttribute("data-id")}`).fadeIn(500);
                     
                 })
                 //this.update(a)
@@ -40,3 +41,4 @@
     
     
 }
+

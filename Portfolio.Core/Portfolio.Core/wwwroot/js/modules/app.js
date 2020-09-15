@@ -1,22 +1,22 @@
-﻿import { Utils } from "./utils.js"
+﻿import { Utils } from "./utils.min.js"
 import { Testimonial } from "./testimonial.js"
 import { Project } from "./project.js"
 
 class App {
     constructor() {
        // this.bindNavigation();
-        this.bindFooterAboutMe();
-        this.setActiveMenuItem();
+        
 
         if (document.getElementById("testimonial")) {
-            const testimonial = new Testimonial(Utils); 
+            this.testimonial = new Testimonial(Utils); 
         }
 
         if (document.getElementById("project")) {
-            const project = new Project(Utils);
+            this.project = new Project(Utils);
         }
 
-       
+        this.bindFooterAboutMe();
+        this.setActiveMenuItem();
 
     }
 
