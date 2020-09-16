@@ -1,4 +1,5 @@
-﻿@inject Microsoft.Extensions.Options.IOptions<AppSettings> appSettings
+﻿@using Portfolio.Core.Models.Appsettings
+@inject Microsoft.Extensions.Options.IOptions<AppSettings> appSettings
 
 @{
     var rv = ViewContext.RouteData.Values;
@@ -6,7 +7,7 @@
 
 }
 
-<footer class="page-footer pt-4 pb-4 @(thispage == "home-index" ?  "fixed" : "")" >
+<footer class="page-footer pt-4 pb-4 @(thispage == "home-index" ?  "fixed" : "")">
     <div class="container">
 
         <div class="row">
@@ -20,7 +21,7 @@
                 <div id="about-me">
 
                     Primarily based in London I have a wealth of knowledge in web development, database architecture, web design, SEO, server and domain management. As a technical lead, I have experience in team building,  managing developers, determining project requirements, liaising with both internal and external clients. Helping to build projects that increase profits, and drive efficiency.
-                    <br/>
+                    <br />
                     <a href="#" class="more"><i class="fad fa-info-square"></i> read more </a>
 
                 </div>

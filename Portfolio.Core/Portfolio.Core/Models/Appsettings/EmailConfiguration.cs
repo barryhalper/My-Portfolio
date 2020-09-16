@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace Portfolio.Core.Models
+namespace Portfolio.Core.Models.Appsettings
 {
     public class EmailConfiguration : IEmailConfiguration
     {

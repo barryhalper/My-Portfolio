@@ -6,6 +6,7 @@ using Portfolio.Business.DataAccess;
 using Portfolio.Business.Models;
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace Portfolio.MongoDBConsole
 {
@@ -17,8 +18,28 @@ namespace Portfolio.MongoDBConsole
             databaseSettings.ConnectionString = "mongodb+srv://zkhTXZt42Sb8ama6:zkhTXZt42Sb8ama6@cluster0.tdoch.mongodb.net/test?authSource=admin&replicaSet=atlas-rk8855-shard-0&readPreference=primary&appname=MongoDB%20Compass%20Community&ssl=true";
             databaseSettings.DatabaseName = "Portfolio";
 
-            AboutCrud service = new AboutCrud(databaseSettings);
-            service.Insert();
+            //AboutCrud service = new AboutCrud(databaseSettings);
+            //service.Insert();
+            RssService rssService = new RssService("https://medium.com/feed/@jakubgarfield");
+            var items =rssService.Read();
+
+            ArticleService articleService = new ArticleService(databaseSettings);
+            articleService.Upsert(items);
+
+            // Console.WriteLine(items.Count());
+
+            //foreach (var i in items)
+            //{
+            //    Console.WriteLine(i.Title.Text);
+            //    Console.WriteLine(rssService.GetContent(i));
+            //    Console.WriteLine(i.Summary.Text);
+            //    Console.WriteLine(i.Id);
+            //    Console.WriteLine(i.PublishDate.DateTime);
+            //    Console.WriteLine(i.SourceFeed);
+            //    Console.WriteLine(i.Links[0].GetAbsoluteUri().ToString());
+            //    Console.WriteLine(rssService.GetFirstImage(i));
+            //    Console.WriteLine("--done--");
+            //}
 
             //var mongodb = new MongoCrud.DataAccess(databaseSettings);
 

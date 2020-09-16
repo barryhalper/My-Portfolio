@@ -49,6 +49,10 @@ position: absolute;
 
  }
 
+.navbar-background .navbar {
+    background-color: var(--dark-grey);
+}
+
 .navbar-nav {
     flex-direction: inherit;
 }
@@ -556,6 +560,13 @@ video {
         content: "\f00c";
     }
 
-body.no-js .show-more more {
-    display:none;
+
+/**BLOGS*********************************************************************************************/
+.blog-header {
+    height: 200px;
+    overflow: hidden;
 }
+
+    .blog-header img {
+        margin: -100px;
+    }

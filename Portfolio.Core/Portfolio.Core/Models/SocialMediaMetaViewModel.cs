@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Http.Extensions;
 using Microsoft.Extensions.Options;
+using Portfolio.Core.Models.Appsettings;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -23,6 +24,7 @@ namespace Portfolio.Core.Models
             if (viewbag.Meta != null) {
                 meta = (MetaViewModel)viewbag.Meta;
                 Title = meta.Title;
+                ShowNavBackground = meta.ShowNavBackground;
                
             }
         }

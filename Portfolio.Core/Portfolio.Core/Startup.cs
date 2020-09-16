@@ -23,6 +23,7 @@ using System.IO;
 using Portfolio.Core.Utils;
 using Microsoft.AspNetCore.Mvc.Razor;
 using Microsoft.Extensions.FileProviders.Embedded;
+using Portfolio.Core.Models.Appsettings;
 
 namespace Portfolio.Core
 {
@@ -47,11 +48,15 @@ namespace Portfolio.Core
             //get database settting from 
             services.Configure<DatabaseSettings>(Configuration.GetSection(nameof(DatabaseSettings)));
 
+            services.Configure<BlogSettings>(Configuration.GetSection("BlogSettings"));
+
             //add caching services
-           
+
 
             //add database setting object to service
             services.AddSingleton<IDatabaseSettings>(s=>s.GetRequiredService<IOptions<DatabaseSettings>>().Value);
+
+            services.AddSingleton<IConfiguration>(Configuration);
             //add business service to app serive and DI
             services.AddScoped<ISkillService, SkillService>();
 
@@ -59,6 +64,9 @@ namespace Portfolio.Core
             services.AddScoped<IProjectService, ProjectService>();
             services.AddScoped<IContactService, ContactService>();
             services.AddScoped<IAboutService, AboutService>();
+            services.AddScoped<IArticleService, ArticleService>();
+            services.AddScoped<IRssService, RssService>();
+            //render service used to call view for email
             //render service used to call view for email
             services.AddTransient<IRenderViewService, RenderViewService>();
 
@@ -73,6 +81,7 @@ namespace Portfolio.Core
                 mc.AddProfile(new TestimonialMapping());
                 mc.AddProfile(new ContactMapping());
                 mc.AddProfile(new AboutMapping());
+                mc.AddProfile(new ArticleMapping());
             });
 
             IMapper mapper = mapperConfig.CreateMapper();

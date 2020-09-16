@@ -12,6 +12,7 @@ using MimeKit;
 using MimeKit.Text;
 using System.Linq.Expressions;
 using Portfolio.Core.Utils;
+using Portfolio.Core.Models.Appsettings;
 
 namespace Portfolio.Core.Controllers
 {

@@ -1,5 +1,6 @@
 ﻿@*use IOptionsSnapshot to ensure chnaging the config file updates the setting*@
-@using Portfolio.Core.Models
+@using Portfolio.Core.Models.Appsettings
+
 @using Microsoft.AspNetCore.Http
 @using Microsoft.AspNetCore.Hosting
 @inject Microsoft.Extensions.Options.IOptionsSnapshot<AppSettings> appSettings
@@ -68,15 +69,15 @@
     @RenderSection("Head", required: false)
 
 </head>
-<body class="no-js">
+<body class="">
 
 
-    <div class="container p-0" id="main-container">
+    <div class="container p-0 @((socialMediaModel.ShowNavBackground)? "navbar-background":String.Empty)" id="main-container">
 
         <partial name="_Menu" />
 
         <main role="main">
-
+          
 
             @RenderBody()
         </main>

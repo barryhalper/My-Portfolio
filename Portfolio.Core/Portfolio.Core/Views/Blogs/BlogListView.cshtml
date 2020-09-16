@@ -1,6 +1,48 @@
-﻿@{
-    string backgroundImage = "abstract-landscape";
+﻿@model IEnumerable<ArticleViewModel>
+@using Portfolio.Core.Models.Appsettings
+@inject Microsoft.Extensions.Options.IOptions<BlogSettings> blogSettings
+@{
+
     ViewBag.Title = "Blogs";
-    ViewBag.Meta = new MetaViewModel { Title = ViewBag.Title, Image = $"background/{backgroundImage}-small.jpg" };
+    ViewBag.Meta = new MetaViewModel { Title = ViewBag.Title, CanonicalUrl = blogSettings.Value.Url, ShowNavBackground = true };
 
 }
+
+<style>
+  
+</style>
+
+
+<div id="blogs" class="jumbotron">
+    <h1>@ViewBag.Title</h1>
+
+
+    Iniatially published on medium
+</div>
+
+<section>
+    <div class="container  mt-3 " id="blog-body">
+        @foreach (var article in Model)
+        {
+        <div class="row ">
+            <div class="col-md-12">
+                <div class="panel">
+                    <div class="panel-heading">
+                        @article.Title
+                    </div>
+
+                    <div class="panel-body">
+                        <div class="col-12 col-md-6 ">
+                            <header class="blog-header">
+                                <img src="@article.Image" alt="@article.Title" class="" />
+                            </header>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        }
+    </div>
+</section>

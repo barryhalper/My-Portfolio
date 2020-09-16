@@ -1,4 +1,4 @@
-﻿namespace Portfolio.Core.Models
+﻿namespace Portfolio.Core.Models.Appsettings
 {
     public interface IEmailConfiguration
     {

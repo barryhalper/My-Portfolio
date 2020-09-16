@@ -11,5 +11,9 @@ namespace Portfolio.Core.Models
         public string Description { get; set; }
 
         public string Image { get; set; }
+
+        public string CanonicalUrl { get; set; }
+
+        public bool ShowNavBackground { get; set; }
     }
 }

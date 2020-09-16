@@ -42,6 +42,10 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.24, )"
+            },
             "MongoDB.Bson": {
               "target": "Package",
               "version": "[2.11.1, )"
@@ -59,6 +63,10 @@
             "Sitecore.FakeDb": {
               "target": "Package",
               "version": "[2.0.1, )"
+            },
+            "System.ServiceModel.Syndication": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             }
           },
           "imports": [
@@ -124,6 +132,10 @@
               "target": "Package",
               "version": "[3.2.449, )"
             },
+            "HtmlAgilityPack": {
+              "target": "Package",
+              "version": "[1.11.24, )"
+            },
             "Microsoft.AspNetCore.Mvc.TagHelpers": {
               "target": "Package",
               "version": "[2.2.0, )"
@@ -143,6 +155,10 @@
             "NETCore.MailKit": {
               "target": "Package",
               "version": "[2.0.3, )"
+            },
+            "System.ServiceModel.Syndication": {
+              "target": "Package",
+              "version": "[4.7.0, )"
             }
           },
           "imports": [

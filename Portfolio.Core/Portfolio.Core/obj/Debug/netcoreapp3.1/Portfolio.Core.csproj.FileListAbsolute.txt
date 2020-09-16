@@ -116,8 +116,6 @@ C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\ne
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.csprojAssemblyReference.cache
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.AssemblyInfoInputs.cache
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.AssemblyInfo.cs
-C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.csproj.CoreCompileInputs.cache
-C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.RazorAssemblyInfo.cache
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.RazorAssemblyInfo.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.TagHelpers.input.cache
@@ -157,3 +155,7 @@ C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\ne
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.genruntimeconfig.cache
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\package-lock.json
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\package.json
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\System.ServiceModel.Syndication.dll
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.csproj.CoreCompileInputs.cache
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll

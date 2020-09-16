@@ -14,7 +14,8 @@
           "Microsoft.Extensions.Configuration.Json": "3.1.7",
           "MongoCrud": "1.0.0",
           "MongoDB.Driver": "2.11.1",
-          "Portfolio.Business": "1.0.0"
+          "Portfolio.Business": "1.0.0",
+          "System.ServiceModel.Syndication": "4.7.0"
         },
         "runtime": {
           "Portfolio.MongoDBConsole.dll": {}
@@ -26,6 +27,14 @@
           "lib/netstandard2.1/DnsClient.dll": {
             "assemblyVersion": "1.3.1.0",
             "fileVersion": "1.3.1.0"
+          }
+        }
+      },
+      "HtmlAgilityPack/1.11.24": {
+        "runtime": {
+          "lib/netstandard2.0/HtmlAgilityPack.dll": {
+            "assemblyVersion": "1.11.24.0",
+            "fileVersion": "1.11.24.0"
           }
         }
       },
@@ -785,6 +794,14 @@
           "runtime.native.System.Security.Cryptography.OpenSsl": "4.3.0"
         }
       },
+      "System.ServiceModel.Syndication/4.7.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.ServiceModel.Syndication.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.56404"
+          }
+        }
+      },
       "System.Text.Encoding/4.3.0": {
         "dependencies": {
           "Microsoft.NETCore.Platforms": "2.1.2",
@@ -883,10 +900,12 @@
       },
       "Portfolio.Business/1.0.0": {
         "dependencies": {
+          "HtmlAgilityPack": "1.11.24",
           "MongoCrud": "1.0.0",
           "MongoDB.Bson": "2.11.1",
           "MongoDB.Driver": "2.11.1",
-          "Sitecore.FakeDb": "2.0.1"
+          "Sitecore.FakeDb": "2.0.1",
+          "System.ServiceModel.Syndication": "4.7.0"
         },
         "runtime": {
           "Portfolio.Business.dll": {}
@@ -913,6 +932,13 @@
       "sha512": "sha512-b9XczgqSjs3dd+OlV799jn+LXxdfirln1q36GKjs3QwWBhjhgIvgHLEG5s2VrBLcP4ogQjtA0PZ5+AmRJ35Vhg==",
       "path": "dnsclient/1.3.1",
       "hashPath": "dnsclient.1.3.1.nupkg.sha512"
+    },
+    "HtmlAgilityPack/1.11.24": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-DLcytINO8EfCdBgMGsaz8Tvdgu2Aewoo2XX7WfZuRG9cBQRtbm8JZ4/sMRtFvzehjdIDqubdlQb8TqNfjRMEWg==",
+      "path": "htmlagilitypack/1.11.24",
+      "hashPath": "htmlagilitypack.1.11.24.nupkg.sha512"
     },
     "Microsoft.Extensions.Configuration/3.1.7": {
       "type": "package",
@@ -1473,6 +1499,13 @@
       "sha512": "sha512-t2Tmu6Y2NtJ2um0RtcuhP7ZdNNxXEgUm2JeoA/0NvlMjAhKCnM1NX07TDl3244mVp3QU6LPEhT3HTtH1uF7IYw==",
       "path": "system.security.cryptography.x509certificates/4.3.0",
       "hashPath": "system.security.cryptography.x509certificates.4.3.0.nupkg.sha512"
+    },
+    "System.ServiceModel.Syndication/4.7.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-uqGE0hFhoE6w7SxBchhR+ebdf4krpnZe3FPdo7skxJZHOqwcGk+cDZ74Yfp3yFD2yl3emHBGAZb6SBsQWEaSkg==",
+      "path": "system.servicemodel.syndication/4.7.0",
+      "hashPath": "system.servicemodel.syndication.4.7.0.nupkg.sha512"
     },
     "System.Text.Encoding/4.3.0": {
       "type": "package",

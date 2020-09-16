@@ -28,7 +28,7 @@
 
             @foreach (var type in Model.Skills.Types())
             {
-                <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2">
+                <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 ">
 
                     <div class="panel">
                         <div class="panel-heading justify-content-center d-flex">
@@ -41,7 +41,7 @@
 
                                 @foreach (var skill in Model.Filter(type))
                                 {
-                                <div class="container mb-4 col-12">
+                                <div class="container mb-4 col-12 ">
                                     <div class="row ">
                                         <img src="~/image/skills/@skill.Image" class="mr-auto ml-auto" style="" alt="@skill.Name"
                                              title="@skill.Name" />
