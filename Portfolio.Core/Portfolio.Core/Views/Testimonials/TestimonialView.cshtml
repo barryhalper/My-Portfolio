@@ -3,7 +3,8 @@
 @inject IWebHostEnvironment env
 @{
     ViewBag.Title = "Testimonials";
-    
+    ViewBag.Meta = new MetaViewModel { Title = ViewBag.Title,  Description = Model.FirstOrDefault().Recommendation };
+
 }
 
 <div id="testimonial" class="jumbotron">

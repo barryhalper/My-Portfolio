@@ -20,8 +20,8 @@ namespace Portfolio.MongoDBConsole
 
             //AboutCrud service = new AboutCrud(databaseSettings);
             //service.Insert();
-            RssService rssService = new RssService("https://medium.com/feed/@jakubgarfield");
-            var items =rssService.Read();
+            RssService rssService = new RssService();
+            var items =rssService.Read("https://medium.com/feed/@jakubgarfield");
 
             ArticleService articleService = new ArticleService(databaseSettings);
             articleService.Upsert(items);

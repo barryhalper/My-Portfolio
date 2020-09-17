@@ -29,7 +29,7 @@ namespace Portfolio.Business.DataAccess
 
         public Article ReadByTitle(string title)
         {
-            return mongoDb.ReadByProperty<Article>(table, "Title", title);
+            return mongoDb.ReadByProperty<Article>(table, "UrlFriendlyTitle", title);
         }
 
         public void Upsert(IEnumerable<SyndicationItem> items)
@@ -40,7 +40,8 @@ namespace Portfolio.Business.DataAccess
 
             foreach (var item in items)
             {
-
+                //call method to extract conent so does not run twice
+                string content = item.GetContent();
                 Article article = new Article
                 {
                     Title = item.Title.Text,
@@ -49,7 +50,9 @@ namespace Portfolio.Business.DataAccess
                     Content = item.GetContent(),
                     Image = item.GetFirstImage(),
                     Categories = item.Categories.Select(x => x.Name).ToArray(),
-                    Link = item.Links[0].GetAbsoluteUri().ToString()
+                    Link = item.Links[0].GetAbsoluteUri().ToString(),
+                    Summary = content.StripHTML().FirstSentence().WordCut(155),
+                    UrlFriendlyTitle = item.Title.Text.UrlFriendly()
 
                 };
 

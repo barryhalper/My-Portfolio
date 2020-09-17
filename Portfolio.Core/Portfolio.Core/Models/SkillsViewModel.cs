@@ -19,5 +19,9 @@ namespace Portfolio.Core.Models
 
         }
 
+        public string SkillList {
+            get => String.Join(", ", Skills.Select(x => x.Name).ToArray());
+        }
+
     }
 }

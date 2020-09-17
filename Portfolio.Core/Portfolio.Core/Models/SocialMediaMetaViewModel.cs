@@ -25,6 +25,8 @@ namespace Portfolio.Core.Models
                 meta = (MetaViewModel)viewbag.Meta;
                 Title = meta.Title;
                 ShowNavBackground = meta.ShowNavBackground;
+                Image = meta.Image;
+                CanonicalUrl = meta.CanonicalUrl;
                
             }
         }
@@ -40,7 +42,8 @@ namespace Portfolio.Core.Models
         public IHttpContextAccessor HttpContextAccessor { get => httpContextAccessor; }
 
         public string ImagePath {
-            get => (meta != null)? $"{httpContextAccessor.HttpContext.Request.Scheme}://{httpContextAccessor.HttpContext.Request.Host.Value}/image/{meta.Image}" : $"{httpContextAccessor.HttpContext.Request.Host.Value}/image/barry_halper_profile.jpg";
+            get => (meta != null && !(string.IsNullOrEmpty(meta.Image)))? PathFromImage : 
+              $"{httpContextAccessor.HttpContext.Request.Host.Value}/image/barry_halper_profile.jpg";
         }
 
         public IOptionsSnapshot<AppSettings> AppSettings { get => appSettings; }
@@ -49,5 +52,9 @@ namespace Portfolio.Core.Models
             get => httpContextAccessor.HttpContext.Request.GetDisplayUrl();
         }
 
+
+        private string PathFromImage {
+            get=> (meta.Image.Contains("http"))? meta.Image : $"{httpContextAccessor.HttpContext.Request.Scheme}://{httpContextAccessor.HttpContext.Request.Host.Value}/image/{meta.Image}";
+        }
     }
 }

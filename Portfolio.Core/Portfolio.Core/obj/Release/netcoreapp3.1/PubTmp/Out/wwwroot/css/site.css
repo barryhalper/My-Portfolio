@@ -15,6 +15,10 @@ h1 {
     margin-top: 15px;
 }
 
+#home h1 {
+   
+}
+
 #main-container {
     position:relative;
     max-width:100VW
@@ -48,6 +52,10 @@ font-size: 18px;
 position: absolute;
 
  }
+
+.navbar-background .navbar {
+    background-color: var(--dark-grey);
+}
 
 .navbar-nav {
     flex-direction: inherit;
@@ -305,7 +313,7 @@ form .btn-primary {
         margin-right: 20px;
     }*/
     /**= CONACT PAGE****************************************************************************************/
-    .social-media {
+    .social-media, .share {
         list-style-type: none;
         margin: 10px 0 0;
         padding: 0;
@@ -549,13 +557,55 @@ video {
    
 
 
-    #about-content .panel-body li:before {
+#about-content .panel-body li:before {
         font-family: "Font Awesome 5 Pro";
         font-weight: 900;
         color: var(--green);
         content: "\f00c";
+}
+
+
+/**BLOGS*********************************************************************************************/
+.blog-header {
+    height: 200px;
+    overflow: hidden;
+}
+
+    .blog-header img {
+        margin: -100px;
     }
 
-body.no-js .show-more more {
-    display:none;
+#blog-body .date, #blog .date {
+    font-family: 'Futura LT Light';
+    font-size: 0.8rem;
+}
+
+.blog.jumbotron {
+    height:105px;
+}
+
+
+#blog h1 {
+    color: var(--dark-grey);
+    font-size: 1.75em;
+}
+
+ul.share {
+    margin:0;
+}
+
+ul.share li {
+    list-style: none;
+    display: inline-block;
+    margin: 0;
+    font-size: 0.9em;
+    padding-top:0;
+}
+
+ul.share a {
+    color: var(--second-brand-color);
+}
+
+ul.share a:hover {
+    color: var(--dark-grey);
 }

@@ -1,8 +1,11 @@
 ﻿@model AboutViewModel
 @using Portfolio.Core.Utils
+@using Portfolio.Core.Models.Appsettings
+@inject Microsoft.Extensions.Options.IOptions<AppSettings> appSettings
 
 @{
     ViewBag.Title = "About";
+    ViewBag.Meta = new MetaViewModel { Title = ViewBag.Title, Image = (string)ViewBag.Title.ToLower(), Description = appSettings.Value.Lead };
 }
 
 
@@ -36,8 +39,9 @@
 
                         <div class="panel-body">
                             <ul>
-                                
-                                @foreach (var item in Model.Filter(type)) { 
+
+                                @foreach (var item in Model.Filter(type))
+                                {
                                     <li> @item.Desc</li>
                                 }
 
@@ -50,6 +54,6 @@
 
             }
 
-            </div>
         </div>
-    </section>
+    </div>
+</section>

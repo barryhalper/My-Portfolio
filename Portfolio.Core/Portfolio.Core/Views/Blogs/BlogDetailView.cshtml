@@ -1,0 +1,63 @@
+﻿@model Portfolio.Core.Models.ArticleViewModel
+@{
+
+    ViewBag.Title = $"Blog - {Model.Title}";
+    ViewBag.Meta = new MetaViewModel { Title = ViewBag.Title, CanonicalUrl = Model.Link, ShowNavBackground = true, Description= Model.Summary, Image = Model.Image };
+
+}
+
+<div class="blog jumbotron">
+   
+
+</div>
+
+
+    <div id="blog">
+        <div class="container">
+            <article>
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h1>@ViewBag.Title</h1>
+
+
+                        <div class="byine">
+                            <div class="row d-flex">
+                                <div class="col-6">
+                                    <div class="date pt-3">
+                                        @Model.Published.ToString("dddd dd MMMM yyyy")
+                                    </div>
+
+                                </div>
+
+                                <div class="col-6 ">
+                                    <div class=" float-right">
+                                        <ul class="share">
+
+                                            <li><a href="https://www.facebook.com/sharer/sharer.php?u=@Model.FullPath"><i class="fab fa-facebook-square"></i></a></li>
+                                            <li><a href="https://twitter.com/intent/tweet?source=webclient&amp;url=@Model.FullPath"><i class="fab fa-twitter-square"></i></a></li>
+                                            <li><a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=@Model.FullPath"><i class="fab fa-linkedin"></i></a></li>
+                                         
+                                           
+                                        </ul>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+
+                    <div class="panel-body">
+                        @Html.Raw(Model.Content)
+
+                    </div>
+
+                </div>
+
+
+            </article>
+
+        </div>
+    </div>

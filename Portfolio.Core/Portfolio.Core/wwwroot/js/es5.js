@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Project = exports.Testimonial = exports.Utils = void 0;
+exports.Blog = exports.Project = exports.Testimonial = exports.Utils = void 0;
 
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
@@ -131,6 +131,10 @@ var App = /*#__PURE__*/function () {
 
     if (document.getElementById("project")) {
       this.project = new Project();
+    }
+
+    if (document.getElementById("blog")) {
+      this.blog = new Blog();
     }
 
     this.bindFooterAboutMe();
@@ -317,6 +321,28 @@ var Project = /*#__PURE__*/function () {
 }();
 
 exports.Project = Project;
+
+var Blog = /*#__PURE__*/function () {
+  function Blog() {
+    _classCallCheck(this, Blog);
+
+    this.makeImagesResponsive();
+  }
+
+  _createClass(Blog, [{
+    key: "makeImagesResponsive",
+    value: function makeImagesResponsive() {
+      var images = document.querySelectorAll("article img");
+      images.forEach(function (img) {
+        img.classList.add("img-fluid");
+      });
+    }
+  }]);
+
+  return Blog;
+}();
+
+exports.Blog = Blog;
 document.addEventListener("DOMContentLoaded", function () {
   var app = new App(); //console.log(factory.utils);   
 });

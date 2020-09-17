@@ -5,7 +5,6 @@
     --third-brand-color: rgb(182, 196, 211);
     --all-transitions-default: all 0.25s;
     --font-default: sans-serif;
-    --font-secondary: 'Oswald', sans-serif;
     --font-dark-background-color: #f7f7f7;
     --background-color: rgba(101, 130, 143, 0.44);
     --form-control-focus-border-color: rgba(245, 155, 0, 0.7);
@@ -16,4 +15,5 @@
     --very-dark-grey: #212427;
     --off-white: #F8F8F8;
     --green: #3c8b47;
+    --medium-grey:#757575;
 }

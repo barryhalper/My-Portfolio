@@ -1,5 +1,6 @@
 ﻿@model IEnumerable<ArticleViewModel>
 @using Portfolio.Core.Models.Appsettings
+@using Portfolio.Business.Utils
 @inject Microsoft.Extensions.Options.IOptions<BlogSettings> blogSettings
 @{
 
@@ -17,32 +18,42 @@
     <h1>@ViewBag.Title</h1>
 
 
-    Iniatially published on medium
+    Iniatially published on Medium.com
 </div>
 
 <section>
-    <div class="container  mt-3 " id="blog-body">
-        @foreach (var article in Model)
+    <div class="container mt-3 " id="blog-body">
+        @*Split model into several smaller arrays to generate a row for each 2 items.*@
+        @foreach (var row in Model.ToArray().Split(2))
         {
-        <div class="row ">
-            <div class="col-md-12">
-                <div class="panel">
-                    <div class="panel-heading">
-                        @article.Title
-                    </div>
+            <div class="row">
+                @foreach (var article in row)
+                {
+                    article.UrlPath = article.Title;
+                    <div class="col-12 col-md-6">
+                        <div class="panel">
+                            <div class="panel-heading">
+                                <a href="@article.UrlPath">   @article.Title</a>
+                            </div>
 
-                    <div class="panel-body">
-                        <div class="col-12 col-md-6 ">
-                            <header class="blog-header">
-                                <img src="@article.Image" alt="@article.Title" class="" />
-                            </header>
+                            <div class="panel-body">
+                                <a href="@article.UrlPath">
+                                    <header class="blog-header">
+                                        <img src="@article.Image" alt="@article.Title" class="" />
+                                    </header>
+                                </a>
+
+                                <div class="summary mt-3"><a href="@article.UrlPath"> @article.Summary</a></div>
+
+                                <div class="date mt=2">@article.Published.ToShortDateString()</div>
 
 
+                            </div>
                         </div>
                     </div>
-                </div>
+                }
             </div>
-        </div>
+
         }
     </div>
 </section>

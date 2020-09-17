@@ -3,7 +3,7 @@
 
 @{
     ViewBag.Title = "Skills";
-
+    ViewBag.Meta = new MetaViewModel { Title = ViewBag.Title, Image = (string)ViewBag.Title.ToLower(), Description = $"Full stack developer {Model.SkillList} " };
 
 }
 

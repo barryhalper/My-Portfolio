@@ -5,6 +5,7 @@ using System.ServiceModel.Syndication;
 using System.Text;
 using System.Xml.Linq;
 
+
 namespace Portfolio.Business.Utils
 {
     public static class SyndicationExtensions
@@ -34,5 +35,8 @@ namespace Portfolio.Business.Utils
             return (node == null) ? String.Empty : node.Attributes["src"].Value;
 
         }
+
+
+       
     }
 }

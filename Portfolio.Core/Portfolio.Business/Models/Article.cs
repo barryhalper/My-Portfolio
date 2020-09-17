@@ -14,13 +14,15 @@ namespace Portfolio.Business.Models
         public string Title { get; set; }
         public string Content { get; set; }
 
+        public string Summary { get; set; }
+
         public string RssGuid { get; set; }
 
         public string Link { get; set; }
 
         public DateTime Published { get; set; }
 
-
+        public string UrlFriendlyTitle { get; set; }
 
         public string[] Categories { get; set; }
 

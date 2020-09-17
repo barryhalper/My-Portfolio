@@ -114,6 +114,10 @@ class App {
             this.project = new Project();
         }
 
+        if (document.getElementById("blog")) {
+            this.blog = new Blog();
+        }
+
         this.bindFooterAboutMe();
         this.setActiveMenuItem();
 
@@ -295,7 +299,20 @@ export class Project {
 
 }
 
+export class Blog{
+    constructor() {
+        this.makeImagesResponsive();
+    }
 
+    makeImagesResponsive() {
+        var images = document.querySelectorAll("article img");
+
+        images.forEach((img) => {
+            img.classList.add("img-fluid");
+        });
+
+    }
+}
 
 document.addEventListener("DOMContentLoaded", function () {
     let app = new App();
