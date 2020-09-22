@@ -16,6 +16,7 @@
         <section class="page mb-3">
 
             <h1>Recent @ViewBag.Title </h1>
+            
         </section>
     </div>
 </div>
@@ -76,7 +77,7 @@
 
                         <div class="row">
                             <div class="col-md-6 order-2 order-md-1">
-                                @project.Content
+                                @Html.Raw(project.Content)
                                 
                                 <div class="d-none">
                                     <div class="carousel-container">

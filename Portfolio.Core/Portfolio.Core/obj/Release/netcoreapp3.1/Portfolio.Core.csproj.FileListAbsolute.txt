@@ -160,3 +160,4 @@ C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\HtmlAgilityPack.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\System.ServiceModel.Syndication.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Release\netcoreapp3.1\Razor\Views\Blogs\BlogDetailView.cshtml.g.cs
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Release\netcoreapp3.1\appsettings.Production.json

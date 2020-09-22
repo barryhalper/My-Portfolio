@@ -162,12 +162,12 @@ footer a.more:hover {
  }
 
 
-    .jumbotron section h1{
-    }
+.jumbotron section h1{
+ }
 
 
 
-    .btn-primary {
+ .btn-primary {
         background-color: var(--second-brand-color);
         border-color: var(--second-brand-color);
         color: var(--white);
@@ -453,7 +453,7 @@ pullquote div {
 /**EDUCATION ********************************************************************************************/
 
 #education-body h3{
-    font-size:1.4rem;
+    font-size:1.1rem;
     padding: 10px 0 10px 0
 }
 
@@ -461,11 +461,22 @@ pullquote div {
     border-bottom:2px solid var(--light-grey);
 }
 
-
-/**PROJECTS*********************************************************************************************/
-#project-body ul li{
-    margin-left:10px;
+#education-body .courses  {
+    font-size:0.95em;
+    padding: 10px 0 10px 0;
 }
+
+#education-body .courses li{
+   list-style:none;
+}
+
+#education-body .courses li span {
+    font-size:0.8em;
+  }
+    /**PROJECTS*********************************************************************************************/
+    #project-body ul li {
+        margin-left: 10px;
+    }
 
 #project-body a, #project-body a:visited {
     color: var(--second-brand-color);
@@ -554,17 +565,20 @@ video {
     margin:0 5px 10px 0;
 }
 
-   
 
 
-#about-content .panel-body li:before {
+
+    #about-content .panel-body li:before, #education-body .courses li:before, #education-body div.date:before {
         font-family: "Font Awesome 5 Pro";
         font-weight: 900;
         color: var(--green);
         content: "\f00c";
+    }
+
+#about .lead {
+    font-size:1.0em;
+    position:absolute;
 }
-
-
 /**BLOGS*********************************************************************************************/
 .blog-header {
     height: 200px;

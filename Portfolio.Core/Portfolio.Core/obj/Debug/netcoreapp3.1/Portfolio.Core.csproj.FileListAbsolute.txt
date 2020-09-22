@@ -160,3 +160,4 @@ C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\ne
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Blogs\BlogDetailView.cshtml.g.cs
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\appsettings.Production.json

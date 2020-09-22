@@ -21,3 +21,4 @@ Portfolio.Core/Portfolio.Core/logs/
 *.vp
 *.log
 Portfolio.Core/Portfolio.Core/node_modules
+Portfolio.Core/Portfolio.Core/appsettings.Production.json

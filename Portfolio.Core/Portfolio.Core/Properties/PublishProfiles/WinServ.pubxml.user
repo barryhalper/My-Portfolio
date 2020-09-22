@@ -11,10 +11,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
   </PropertyGroup>
   <ItemGroup>
     <File Include="appsettings.Development.json">
-      <publishTime>09/16/2020 16:36:31</publishTime>
+      <publishTime>09/21/2020 18:05:05</publishTime>
     </File>
     <File Include="appsettings.json">
-      <publishTime>09/16/2020 10:58:56</publishTime>
+      <publishTime>09/22/2020 11:16:25</publishTime>
+    </File>
+    <File Include="appsettings.Production.json">
+      <publishTime>09/22/2020 11:18:54</publishTime>
     </File>
     <File Include="AutoMapper.dll">
       <publishTime>07/01/2020 16:00:54</publishTime>
@@ -50,7 +53,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="DnsClient.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>03/31/2020 21:28:56</publishTime>
     </File>
     <File Include="dotnet-aspnet-codegenerator-design.dll">
       <publishTime>08/03/2020 18:30:10</publishTime>
@@ -158,13 +161,13 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>05/15/2018 21:01:34</publishTime>
     </File>
     <File Include="Microsoft.Extensions.FileProviders.Abstractions.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/20/2020 23:49:58</publishTime>
     </File>
     <File Include="Microsoft.Extensions.FileProviders.Embedded.dll">
       <publishTime>08/20/2020 23:51:48</publishTime>
     </File>
     <File Include="Microsoft.Extensions.Primitives.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/20/2020 23:49:56</publishTime>
     </File>
     <File Include="Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll">
       <publishTime>08/03/2020 18:29:50</publishTime>
@@ -191,22 +194,22 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>04/04/2020 00:59:56</publishTime>
     </File>
     <File Include="MongoCrud.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/17/2020 12:47:54</publishTime>
     </File>
     <File Include="MongoCrud.pdb">
       <publishTime>09/17/2020 12:47:54</publishTime>
     </File>
     <File Include="MongoDB.Bson.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/25/2020 17:55:44</publishTime>
     </File>
     <File Include="MongoDB.Driver.Core.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/25/2020 17:55:52</publishTime>
     </File>
     <File Include="MongoDB.Driver.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>08/25/2020 17:55:58</publishTime>
     </File>
     <File Include="MongoDB.Libmongocrypt.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>11/13/2019 20:35:30</publishTime>
     </File>
     <File Include="NETCore.MailKit.dll">
       <publishTime>05/21/2020 16:22:12</publishTime>
@@ -239,31 +242,31 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/12/2019 17:08:36</publishTime>
     </File>
     <File Include="Portfolio.Business.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/17/2020 12:47:55</publishTime>
     </File>
     <File Include="Portfolio.Business.pdb">
       <publishTime>09/17/2020 12:47:55</publishTime>
     </File>
     <File Include="Portfolio.Core.deps.json">
-      <publishTime>09/17/2020 16:51:14</publishTime>
+      <publishTime>09/22/2020 11:20:21</publishTime>
     </File>
     <File Include="Portfolio.Core.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/22/2020 11:20:20</publishTime>
     </File>
     <File Include="Portfolio.Core.exe">
-      <publishTime>09/17/2020 16:51:10</publishTime>
+      <publishTime>09/22/2020 11:20:20</publishTime>
     </File>
     <File Include="Portfolio.Core.pdb">
-      <publishTime>09/17/2020 16:51:10</publishTime>
+      <publishTime>09/22/2020 11:20:20</publishTime>
     </File>
     <File Include="Portfolio.Core.runtimeconfig.json">
       <publishTime>09/17/2020 12:48:02</publishTime>
     </File>
     <File Include="Portfolio.Core.Views.dll">
-      <publishTime>01/01/0001 00:00:00</publishTime>
+      <publishTime>09/22/2020 11:20:21</publishTime>
     </File>
     <File Include="Portfolio.Core.Views.pdb">
-      <publishTime>09/17/2020 16:51:13</publishTime>
+      <publishTime>09/22/2020 11:20:21</publishTime>
     </File>
     <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>09/12/2019 17:09:00</publishTime>
@@ -386,7 +389,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>09/17/2020 16:51:26</publishTime>
+      <publishTime>09/22/2020 11:20:31</publishTime>
     </File>
     <File Include="wwwroot/android-chrome-192x192.png">
       <publishTime>08/28/2020 16:29:50</publishTime>
@@ -416,10 +419,10 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/15/2020 13:04:50</publishTime>
     </File>
     <File Include="wwwroot/css/site.css">
-      <publishTime>09/17/2020 16:02:26</publishTime>
+      <publishTime>09/18/2020 12:12:07</publishTime>
     </File>
     <File Include="wwwroot/css/site.min.css">
-      <publishTime>09/17/2020 16:18:05</publishTime>
+      <publishTime>09/18/2020 12:12:55</publishTime>
     </File>
     <File Include="wwwroot/css/_vars.css">
       <publishTime>09/17/2020 12:18:14</publishTime>
