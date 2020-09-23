@@ -55,6 +55,7 @@ position: absolute;
 
 .navbar-background .navbar {
     background-color: var(--dark-grey);
+    position: relative;
 }
 
 .navbar-nav {

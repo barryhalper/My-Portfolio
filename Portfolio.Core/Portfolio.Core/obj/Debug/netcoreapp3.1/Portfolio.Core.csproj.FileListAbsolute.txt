@@ -1,7 +1,10 @@
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\web.config
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\appsettings.Development.json
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\appsettings.Production.json
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\bundleconfig.json
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\package-lock.json
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\package.json
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\Portfolio.Core.exe
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\Portfolio.Core.deps.json
@@ -13,6 +16,7 @@ C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\ne
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\Portfolio.Core.Views.pdb
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\AutoMapper.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\DnsClient.dll
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\MailKit.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
@@ -54,6 +58,7 @@ C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\ne
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\System.Composition.Hosting.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\System.Composition.Runtime.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\System.Composition.TypedParts.dll
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\System.ServiceModel.Syndication.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\cs\Microsoft.CodeAnalysis.resources.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\de\Microsoft.CodeAnalysis.resources.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\es\Microsoft.CodeAnalysis.resources.dll
@@ -116,12 +121,15 @@ C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\ne
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.csprojAssemblyReference.cache
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.AssemblyInfoInputs.cache
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.AssemblyInfo.cs
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.csproj.CoreCompileInputs.cache
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.RazorAssemblyInfo.cache
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.RazorAssemblyInfo.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.TagHelpers.input.cache
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.TagHelpers.output.cache
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.RazorCoreGenerate.cache
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\About\AboutListView.cshtml.g.cs
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Blogs\BlogDetailView.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Blogs\BlogListView.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Contact\ContactView.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Contact\_contactFormView.cshtml.g.cs
@@ -133,6 +141,7 @@ C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\ne
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Test.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\UnsupportedBrowser.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Projects\ProjectListView.cshtml.g.cs
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\404.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_backgroundImage.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Footer.cshtml.g.cs
@@ -153,11 +162,3 @@ C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\ne
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.pdb
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.genruntimeconfig.cache
-C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\package-lock.json
-C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\package.json
-C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\System.ServiceModel.Syndication.dll
-C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.csproj.CoreCompileInputs.cache
-C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\HtmlAgilityPack.dll
-C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Blogs\BlogDetailView.cshtml.g.cs
-C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\bin\Debug\netcoreapp3.1\appsettings.Production.json

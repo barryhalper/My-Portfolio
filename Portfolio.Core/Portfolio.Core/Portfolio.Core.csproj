@@ -37,6 +37,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Helpers\ExceptionHandler.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Content Remove="Views\Shared\_LayoutFlex.cshtml" />
     <Content Remove="Views\Shared\_SideNavPartial.cshtml" />
     <Content Remove="Views\Shared\_TopNavPartial.cshtml" />

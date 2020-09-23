@@ -14,17 +14,14 @@ namespace Portfolio.Core.Models
 
         public ProjectListViewModel()
         {
-            this.images = System.IO.Directory.EnumerateFiles(path, "*.*", System.IO.SearchOption.AllDirectories);
+            this.images = System.IO.Directory.EnumerateFiles(path, "*.*", System.IO.SearchOption.AllDirectories).OrderBy(x=>x).AsEnumerable();
         }
 
         public IEnumerable<ProjectViewModel> Projects { get; set; }
 
         public IEnumerable<string> Images
         {
-            get
-            {
-                return this.images.Select(x => x.Replace(@"\", "/").Replace(path, "")).AsEnumerable();
-            }
+            get => this.images.Select(x => x.Replace(@"\", "/").Replace(path, "")).AsEnumerable();            
         }
     }
 }

@@ -44,7 +44,7 @@ namespace Portfolio.Core.Models
 
         public IEnumerable<string> GetImages(IEnumerable<string> images)
         {
-            string path = ($"/{Name.Replace(" ", "-").ToLower()}");
+            string path = ($"/{Name.Trim().Replace(" ", "-").ToLower()}");
             //filter list of images to NOT inlcude 1st one
             return images.Where(x => x.StartsWith(path)).Where(x=>x!= FirstImage).AsEnumerable();
 

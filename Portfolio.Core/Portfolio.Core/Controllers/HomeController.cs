@@ -109,6 +109,18 @@ namespace Portfolio.Core.Controllers
             return View("UnsupportedBrowser");
         }
 
+      
+        public IActionResult Error()
+        {
+            return View("Error");
+        }
+
+        [Route("error/404")]
+        public IActionResult NoFound()
+        {
+            return View("404");
+        }
+
         //[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         //public IActionResult Error()
         //{

@@ -116,7 +116,10 @@ namespace Portfolio.Core
             }
             else
             {
+                app.UseStatusCodePagesWithReExecute("/error/404");
                 app.UseExceptionHandler("/Home/Error");
+              
+
             }
             app.UseStaticFiles();
 
