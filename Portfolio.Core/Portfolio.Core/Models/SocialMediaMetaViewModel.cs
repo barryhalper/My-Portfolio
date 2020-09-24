@@ -21,14 +21,21 @@ namespace Portfolio.Core.Models
         public SocialMediaMetaViewModel(IOptionsSnapshot<AppSettings> appSettings, IHttpContextAccessor httpContextAccessor, dynamic viewbag) {
             this.httpContextAccessor = httpContextAccessor;
             this.appSettings = appSettings;
+            Description = appSettings.Value.Lead;
+           
+
             if (viewbag.Meta != null) {
                 meta = (MetaViewModel)viewbag.Meta;
                 Title = meta.Title;
                 ShowNavBackground = meta.ShowNavBackground;
                 Image = meta.Image;
                 CanonicalUrl = meta.CanonicalUrl;
+                Description = meta.Description;
                
             }
+
+           
+
         }
 
 

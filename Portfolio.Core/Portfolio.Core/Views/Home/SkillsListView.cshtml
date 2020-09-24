@@ -22,53 +22,53 @@
         </div>
     </div>
     <div class="container">
-    <section>
-        <div class="row mt-3 skills-container" >
+        <section>
+            <div class="row mt-3 skills-container">
 
 
-            @foreach (var type in Model.Skills.Types())
-            {
-                <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 ">
+                @foreach (var type in Model.Skills.Types())
+                {
+                    <div class="col-6 col-sm-6 col-md-2 col-lg-2 col-xl-2 ">
 
-                    <div class="panel">
-                        <div class="panel-heading justify-content-center d-flex">
-                            @type
-                        </div>
+                        <div class="panel">
+                            <div class="panel-heading justify-content-center d-flex">
+                                @type
+                            </div>
 
-                        <div class="panel-body ">
-                            <div class="">
+                            <div class="panel-body ">
+                                <div class="">
 
 
-                                @foreach (var skill in Model.Filter(type))
-                                {
-                                <div class="container mb-4 col-12 ">
-                                    <div class="row ">
-                                        <img src="~/image/skills/@skill.Image" class="img-fluid mr-auto ml-auto" style="" alt="@skill.Name"
-                                             title="@skill.Name" />
+                                    @foreach (var skill in Model.Filter(type))
+                                    {
+                                        <div class="container mb-4 col-12 ">
+                                            <div class="row ">
+                                                <img src="~/image/skills/@skill.Image" class="img-fluid mr-auto ml-auto" style="" alt="@skill.Name"
+                                                     title="@skill.Name" />
 
-                                       
+
+                                            </div>
+
+                                            <div class="row justify-content-center">
+                                                @skill.Name
+                                            </div>
+
                                         </div>
-
-                                    <div class="row justify-content-center">
-                                        @skill.Name
-                                    </div>
+                                    }
 
                                 </div>
-                                }
-
                             </div>
+
                         </div>
 
                     </div>
-
-                </div>
-            }
+                }
 
 
-        </div>
-    </section>
+            </div>
+        </section>
+    </div>
 </div>
-
 
 <script>
   
