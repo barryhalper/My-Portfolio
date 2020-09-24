@@ -1,5 +1,5 @@
 # My-Portfolio
-## Code base for barryhalper.com
+## Code base for barryhalper.com (not live yet)
 
 ###Visual Studio Solution
 - Portfolio.Business - NET Standard class library for business logic
