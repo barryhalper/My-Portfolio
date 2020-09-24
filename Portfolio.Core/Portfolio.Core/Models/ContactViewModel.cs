@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace Portfolio.Core.Models
 {
+    //Model Validation
     public class ContactViewModel : IContact
     {
         [Required]

@@ -18,6 +18,7 @@ namespace Portfolio.Core.Controllers
 {
     public class ContactController : Controller
     {
+        //local vars for this controller
         private IContactService service;
         private IMapper mapper;
         private IEmailConfiguration emailConfiguration;
@@ -37,17 +38,20 @@ namespace Portfolio.Core.Controllers
         }
 
         [HttpPost]
+        //ensure user security of post
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Index(ContactViewModel model)
         {
+            //use model validations
             if (ModelState.IsValid)
-            {
-                service.CreateAysnc(mapper.Map<Contact>(model));
-                
+            {   
 
+                //save data to database
+                service.CreateAysnc(mapper.Map<Contact>(model));
+                //call service to execure view , pass model and return as string
                 string view = "/Views/Email/contactNotification.cshtml";
                 var htmlBody = await renderViewService.RenderViewToStringAsync(view, model);
-
+                //send email notification
                 await SendEmail(new EmailMessage
                 {
                     Content = htmlBody,
@@ -68,6 +72,7 @@ namespace Portfolio.Core.Controllers
 
             try
             {
+                //set up message and mailbox settings from config
                 var message = new MimeMessage();
                 message.To.Add(new MailboxAddress(emailConfiguration.SenderName, emailConfiguration.Reciever));
                 message.From.Add(new MailboxAddress(emailConfiguration.SenderName, emailConfiguration.SenderEmail));
@@ -82,7 +87,7 @@ namespace Portfolio.Core.Controllers
                 //Be careful that the SmtpClient class is the one from Mailkit not the framework!
                 using (var emailClient = new SmtpClient())
                 {
-                    //The last parameter here is to use SSL (Which you should!)
+                    //send async email to ensure threads don't bootleneck
                     await emailClient.ConnectAsync(emailConfiguration.SmtpServer, emailConfiguration.Port);
                     await emailClient.SendAsync(message);
                     await emailClient.DisconnectAsync(true);

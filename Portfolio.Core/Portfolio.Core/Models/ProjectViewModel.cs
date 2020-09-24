@@ -41,11 +41,11 @@ namespace Portfolio.Core.Models
             
 
         }
-
+        //get images from directory for this project
         public IEnumerable<string> GetImages(IEnumerable<string> images)
         {
             string path = ($"/{Name.Trim().Replace(" ", "-").ToLower()}");
-            //filter list of images to NOT inlcude 1st one
+            //filter list of images to NOT inlcude first one
             return images.Where(x => x.StartsWith(path)).Where(x=>x!= FirstImage).AsEnumerable();
 
 
@@ -59,8 +59,6 @@ namespace Portfolio.Core.Models
         public IEnumerable<string> Images {
            
                get=> images;
-           
-
                set => images = GetImages(value);
             
         }

@@ -12,10 +12,12 @@ namespace Portfolio.Core.Controllers
 {
     public class RssController : Controller
     {
+        //local vars for this controller
         private IRssService service;
         private IArticleService articleService;
         private IOptions<AppSettings> settings;
 
+  
         public RssController(IOptions<AppSettings> settings, IRssService service, IArticleService articleService) {
             this.service = service;
             this.settings = settings;
@@ -23,11 +25,14 @@ namespace Portfolio.Core.Controllers
         }
 
 
-
+        /// <summary>
+        /// runs import of rss from source and saves content into db 
+        /// </summary>
+        /// <returns></returns>
         public IActionResult Index()
         {
             var items = service.Read(settings.Value.BlogSettings.Rss);
-         
+            
             articleService.Upsert(items);
 
             return Ok();

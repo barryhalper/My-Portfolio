@@ -13,9 +13,9 @@ namespace Portfolio.Core.Controllers
 {
     public class BlogsController : Controller
     {
+        //local vars for this controller
         private IArticleService service;
         private IHttpContextAccessor httpContextAccessor;
-
         private IMapper mapper;
 
 
@@ -29,7 +29,7 @@ namespace Portfolio.Core.Controllers
 
         public IActionResult Index()
         {
-          
+           //list blogs
             var model = mapper.Map<IEnumerable<ArticleViewModel>>(service.Read());
 
             return View("BlogListView", model);

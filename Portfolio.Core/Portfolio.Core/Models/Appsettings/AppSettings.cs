@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace Portfolio.Core.Models.Appsettings
 {
+    //class to MODEL AppSettings from json
     public class AppSettings
     {
         public string Title { get; set; }

@@ -12,6 +12,7 @@ namespace Portfolio.Core.Controllers
 {
     public class TestimonialsController : Controller
     {
+        //local vars for this controller
         private ITestimonialService service;
         private IMapper mapper;
         private IMemoryCache cache;

@@ -41,11 +41,11 @@ namespace Portfolio.Core
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-           // services.Configure<AppSettings>(options => configuration.Bind(nameof(AppSettings), options));
-
+           
+            //get config sections
             services.Configure<AppSettings>(Configuration.GetSection("AppSettings"));
            
-            //get database settting from 
+            //get database settting fro config
             services.Configure<DatabaseSettings>(Configuration.GetSection(nameof(DatabaseSettings)));
 
             services.Configure<BlogSettings>(Configuration.GetSection("BlogSettings"));
@@ -84,13 +84,15 @@ namespace Portfolio.Core
                 mc.AddProfile(new ArticleMapping());
             });
 
+
+            //preload AutoMapper and DI to controllers
             IMapper mapper = mapperConfig.CreateMapper();
             services.AddSingleton(mapper);
-
+            //inject http context
             services.AddSingleton<IHttpContextAccessor, HttpContextAccessor>();
+            // read email settinsg to 
             services.AddSingleton<IEmailConfiguration>(Configuration.GetSection("EmailConfiguration").Get<EmailConfiguration>());
-
-
+            //enable anti forgery tokens to ensure secutity of requests
             services.AddAntiforgery(options =>
             {
                 // Set Cookie properties using CookieBuilder properties†.
@@ -116,6 +118,7 @@ namespace Portfolio.Core
             }
             else
             {
+                //set up error pages in live
                 app.UseStatusCodePagesWithReExecute("/error/404");
                 app.UseExceptionHandler("/Home/Error");
               
@@ -133,11 +136,6 @@ namespace Portfolio.Core
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapControllers();
-
-                //endpoints.MapControllerRoute(name: "blog",
-                //    pattern: "blog/{*article}",
-                //    defaults: new { controller = "Blog", action = "Detail" });
-
                 endpoints.MapControllerRoute(
                     name: "default",
                     pattern: "{controller=Home}/{action=Index}/{id?}");

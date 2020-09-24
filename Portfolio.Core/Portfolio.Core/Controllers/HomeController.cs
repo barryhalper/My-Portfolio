@@ -16,18 +16,14 @@ namespace Portfolio.Core.Controllers
 {
     public class HomeController : Controller
     {
-        //private readonly ILogger<HomeController> _logger;
-
-        //public HomeController(ILogger<HomeController> logger)
-        //{
-        //    _logger = logger;
-        //}
-
+       
+        //local vars for this controller
         private ISkillService service;
         private IMapper mapper;
         private IMemoryCache cache;
         private IWebHostEnvironment env;
 
+        //constrcutor: injected classes
         public HomeController(ISkillService service, IMapper mapper, IMemoryCache memoryCache, IWebHostEnvironment env ) {
             this.service = service;
             this.mapper = mapper;
@@ -35,20 +31,22 @@ namespace Portfolio.Core.Controllers
             this.env = env;
         }
 
-
+        //home page
         public IActionResult Index()
         {
            
             IEnumerable<SkillViewModel> model;
 
-
+            //user caching to ensure optinla performanve of home page requests
+            //check if cache is present
             if(!cache.TryGetValue(CacheKeys.Home, out model))
             {
+                //not presrent to read data from service, map return type
                 model = mapper.Map<IEnumerable<SkillViewModel>>(service.Read(true));
+                //set expiration time of cache of 1 day
                 var cacheEntryOptions = new MemoryCacheEntryOptions { SlidingExpiration = TimeSpan.FromDays(1) };
 
                 // Keep in cache for this time, reset time if accessed..SetSlidingExpiration(TimeSpan.FromSeconds(3));
-
                 // Save data in cache.
                 cache.Set(CacheKeys.Home, model, cacheEntryOptions);
 
@@ -58,10 +56,10 @@ namespace Portfolio.Core.Controllers
             return View(model);
         }
 
-        public IActionResult Test() {
-            ViewBag.webRoot =env.WebRootPath;
-            return View();
-        }
+        //public IActionResult Test() {
+        //    ViewBag.webRoot =env.WebRootPath;
+        //    return View();
+        //}
 
 
         
@@ -84,21 +82,16 @@ namespace Portfolio.Core.Controllers
         }
 
        
-
-
-
-
-        public IActionResult Projects()
-        {
-            return View();
-        }
+       
 
         [Route("CV")]
         public IActionResult CV()
         {
-           
+                //get path to pdf of doc 
                 string path = System.IO.Path.Combine(env.WebRootPath, "doc/Barry-Halper-CV.pdf");
+                //set into stream
                 var stream = new FileStream(path, FileMode.Open);
+                //return file in stream
                 return new FileStreamResult(stream, "application/pdf");
            
         }

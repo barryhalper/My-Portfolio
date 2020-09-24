@@ -25,6 +25,8 @@ namespace Portfolio.Core.Utils
         private readonly IRazorViewEngine _viewEngine;
         private readonly ITempDataProvider _tempDataProvider;
         private readonly IServiceProvider _serviceProvider;
+
+        
         public RenderViewService(IRazorViewEngine viewEngine,ITempDataProvider tempDataProvider, IServiceProvider serviceProvider)
         {
             _viewEngine = viewEngine;
@@ -32,7 +34,7 @@ namespace Portfolio.Core.Utils
             _serviceProvider = serviceProvider;
         }
 
-
+        //Render view as string to be used in Email
         public async Task<string> RenderViewToStringAsync<TModel>(string viewName, TModel model)
         {
             var actionContext = GetActionContext();

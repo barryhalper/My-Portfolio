@@ -18,6 +18,8 @@ namespace Portfolio.Core.Controllers
             this.cache = memoryCache;
         }
 
+        //refresh cache via http (in case no access via IIS)
+        //todo: add security to endpoint
         public IActionResult Clear()
         {
             cache.Remove(CacheKeys.Home);
