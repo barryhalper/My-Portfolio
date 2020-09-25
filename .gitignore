@@ -22,3 +22,4 @@ Portfolio.Core/Portfolio.Core/logs/
 *.log
 Portfolio.Core/Portfolio.Core/node_modules
 Portfolio.Core/Portfolio.Core/appsettings.Production.json
+Portfolio.Core/Portfolio.Core/Controllers/API/ValuesController.cs

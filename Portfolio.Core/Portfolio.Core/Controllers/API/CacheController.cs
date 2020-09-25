@@ -2,28 +2,32 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Caching.Memory;
 using Portfolio.Core.Models;
 
-namespace Portfolio.Core.Controllers
+namespace Portfolio.Core.Controllers.API
 {
-    public class CacheController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class CacheController : ControllerBase
     {
-     
         private IMemoryCache cache;
+
         public CacheController(IMemoryCache memoryCache)
         {
-          
+
             this.cache = memoryCache;
         }
 
         //refresh cache via http (in case no access via IIS)
         //todo: add security to endpoint
-        public IActionResult Clear()
+        public IActionResult Get()
         {
             cache.Remove(CacheKeys.Home);
             return Ok();
         }
+
     }
 }

@@ -37,6 +37,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Compile Remove="Controllers\CacheController.cs" />
     <Compile Remove="Helpers\ExceptionHandler.cs" />
   </ItemGroup>
 
