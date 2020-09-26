@@ -9,5 +9,7 @@ namespace Portfolio.Business.DataAccess
         List<Article> Read();
         Article ReadByTitle(string title);
         void Upsert(IEnumerable<SyndicationItem> items);
+
+        void Insert(IEnumerable<SyndicationItem> items);
     }
 }

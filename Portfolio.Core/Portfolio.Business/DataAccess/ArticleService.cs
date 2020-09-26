@@ -33,6 +33,47 @@ namespace Portfolio.Business.DataAccess
         }
 
 
+        public void Insert(IEnumerable<SyndicationItem> items) {
+            //call mong crud repository to get collection
+            var collection = mongoDb.GetCollection<Article>(table);
+
+            var articles = collection.Find(new BsonDocument()).ToList();
+            //loop over content
+            foreach (var item in items)
+            {
+                Article article = LoadFromItem(item);
+
+
+                //check if article already existing using RSS Guid (NOT row GUID)
+                if (articles.Any(x => x.RssGuid != item.Id))
+                //do insert
+                {
+                    collection.InsertOne(article);
+                }
+
+            }
+        }
+
+        private static Article LoadFromItem(SyndicationItem item)
+        {
+            //call method to extract conent so does not run twice
+            string content = item.GetContent();
+            Article article = new Article
+            {
+                Title = item.Title.Text,
+                RssGuid = item.Id,
+                Published = item.PublishDate.DateTime,
+                Content = item.GetContent(),
+                Image = item.GetFirstImage(),
+                Categories = item.Categories.Select(x => x.Name).ToArray(),//extract content using extension method
+                Link = item.Links[0].GetAbsoluteUri().ToString(), //extract link using extension methods
+                Summary = content.StripHTML().FirstSentence().WordCut(155), //extract summary using extension method
+                UrlFriendlyTitle = item.Title.Text.UrlFriendly() //extract url using extension method
+
+            };
+            return article;
+        }
+
         //perform insert/update on content 
         public void Upsert(IEnumerable<SyndicationItem> items)
         {
@@ -44,24 +85,8 @@ namespace Portfolio.Business.DataAccess
             //loop over content
             foreach (var item in items)
             {
-                //call method to extract conent so does not run twice
-                string content = item.GetContent();
-                Article article = new Article
-                {
-                    Title = item.Title.Text,
-                    RssGuid = item.Id,
-                    Published = item.PublishDate.DateTime,
-                    Content = item.GetContent(),
-                    Image = item.GetFirstImage(),
-                    Categories = item.Categories.Select(x => x.Name).ToArray(),//extract content using extension method
-                    Link = item.Links[0].GetAbsoluteUri().ToString(), //extract link using extension methods
-                    Summary = content.StripHTML().FirstSentence().WordCut(155), //extract summary using extension method
-                    UrlFriendlyTitle = item.Title.Text.UrlFriendly() //extract url using extension method
-
-                };
-
-
-               //check if article already existing using RSS Guid (NOT row GUID)
+                Article article = LoadFromItem(item);
+                //check if article already existing using RSS Guid (NOT row GUID)
                 if (articles.Any(x => x.RssGuid == item.Id))
                 {
                     

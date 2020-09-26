@@ -2,23 +2,27 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
-using AutoMapper.Configuration;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Options;
 using Portfolio.Business.DataAccess;
 using Portfolio.Core.Models.Appsettings;
 
-namespace Portfolio.Core.Controllers
+
+namespace Portfolio.Core.Controllers.API
 {
-    public class RssController : Controller
+    [Route("api/[controller]")]
+    [ApiController]
+    public class RssController : ControllerBase
     {
         //local vars for this controller
         private IRssService service;
         private IArticleService articleService;
         private IOptions<AppSettings> settings;
 
-  
-        public RssController(IOptions<AppSettings> settings, IRssService service, IArticleService articleService) {
+
+        public RssController(IOptions<AppSettings> settings, IRssService service, IArticleService articleService)
+        {
             this.service = service;
             this.settings = settings;
             this.articleService = articleService;
@@ -29,13 +33,22 @@ namespace Portfolio.Core.Controllers
         /// runs import of rss from source and saves content into db 
         /// </summary>
         /// <returns></returns>
-        public IActionResult Index()
+        public IActionResult Get(bool upsert =false)
         {
             var items = service.Read(settings.Value.BlogSettings.Rss);
-            
-            articleService.Upsert(items);
+
+            if (upsert) { 
+                articleService.Upsert(items);
+            }
+            else {
+                articleService.Insert(items);
+            }
 
             return Ok();
         }
+
+       
     }
+
+  
 }
