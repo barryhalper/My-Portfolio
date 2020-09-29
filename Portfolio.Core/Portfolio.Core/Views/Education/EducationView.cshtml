@@ -1,0 +1,121 @@
+﻿@model IEnumerable<CourseViewModel>
+
+    @{
+        ViewBag.Title = "Education";
+        ViewBag.Meta = new MetaViewModel { Title = ViewBag.Title, Description = "Post Graducate M.A, B.A(hons), 3 'A' Levels, 6 GCSEs including Maths and English" };
+
+    }
+
+    <div id="education" class="jumbotron">
+
+        <partial name="_backgroundImage" model="(string)ViewBag.Title.ToLower()" />
+        <div class="container">
+            <section class="page mb-3">
+
+                <h1>@ViewBag.Title </h1>
+            </section>
+        </div>
+    </div>
+
+    <section>
+        <div class="container">
+
+            <div class="row  mt-3 " id="education-body">
+
+                <div class="col-md-3">
+                    <div class="panel ">
+
+                        <div class="panel-heading">
+                            Training Courses
+                        </div>
+
+                        <div class="panel-body">
+
+                            <ul class="courses">
+                           
+
+                                @foreach (var course in Model) { 
+                                   <li> @course.Title <span>@course.Year</span></li>
+                               
+                                }
+
+                            </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="col-md-3">
+                    <div class="panel ">
+
+                        <div class="panel-heading">
+                            Post Graduate
+                        </div>
+
+                        <div class="panel-body">
+                            <div class="image-container pr-1">
+                                <img src="~/image/education/queen-mary-london.png" alt="Queen Mary's College Uninversity of London" class="img-fluid" />
+
+                            </div>
+                            <h3 class="pr-0 mr-0"> M.A. Literature Culture &amp; Modernity</h3>
+                            <div class="date"> 1996-1998</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="panel ">
+
+
+                        <div class="panel-heading">
+                            University
+                        </div>
+
+
+                        <div class="panel-body">
+                            <div class="image-container pb-1">
+                                <img src="~/image/education/manchester-metropolitian-university.png" alt="Manchester Metroploitna University" class="img-fluid" />
+                            </div>
+                            <h3>   B.A (hons) English &amp; History</h3>
+                            <span>Upper Second class degree</span>
+                            <div class="date"> 1990-1993</div>
+                        </div>
+
+
+
+                    </div>
+                </div>
+
+                <div class="col-md-3">
+                    <div class="panel">
+
+                        <div class="panel-heading">
+                            College
+                        </div>
+
+                        <div class="panel-body">
+
+                            <div class="image-container">
+                                <img src="~/image/education/harrow.png" alt="Harrow College" class="img-fluid" />
+                            </div>
+                            <h3>   3 A Levels &amp; 6 GCSEs </h3>
+                            <span>Including Maths &amp; English</span>
+                            <div class="date"> 1988-1990</div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+
+
+            </div>
+        </div>
+
+    </section>
+
+
+

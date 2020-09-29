@@ -66,6 +66,7 @@ namespace Portfolio.Core
             services.AddScoped<IAboutService, AboutService>();
             services.AddScoped<IArticleService, ArticleService>();
             services.AddScoped<IRssService, RssService>();
+            services.AddScoped<ICourseService, CourseService>();
             //render service used to call view for email
             //render service used to call view for email
             services.AddTransient<IRenderViewService, RenderViewService>();
@@ -82,6 +83,7 @@ namespace Portfolio.Core
                 mc.AddProfile(new ContactMapping());
                 mc.AddProfile(new AboutMapping());
                 mc.AddProfile(new ArticleMapping());
+                mc.AddProfile(new CourseMapping());
             });
 
 

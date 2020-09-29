@@ -68,19 +68,25 @@ namespace Portfolio.Core.Controllers
         [Route("Skills")]
         public IActionResult Skills()
         {
+            var items = new List<SkillViewModel>();
             var model = new SkillsViewModel();
-            model.Skills = mapper.Map<IEnumerable<SkillViewModel>>(service.Read());
+
+            if (!cache.TryGetValue(CacheKeys.Skills, out items))
+            {
+
+                model.Skills = mapper.Map<IEnumerable<SkillViewModel>>(service.Read());
+                var cacheEntryOptions = new MemoryCacheEntryOptions { SlidingExpiration = TimeSpan.FromDays(1) };
+                // Keep in cache for this time, reset time if accessed..SetSlidingExpiration(TimeSpan.FromSeconds(3));
+                // Save data in cache.
+                cache.Set(CacheKeys.Skills, model, cacheEntryOptions);
+            }
+            else {
+                model.Skills = items;
+            }
+               
 
             return View("SkillsListView", model);
         }
-
-
-        [Route("Education")]
-        public IActionResult Education()
-        {
-            return View("EducationView");
-        }
-
        
        
 

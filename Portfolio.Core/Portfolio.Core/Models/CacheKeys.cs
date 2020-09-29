@@ -9,5 +9,10 @@ namespace Portfolio.Core.Models
     public static class CacheKeys
     {
         public static string Home { get { return "_Home"; } }
+        public static string Courses { get { return "_Courses"; } }
+        public static string Skills { get { return "_Skills"; } }
+        public static string Projects { get { return "_Projects"; } }
+
+        public static string Testimonials { get { return "_Testimonials"; } }
     }
 }

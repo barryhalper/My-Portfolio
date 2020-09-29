@@ -135,7 +135,6 @@ C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\ne
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Contact\_contactFormView.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Contact\_success.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Email\contactNotification.cshtml.g.cs
-C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\EducationView.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\SkillsListView.cshtml.g.cs
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Home\Test.cshtml.g.cs
@@ -162,3 +161,4 @@ C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\ne
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.dll
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.pdb
 C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Portfolio.Core.genruntimeconfig.cache
+C:\Users\barry\Documents\My Portfolio\Portfolio.Core\Portfolio.Core\obj\Debug\netcoreapp3.1\Razor\Views\Education\EducationView.cshtml.g.cs

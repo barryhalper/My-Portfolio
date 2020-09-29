@@ -26,6 +26,10 @@ namespace Portfolio.Core.Controllers.API
         public IActionResult Get()
         {
             cache.Remove(CacheKeys.Home);
+            cache.Remove(CacheKeys.Courses);
+            cache.Remove(CacheKeys.Skills);
+            cache.Remove(CacheKeys.Projects);
+            cache.Remove(CacheKeys.Testimonials);
             return Ok();
         }
 

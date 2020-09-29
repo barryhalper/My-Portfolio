@@ -28,10 +28,21 @@ namespace Portfolio.Core.Controllers
 
         public IActionResult Index()
         {
-
             var model = new ProjectListViewModel();
-            model.Projects = mapper.Map<IEnumerable<ProjectViewModel>>(service.Read());
-            
+            var items = new List<ProjectViewModel>();
+
+            if (!cache.TryGetValue(CacheKeys.Projects, out items))
+            {
+
+                model.Projects = mapper.Map<IEnumerable<ProjectViewModel>>(service.Read());
+                var cacheEntryOptions = new MemoryCacheEntryOptions { SlidingExpiration = TimeSpan.FromDays(1) };
+                // Keep in cache for this time, reset time if accessed..SetSlidingExpiration(TimeSpan.FromSeconds(3));
+                // Save data in cache.
+                cache.Set(CacheKeys.Projects, model, cacheEntryOptions);
+            }
+            else {
+                model.Projects = items;
+            }
             
             return View("ProjectListView", model);
         }
