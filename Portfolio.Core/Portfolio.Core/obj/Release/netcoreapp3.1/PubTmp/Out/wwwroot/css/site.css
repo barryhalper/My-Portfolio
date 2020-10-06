@@ -605,8 +605,35 @@ video {
     font-size: 1.75em;
 }
 
+#blog h4 {
+   padding-bottom:20px;
+   font-size:1.3em;
+}
+
+
+#blog a {
+    text-decoration:underline;
+}
+
+#blog strong {
+    font-family: "Futura Lt Bold";
+}
+
+#blog .panel-body figure img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+#blog .panel-body figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    color: rgba(117, 117, 117, 1);
+}
+
+
 ul.share {
-    margin:0;
+    margin: 0;
 }
 
 ul.share li {

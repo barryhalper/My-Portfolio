@@ -103,8 +103,6 @@ export class Utils {
 class App {
     constructor() {
         // this.bindNavigation();
-      
-
 
         if (document.getElementById("testimonial")) {
             this.testimonial = new Testimonial();
@@ -196,8 +194,6 @@ export class Testimonial {
         //set first element to be active
         Array.from(this.links)[0].classList.add("active");
     }
-
-
 
 
     addListener() {
