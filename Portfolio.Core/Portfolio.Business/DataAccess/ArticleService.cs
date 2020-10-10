@@ -38,20 +38,23 @@ namespace Portfolio.Business.DataAccess
             var collection = mongoDb.GetCollection<Article>(table);
 
             var articles = collection.Find(new BsonDocument()).ToList();
-            //loop over content
-            foreach (var item in items)
-            {
-                Article article = LoadFromItem(item);
-
-
-                //check if article already existing using RSS Guid (NOT row GUID)
-                if (articles.Any(x => x.RssGuid != item.Id))
-                //do insert
+            //check if items have corresponding articles in DB
+            var newArticles = items.Where(i => articles.All(a => a.RssGuid.Trim() != i.Id.Trim())).Select(i=>i).ToList();
+            //if any article found 
+            if (newArticles.Count() > 0) {
+               
+                foreach (var item in newArticles)
                 {
+                    //load data into object
+                    Article article = LoadFromItem(item);
+                    //insert it into db
                     collection.InsertOne(article);
-                }
+                   
 
+                }
             }
+
+
         }
 
         private static Article LoadFromItem(SyndicationItem item)
