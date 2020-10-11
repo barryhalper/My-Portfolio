@@ -94,5 +94,9 @@
         display: flex;
     }
 
+    #testimonial section {
+        left:  16%;
+    }
+
 }
 

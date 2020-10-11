@@ -21,56 +21,55 @@
 </div>
 
 <section>
+    <div class="container">
+        <div class="row  mt-3 d-flex justify-content-center">
+
+            <div class="col-md-6">
+
+                <div class="panel">
+
+                    <div class="panel-heading">
+                        Please get in touch..
+                    </div>
+                    <div class="panel-body">
+                        <ul class="social-media">
+                            <li> <i class="fas fa-envelope fa-lg"></i> <a href="mailto:@appSettings.Value.ContactSettings.Email">@appSettings.Value.ContactSettings.Email</a></li>
+
+                            <li><i class="fab fa-linkedin fa-lg"></i> <a href="@appSettings.Value.ContactSettings.LinkedIn"> @appSettings.Value.ContactSettings.LinkedIn.Replace("https://", "") </a></li>
+
+                            <li>
+                                <i class="fab fa-twitter-square fa-lg"></i>
+                                <a href="@appSettings.Value.ContactSettings.Twitter">@appSettings.Value.ContactSettings.Twitter.Replace("https://", "")</a>
+                            </li>
+                            <li> <i class="fab fa-github-square fa-lg"></i> <a href="@appSettings.Value.ContactSettings.Github">@appSettings.Value.ContactSettings.Github.Replace("https://", "")</a> </li>
 
 
-    <div class="row  mt-3 d-flex justify-content-center">
-
-        <div class="col-md-6">
-
-            <div class="panel">
-
-                <div class="panel-heading">
-                    Please get in touch..
+                        </ul>
+                    </div>
                 </div>
-                <div class="panel-body">
-                    <ul class="social-media">
-                        <li> <i class="fas fa-envelope fa-lg"></i> <a href="mailto:@appSettings.Value.ContactSettings.Email">@appSettings.Value.ContactSettings.Email</a></li>
-
-                        <li><i class="fab fa-linkedin fa-lg"></i> <a href="@appSettings.Value.ContactSettings.LinkedIn"> @appSettings.Value.ContactSettings.LinkedIn.Replace("https://", "") </a></li>
-
-                        <li>
-                            <i class="fab fa-twitter-square fa-lg"></i>
-                            <a href="@appSettings.Value.ContactSettings.Twitter">@appSettings.Value.ContactSettings.Twitter.Replace("https://", "")</a>
-                        </li>
-                        <li> <i class="fab fa-github-square fa-lg"></i> <a href="@appSettings.Value.ContactSettings.Github">@appSettings.Value.ContactSettings.Github.Replace("https://", "")</a> </li>
 
 
-                    </ul>
-                </div>
             </div>
 
 
-        </div>
+            <div class="col-md-5">
+                <div class="panel">
+                    <div class="panel-heading">
+                        ..or complete this and I'll get back to you
+                    </div>
+                    <div class="panel-body">
+                        <form asp-action="Index" asp-antiforgery="true" data-ajax="true" data-ajax-method="post" data-ajax-update="#updatePanel" data-ajax-begin="onSubmit" data-ajax-loading-duration="2000">
 
+                            <div id="updatePanel">
+                                <partial name="_contactFormView" model="Model" />
+                            </div>
 
-        <div class="col-md-5">
-            <div class="panel">
-                <div class="panel-heading">
-                    ..or complete this and I'll get back to you
-                </div>
-                <div class="panel-body">
-                    <form asp-action="Index" asp-antiforgery="true" data-ajax="true" data-ajax-method="post" data-ajax-update="#updatePanel" data-ajax-begin="onSubmit" data-ajax-loading-duration="2000">
-
-                        <div id="updatePanel">
-                            <partial name="_contactFormView" model="Model" />
-                        </div>
-
-                    </form>
+                        </form>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
 </section>
 
 

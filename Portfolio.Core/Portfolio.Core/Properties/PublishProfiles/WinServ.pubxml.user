@@ -248,25 +248,25 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>10/10/2020 19:42:29</publishTime>
     </File>
     <File Include="Portfolio.Core.deps.json">
-      <publishTime>10/10/2020 19:42:37</publishTime>
+      <publishTime>10/11/2020 19:46:00</publishTime>
     </File>
     <File Include="Portfolio.Core.dll">
-      <publishTime>10/10/2020 19:42:31</publishTime>
+      <publishTime>10/11/2020 19:45:58</publishTime>
     </File>
     <File Include="Portfolio.Core.exe">
-      <publishTime>10/10/2020 19:42:31</publishTime>
+      <publishTime>10/11/2020 19:45:59</publishTime>
     </File>
     <File Include="Portfolio.Core.pdb">
-      <publishTime>10/10/2020 19:42:31</publishTime>
+      <publishTime>10/11/2020 19:45:58</publishTime>
     </File>
     <File Include="Portfolio.Core.runtimeconfig.json">
       <publishTime>03/10/2020 11:19:11</publishTime>
     </File>
     <File Include="Portfolio.Core.Views.dll">
-      <publishTime>10/10/2020 19:42:36</publishTime>
+      <publishTime>10/11/2020 19:46:00</publishTime>
     </File>
     <File Include="Portfolio.Core.Views.pdb">
-      <publishTime>10/10/2020 19:42:36</publishTime>
+      <publishTime>10/11/2020 19:46:00</publishTime>
     </File>
     <File Include="pt-BR/Microsoft.CodeAnalysis.CSharp.resources.dll">
       <publishTime>09/12/2019 17:09:00</publishTime>
@@ -389,7 +389,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>01/01/0001 00:00:00</publishTime>
     </File>
     <File Include="web.config">
-      <publishTime>10/10/2020 19:42:44</publishTime>
+      <publishTime>10/11/2020 19:46:07</publishTime>
     </File>
     <File Include="wwwroot/android-chrome-192x192.png">
       <publishTime>08/28/2020 16:29:50</publishTime>
@@ -413,7 +413,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>09/11/2020 15:44:09</publishTime>
     </File>
     <File Include="wwwroot/css/media.css">
-      <publishTime>09/15/2020 17:16:40</publishTime>
+      <publishTime>10/11/2020 19:44:20</publishTime>
     </File>
     <File Include="wwwroot/css/noJs.css">
       <publishTime>09/15/2020 13:04:50</publishTime>
@@ -422,7 +422,7 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <publishTime>03/10/2020 14:04:47</publishTime>
     </File>
     <File Include="wwwroot/css/site.min.css">
-      <publishTime>03/10/2020 14:06:39</publishTime>
+      <publishTime>10/11/2020 19:45:04</publishTime>
     </File>
     <File Include="wwwroot/css/_vars.css">
       <publishTime>09/17/2020 12:18:14</publishTime>
