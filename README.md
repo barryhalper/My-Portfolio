@@ -1,5 +1,7 @@
 # My Portfolio
- Visual Studio .NET code library for www.barryhalper.com 
+ Visual Studio .NET code library for www.barryhalper.com
+ 
+ 
  ![Image of my portfolio](https://repository-images.githubusercontent.com/291235771/8ec79000-07cf-11eb-9f12-47128abcb255)
  
 ## Description
